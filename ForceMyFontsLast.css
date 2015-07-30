@@ -90,8 +90,7 @@
 
 /* 范围：*/}/* 非火狐浏览器，使用时要删除这行代码 */
 
-@supports (display: -moz-box)
-{
+@supports (display: -moz-box){/* 非火狐浏览器，使用时要删除这行代码 */
 /* MarkDownGood *//* maxiang.info/stackedit.io/tool.oschina.net/hackmd.io/ctrlshift.net/wri.pe/markdownlivepreview.com/joncom.be */
 /* MarkDownBad *//* dillinger.io/zybuluo.com/mahua.jser.me/github.com/markable.in/laverna.cc */
 /* MarkDown */@-moz-document regexp("https?://(github.com|dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc).*"){
@@ -103,7 +102,7 @@
 /* github.com *//* D */div>.site-search input[type="text"]{padding: 0px  !important;}
 /* dillinger.io *//* S */DIV.page>DIV.g.mnone>DIV.g-b.g-b--t1of2.split.split-editor{width: 49%  !important;}
 }
-}
+}/* 非火狐浏览器，使用时要删除这行代码 */
 
 /* stylish edit box CodeMirror */.CodeMirror-scroll{font-family: "Source Code Pro","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei Mono","Hiragino Sans GB"  !important;font-size:14px  !important;line-height:15pt  !important;}
 /* 扩展 *//*::-moz-selection{background: #3399FF  !important;color: #FFFFFF  !important;}/* 自定义鼠标选中字体颜色 */
