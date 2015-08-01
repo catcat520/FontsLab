@@ -8,7 +8,7 @@
 /* 范围：*/@-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet://|(.CodeMirror)|^https?://(github.com|dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|www.youziku.com|typekit.com|fontdeck.com|designgala.com|127.0.0.1|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){/* 非火狐浏览器，使用时要删除这行代码 */
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " Now(2015.08.01 | 16:09)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2015.08.01 | 16:09)"  !important;}
 
 /* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
 /* main(sysfont) */"XYZ0123456789XYZ","Catcat520.Lite.Latin","在这填写","Inconsolata-g","Inconsolata","Inconsolata-g","Inconsolata","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei UI","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","fp-font",
