@@ -1,5 +1,5 @@
 /* 名称：004.DiyMyFonts.FireFoxChromeIE.catcat520.B *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣.B */
-/* 更新：2015.07.28 | 07:18 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
+/* 更新：2015.08.01 | 17:02 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -9,7 +9,8 @@
 
 
 
-/* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content: " B.Now(2015.07.29 | 01:55)"  !important;}
+/* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
+/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.01 | 17:02)"  !important;}
 
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family: "SDF.TypeSet","SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"}
 /* main(monospace) */code,kbd,pre,samp,tt,var{font-family: "SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"  !important;}
@@ -223,3 +224,13 @@
 /* stylish edit box CodeMirror */.CodeMirror-scroll{font-family: "Source Code Pro","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei Mono","Hiragino Sans GB"  !important;font-size:14px  !important;line-height:15pt  !important;}
 /* 扩展 *//*::-moz-selection{background: #3399FF  !important;color: #FFFFFF  !important;}/* 自定义鼠标选中字体颜色 */
 /* 扩展 *//**{text-shadow: 0.02em 0.02em 0.05em #999999  !important;}/* 自定义字体阴影特效 */
+
+/* 以下为说明，无需复制 */
+/* 0123456789 *//* abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ *//* `~!@#$%^&*()-=_+[]\{}|;':",./<>? */
+/*
+Unicode-Range
+Latin : U+0000-052F
+Kana : U+3040-30FF
+*/
+
+
