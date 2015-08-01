@@ -87,7 +87,8 @@
 /* ifeng.com *//* D */DIV.clearfix>DIV.ColAM>DIV.ColAMCon{width: 105%  !important;}
 /* bilibili.com *//* D */LI>DIV.main-content-list-message>SPAN.main-content-list-title{margin: auto  !important;}
 /* alipay.com *//* L */I.icon-app.app-icon>.iconapp>span , A>I.icon-app.app-icon>span[style*="color"]{font-family: "iconapp","xianrou"  !important;}
-UL.btn-group>LI.btn-group-item>span[style*=xianrou] , UL.btn-group>.init-orange>span[style*=xianrou]{font-family: "xianrou"  !important;}
+/* alipay.com *//* L */UL.btn-group>LI.btn-group-item>span[style*=xianrou] , UL.btn-group>.init-orange>span[style*=xianrou]{font-family: "xianrou"  !important;}
+
 /* 扩展 *//* 启用便携字体 */
 
 /* 范围：*/}/* 非火狐浏览器，使用时要删除这行代码 */
