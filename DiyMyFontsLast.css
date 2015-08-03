@@ -1,7 +1,7 @@
 /* 名称：004.DiyMyFonts.FireFoxChromeIE.catcat520.B *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣.B */
-/* 更新：2015.08.02 | 14:09 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
+/* 更新：2015.08.04 | 02:53 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
-/* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位 */
+/* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100478/004-diymyfonts-firefoxchromeie-catcat520-b */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，截图，浏览器名称 */
@@ -10,15 +10,24 @@
 
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.02 | 14:09)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.04 | 02:53)"  !important;}
 
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family: "SDF.TypeSet","SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"}
 /* main(monospace) */code,kbd,pre,samp,tt,var{font-family: "SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"  !important;}
 /* main(CJK) */@font-face {font-family: "SDF.Asia";src: local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* main(CJK) */@font-face {font-family: "SDF.Asia";font-weight:bold;src: local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* main(Latin) */@font-face {font-family: "SDF.Latin";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+/* main(Latin) */@font-face {font-family: "SDF.Latin";font-weight:bold;src: local("Inconsolata-g"),local("Inconsolata Bold"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* TypeSetCtrl */@supports (object-position: inherit){ @font-face {font-family: "SDF.TypeSet";src: local('Arial');unicode-range: U+20,U+7C;} }
 
+/* GlobalCtrl */
+/* L：字体乱码 */
+/* D：代码错位 */
+/* Y：代码优化 */
+/* S：缩放错位 */
+/* C：字体错位 */  
+/* K：字体错位 */      
+    
 /* WIN */
 /* 替换简体 */
 @font-face {font-family: "SimSun";src: local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
@@ -34,10 +43,12 @@
 @font-face {font-family: "FangSong";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "仿宋";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "Microsoft YaHei";src: local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "Microsoft YaHei";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+    @font-face {font-family: "Microsoft YaHei";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+ @font-face {font-family: "Microsoft YaHei";font-weight:bold;src: local("Inconsolata-g"),local("Inconsolata Bold"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+
     @font-face {font-family: "Microsoft YaHei UI";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "微软雅黑";src: local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "微软雅黑";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+@font-face {font-family: "微软雅x黑";src: local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+@font-face {font-family: "微软雅x黑";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
     /* 替换繁体 */
 @font-face {font-family: "Microsoft JhengHei";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "Microsoft JhengHei UI";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
@@ -234,6 +245,29 @@ Unicode-Range
 标点 : BDFH : U+0000-002F,U+003A-0040,U+005B-0060,U+007B-00FF
 拉丁 : Latin : U+0000-052F
 假名 : Kana : U+3040-30FF
+
+Unicode-Range
+
+
+全局外文 : 【不强制】数字/字母/标点分离显示
+tahoma
+arial
+
+标点符号
+
+数字字体 :
+Number : U+0030-0039
+tahoma
+arial
+
+字母字体 : 
+Latin : U+0000-052F
+Letter : U+0041-005A,0061-007A
+tahoma
+arial
+
+Kana : U+3040-30FF
+
 */
 
 
