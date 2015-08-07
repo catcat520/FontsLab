@@ -77,7 +77,7 @@
 /* wooyun.org *//* D */DIV.wybug_detail>FIELDSET.fieldset.fieldset-code>PRE>CODE , #bugDetail>.content>fieldset.fieldset>pre{white-space: pre-wrap  !important;word-wrap: break-word  !important;}
 /* wooyun.org *//* Y */div.rightItem>.remindInfo>a , .infoContent > ul>LI[id*=remind].read>a{color: green  !important;}
 /* wooyun.org *//* Y */div.rightItem>.remindInfo>a>span , .infoContent>ul>LI[id*=remind]>a{color: red  !important;}
-/* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color:gray  !important;}
+/* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color: gray  !important;}
 /* blog.csdn.net *//* D */DIV.pull-right.login-wrap.unlogin>UL.btns>LI.loginlink{width: auto  !important;}
 /* mooc.guokr.com *//* L */DIV.course-info>SPAN.course-info-star>b[class^="mooc-star-"] , LI#navbarNotice.navbar-notice>a>span.mooc-notice{font-family: "mooc"  !important;}
 /* sourceforge.net *//* L */DIV#copyright>DIV#dhi-icon>SPAN.logo-DHI-alt{font-family: "dice-logos"  !important;}
