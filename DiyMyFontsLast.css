@@ -1,5 +1,5 @@
 /* 名称：004.DiyMyFonts.FireFoxChromeIE.catcat520.B *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣.B */
-/* 更新：2015.08.14 | 01:59 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
+/* 更新：2015.08.14 | 15:52 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -10,7 +10,7 @@
 
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.04 | 02:53)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.14 | 15:52)"  !important;}
 
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family: "SDF.TypeSet","SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"}
 /* main(monospace) */code,kbd,pre,samp,tt,var{font-family: "SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"  !important;}
@@ -29,12 +29,27 @@
 /* TypeSetCtrl */@supports (object-position: inherit){ @font-face {font-family: "SDF.TypeSet";src: local('Arial');unicode-range: U+20,U+7C;} }
 
 /* GlobalCtrl */
-/* L：字体乱码 */
-/* D：代码错位 */
-/* Y：代码优化 */
-/* S：缩放错位 */
-/* C：字体错位 */  
-/* K：字体错位 */      
+        /* dzh.mop.com *//* Y */.rightbar ~ .main{margin-right: auto  !important;}
+/* dzh.mop.com *//* Y */DIV.rightbar.fr.mt20.mr20{display: none  !important;}
+/* dzh.mop.com *//* Y */.main>.p20>.dzh-indexNotice.mb15{display: none  !important;}
+/* dzh.mop.com *//* Y */div>.main .p20{padding: 0px 20px 0px 20px  !important;}
+   /* weibo.com *//* C */div>.W_swficon>em[class^=spac]{font-family: "WBswficon"  !important;}
+
+    /* wooyun.org *//* D */DIV.wybug_detail>FIELDSET.fieldset.fieldset-code>PRE>CODE , #bugDetail>.content>fieldset.fieldset>pre{white-space: pre-wrap  !important;word-wrap: break-word  !important;}
+/* wooyun.org *//* Y */div.rightItem>.remindInfo>a , .infoContent > ul>LI[id*=remind].read>a{color: green  !important;}
+/* wooyun.org *//* Y */div.rightItem>.remindInfo>a>span , .infoContent>ul>LI[id*=remind]>a{color: red  !important;}
+/* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color:gray  !important;}
+    /* blog.csdn.net *//* D */DIV.pull-right.login-wrap.unlogin>UL.btns>LI.loginlink{width: auto  !important;}
+    /* bilibili.com *//* D */LI>DIV.main-content-list-message>SPAN.main-content-list-title{margin: auto  !important;}
+/* bilibili.com *//* Y */DIV#content>DIV.box-id-content>DIV#main_content.box-inner{overflow: inherit  !important;}
+/* bilibili.com *//* D */BODY>DIV.security_content>DIV.security-right{width: auto  !important;}
+    /* alipay.com *//* L */I.icon-app.app-icon>.iconapp>span , A>I.icon-app.app-icon>span[style*="color"]{font-family: "iconapp"  !important;}
+/* alipay.com *//* L */DIV.ui-tiptext-container>P.ui-tiptext.ui-tiptext-orange>SPAN.ui-tiptext-notice , DIV#content.ui-content.ui-grid-25.fn-clear>DIV.title.title-line>A#J-close-xbox.ui-newxbox-close , UL.btn-group>LI.btn-group-item>span[style*=xianrou] , UL.btn-group>.init-orange>span[style*=xianrou]{font-family: "xianrou"  !important;}
+/* alipay.com *//* L */DIV.wrapper>DIV.alert>A.btn-close{font-family: "nav"  !important;}
+/* alipay.com *//* L */DIV.order-real-amount>I.iconfont>.order-reload{font-family: "cashier"  !important;}
+    /* github.com *//* L */span.diffstat-bar , span.diff-added , SPAN.text-diff-added , SPAN.text-diff-deleted{font-family: "octicons"  !important;}
+/* github.com *//* D */DIV>DIV.columns>DIV.column{float: left  !important;padding-right: inherit  !important;padding-left: inherit  !important;}
+/* github.com *//* D */div>.site-search input[type="text"]{padding: 0px  !important;}
     
 /* WIN */
 /* 替换简体 */
