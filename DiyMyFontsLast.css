@@ -1,5 +1,5 @@
 /* 名称：004.DiyMyFonts.FireFoxChromeIE.catcat520.B *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣.B */
-/* 更新：2015.08.16 | 00:25 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
+/* 更新：2015.08.18 | 02:23 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -10,7 +10,7 @@
 
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.16 | 00:25)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.18 | 02:23)"  !important;}
 
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family: "SDF.TypeSet","SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"}
 /* main(monospace) */code,kbd,pre,samp,tt,var{font-family: "SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"  !important;}
@@ -34,7 +34,7 @@
 /* dzh.mop.com *//* Y */.main>.p20>.dzh-indexNotice.mb15{display: none  !important;}
 /* dzh.mop.com *//* Y */div>.main .p20{padding: 0px 20px 0px 20px  !important;}
    /* weibo.com *//* C */div>.W_swficon>em[class^=spac]{font-family: "WBswficon"  !important;}
-/* hao123/2345/sogou:split *//* C */li#nlhv_cp_li>DIV.memu>SPAN.l , DIV.g_clr.baritem>DIV.category>SPAN.split , #rightToolBox>dd>SPAN.split{font-family: "Not@font-face_Arial" , "Not@font-face_Helvetica" , "Arial" , "Helvetica"  !important;}
+/* hao123/2345/sogou:split *//* C */li#nlhv_cp_li>DIV.memu>SPAN.l , DIV.g_clr.baritem>DIV.category>SPAN.split , #rightToolBox>dd>SPAN.split{font-family: "CatCat520Arial" , "Not@font-face_Arial" , "Not@font-face_Helvetica" , "Arial" , "Helvetica"  !important;}
 
     /* wooyun.org *//* D */DIV.wybug_detail>FIELDSET.fieldset.fieldset-code>PRE>CODE , #bugDetail>.content>fieldset.fieldset>pre{white-space: pre-wrap  !important;word-wrap: break-word  !important;}
 /* wooyun.org *//* Y */div.rightItem>.remindInfo>a , .infoContent > ul>LI[id*=remind].read>a{color: green  !important;}
@@ -55,7 +55,7 @@
     /* 注册本地特殊字体*/    
        @font-face {font-family: "Not@font-face_Arial";src: local("Arial"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
     @font-face {font-family: "Not@font-face_Helvetica";src: local("Helvetica"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-
+@font-face {font-family: "CatCat520Arial";src: url(data:application/x-font-ttf;charset=utf-8;base64,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);}
     
 /* WIN */
 /* 替换简体 */
