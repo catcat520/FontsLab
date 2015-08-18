@@ -1,5 +1,5 @@
 /* 名称：004.ForceMyFonts.Chinese.FireFoxChromeIE.catcat520 *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣ */
-/* 更新：2015.08.07 | 06:29 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
+/* 更新：2015.08.18 | 12:11 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -8,7 +8,7 @@
 /* 范围：*/@-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet://|(.CodeMirror)|^https?://(dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|fiddle.md|github.com|wenku.baidu.com\/view|www.youziku.com|typekit.com|fontdeck.com|designgala.com|127.0.0.1|iamchucky.github.io|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){/* 非火狐浏览器，使用时要删除这行代码 */
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2015.08.07 | 06:29)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2015.08.18 | 12:11)"  !important;}
 
 /* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
 /* main(sysfont) */"XYZ0123456789XYZ","Catcat520.Lite.Latin","在这填写","Inconsolata-g","Inconsolata","Inconsolata-g","Inconsolata","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei UI","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","fp-font",
@@ -37,7 +37,6 @@
 /* ratewrite.tmall.com *//* L */DIV.tm-rating-star-list>div[class*=iconfont]>span[class*=rating-star]{font-family: "review-iconfont"  !important;}
 /* godaddy.com */li>a>.caret:before , div>div>.close:before{font-family: "uxfont","whoisyourdaddy"  !important;}
 /* dragonporn.ldblog.jp */span.omatome-icnfont-button>span>.omatome-icn-hatena , span.omatome-icnfont-button>span>span.omatome-icn-facebook , span.omatome-icnfont-button>span>span.omatome-icn-twitter{font-family: "omatome_ico"  !important;}
-/* wenku.baidu.com */p[class^="reader-word-"]{font-family: "Corbel","Gabriola","Times New Roman Italic","Times New Roman","91c5a3bbfd0a79563c1e72030080001","Nimbus Roman No9 L","SimHei","SimSun","NSimSun","Symbol","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei Mono","Hiragino Sans GB"  !important;letter-spacing:-4px  !important;}
 /* acgdb.com */#top #top-options>label , .mediaviewer-inset>.wrapper>.close:before , .mediaviewer>.wrapper>.body .panel .share , .mediaviewer-overlay>.wrapper>.body .nav a , .form-login>div p a[acgdb-tip="新浪微博"] , .form-login>div p a[acgdb-tip="腾讯微博"] , .slideshow2>.wrap>label span em , #quickfacts> .nav a span , #acgdb-picviewer>.top>.switches label{font-family: "acgdb"  !important;}
 /* firefox.net.cn *//* S */.wrap>.main_wrap>.bread_crumb , .main_wrap>.forum_page>.bbs_info_box{padding: 62px 1px 10px 20px  !important;}
 /* firefox.net.cn *//* S */body>.wrap>.search_type_wrap>.search_type{padding: 62px 0px 20px 170px  !important;}
@@ -46,7 +45,8 @@
 /* baidu.com *//* Y */HTML>BODY>#_mask[style^="opacity"]{display: none  !important;}
 /* read.qidian.com *//* D */#qd_reader_header>.page_set>.gg_box{display: none  !important;}
 /* google.com *//* Y */#cnt>div.mw>#flyr{display: none  !important;}
-/* dzh.mop.com *//* D */body>.topbar>.m-topbar-wrapper{border-bottom: 2px dashed #D0D0D0  !important;}
+/* dzh.mop.com *//* Y */.rightbar ~ .main{margin-right: auto  !important;}
+/* dzh.mop.com *//* Y */DIV.rightbar.fr.mt20.mr20{display: none  !important;}
 /* dzh.mop.com *//* Y */.main>.p20>.dzh-indexNotice.mb15{display: none  !important;}
 /* dzh.mop.com *//* Y */div>.main .p20{padding: 0px 20px 0px 20px  !important;}
 /* s.taobao.com *//* D */.grid-view .item .g_price{letter-spacing: normal  !important;}
@@ -77,7 +77,7 @@
 /* wooyun.org *//* D */DIV.wybug_detail>FIELDSET.fieldset.fieldset-code>PRE>CODE , #bugDetail>.content>fieldset.fieldset>pre{white-space: pre-wrap  !important;word-wrap: break-word  !important;}
 /* wooyun.org *//* Y */div.rightItem>.remindInfo>a , .infoContent > ul>LI[id*=remind].read>a{color: green  !important;}
 /* wooyun.org *//* Y */div.rightItem>.remindInfo>a>span , .infoContent>ul>LI[id*=remind]>a{color: red  !important;}
-/* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color: gray  !important;}
+/* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color:gray  !important;}
 /* blog.csdn.net *//* D */DIV.pull-right.login-wrap.unlogin>UL.btns>LI.loginlink{width: auto  !important;}
 /* mooc.guokr.com *//* L */DIV.course-info>SPAN.course-info-star>b[class^="mooc-star-"] , LI#navbarNotice.navbar-notice>a>span.mooc-notice{font-family: "mooc"  !important;}
 /* sourceforge.net *//* L */DIV#copyright>DIV#dhi-icon>SPAN.logo-DHI-alt{font-family: "dice-logos"  !important;}
