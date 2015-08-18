@@ -1,16 +1,15 @@
 /* 名称：004.DiyMyFonts.FireFoxChromeIE.catcat520.B *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣.B */
-/* 更新：2015.08.18 | 02:23 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
+/* 更新：2015.08.18 | 13:01 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100478/004-diymyfonts-firefoxchromeie-catcat520-b */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，截图，浏览器名称 */
-/* 范围：*/@-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet://|(.CodeMirror)|^https?://(127.0.0.1|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){/* 非火狐浏览器，使用时要删除这行代码 */
-
+/* 范围：*/@-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet://|(.CodeMirror)|^https?://(dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|fiddle.md|github.com|wenku.baidu.com\/view|www.youziku.com|typekit.com|fontdeck.com|designgala.com|127.0.0.1|iamchucky.github.io|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){/* 非火狐浏览器，使用时要删除这行代码 */
 
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.18 | 02:23)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2015.08.18 | 13:01)"  !important;}
 
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family: "SDF.TypeSet","SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"}
 /* main(monospace) */code,kbd,pre,samp,tt,var{font-family: "SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"  !important;}
@@ -29,11 +28,14 @@
 /* TypeSetCtrl */@supports (object-position: inherit){ @font-face {font-family: "SDF.TypeSet";src: local('Arial');unicode-range: U+20,U+7C;} }
 
 /* GlobalCtrl */
+    /* firefox.net.cn *//* S */.wrap>.main_wrap>.bread_crumb , .main_wrap>.forum_page>.bbs_info_box{padding: 62px 1px 10px 20px  !important;}
+/* firefox.net.cn *//* S */body>.wrap>.search_type_wrap>.search_type{padding: 62px 0px 20px 170px  !important;}
         /* dzh.mop.com *//* Y */.rightbar ~ .main{margin-right: auto  !important;}
 /* dzh.mop.com *//* Y */DIV.rightbar.fr.mt20.mr20{display: none  !important;}
 /* dzh.mop.com *//* Y */.main>.p20>.dzh-indexNotice.mb15{display: none  !important;}
 /* dzh.mop.com *//* Y */div>.main .p20{padding: 0px 20px 0px 20px  !important;}
    /* weibo.com *//* C */div>.W_swficon>em[class^=spac]{font-family: "WBswficon"  !important;}
+    /* chaoshi.tmall.com/taobao:space *//* C */DL>DD.by-price>#J_FilterPrice , .cat-bd>ul>li.gray>p , .cat-bd>ul>li.j_Li>p , DIV.tb-service>.service-bd>dd , .J_CatBox>.catbox-dd>div.J_CatHook{font-family: "CatCat520Arial" , "Not@font-face_Arial" , "Not@font-face_Helvetica" , "Arial" , "Helvetica"  !important;}
 /* hao123/2345/sogou:split *//* C */li#nlhv_cp_li>DIV.memu>SPAN.l , DIV.g_clr.baritem>DIV.category>SPAN.split , #rightToolBox>dd>SPAN.split{font-family: "CatCat520Arial" , "Not@font-face_Arial" , "Not@font-face_Helvetica" , "Arial" , "Helvetica"  !important;}
 
     /* wooyun.org *//* D */DIV.wybug_detail>FIELDSET.fieldset.fieldset-code>PRE>CODE , #bugDetail>.content>fieldset.fieldset>pre{white-space: pre-wrap  !important;word-wrap: break-word  !important;}
@@ -52,9 +54,9 @@
 /* github.com *//* D */DIV>DIV.columns>DIV.column{float: left  !important;padding-right: inherit  !important;padding-left: inherit  !important;}
 /* github.com *//* D */div>.site-search input[type="text"]{padding: 0px  !important;}
     
-    /* 注册本地特殊字体*/    
-       @font-face {font-family: "Not@font-face_Arial";src: local("Arial"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-    @font-face {font-family: "Not@font-face_Helvetica";src: local("Helvetica"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+/* 注册本地特殊字体*/    
+@font-face {font-family: "Not@font-face_Arial";src: local("Arial"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+@font-face {font-family: "Not@font-face_Helvetica";src: local("Helvetica"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "CatCat520Arial";src: url(data:application/x-font-ttf;charset=utf-8;base64,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);}
     
 /* WIN */
@@ -308,6 +310,22 @@
 /* 扩展 *//* 启用便携字体 */
 
 /* 范围：*/}/* 非火狐浏览器，使用时要删除这行代码 */
+
+/* MarkDown兼容 */
+/* MarkDownCtrl */@supports (display: -moz-box){/* 非火狐浏览器，使用时要删除这行代码 */
+/* MarkDownGood *//* maxiang.info/stackedit.io/tool.oschina.net/hackmd.io/ctrlshift.net/wri.pe/markdownlivepreview.com/joncom.be/stackedit-beta.herokuapp.com/backpager.amasan.co.uk */
+/* MarkDownBad *//* dillinger.io/zybuluo.com/mahua.jser.me/github.com/markable.in/laverna.cc */
+/* MarkDown */@-moz-document regexp("https?://(github.com|dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|fiddle.md).*"){
+/* Fonts4MarkDown(monospace) */*:not([class*="ico"]):not(i){font-family: "Inconsolata","Source Code Pro","Menlo","Monaco","Ubuntu Mono","Liberation Mono","Consolas","Courier New","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","文泉驿等宽微米黑","文泉驿等宽正黑","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei Mono","冬青黑体简体中文","Hiragino Sans GB","Hiragino Sans GB W3","Hiragino Sans GB W6","SimHei","KaiTi","SimSun",monospace,/* MarkDownCtrl */
+/* Fonts4MarkDown(webfont) */"AccessibilityFoundicons","Accessibility Foundicons","brandico","Brandico","brankic1979","Brankic1979","brankic 1979","Brankic 1979","broccolidry","Broccolidry","CONDENSEicon","cuticons","Cuticons","dashicons","Dot Com","ecoico","Ecoico","EightiesShades","ElegantIcons","elusive","Elusive","Elusive-Icons","entypo","Entypo","Entypo Social","Entypo-Social","Erler Dingbats","et-line","Et-line","fontawesome","FontAwesome","fontelico","Fontelico","fontello","Fontello","GeneralEnclosedFoundicons","General Enclosed Foundicons","GeneralFoundicons","General Foundicons","Gibson","Gibson Light","gibson_lightbold","Gibson_lightbold","gibson_lightitalic","Gibson_lightitalic","gibsonregular","Gibsonregular","Glyphicons Halflings","GLYPHICONS Halflings","Heydings Controls","Heydings Icons","iconminia","Iconminia",/* MarkDownCtrl */
+/* Fonts4MarkDown(webfont) */"iconvault","Iconvault","icomoon","Icomoon","iconic","Iconic","icons","Icons","Just Vector","JustVector","JustVectorRegular","linecons","Linecons","LondonMM","londonmmregular","Londonmmregular","mainicon","maki","Maki","Mainicon","Material-Design-Icons","meteocons","Meteocons","MeteoconsRegular","mfglabs","Mfglabs","MFG Labs Iconset","mfg_labs_iconsetregular","Mfg_labs_iconsetregular","modernpics","Modernpics","Modern Pictograms","OpenWeb Icons","PulsarJS","RaphaelIcons","rondo","Rondo","silkcons","Silkcons","SocialFoundicons","Social Foundicons","Socialico","Socialico Plus","Social Networking Icons","Sosa","Symbol Signs","Symbol Signs Basis set","typicons","Typicons","weathercons","Weathercons","websymbols","Websymbols","Web Symbols","Web Symbols Liga","wpzoom","Wpzoom","zocial","Zocial"  !important;}/* MarkDownCtrl */
+/* github.com *//* L */span.diffstat-bar , span.diff-added , SPAN.text-diff-added , SPAN.text-diff-deleted{font-family: "octicons"  !important;}
+/* github.com *//* D */DIV>DIV.columns>DIV.column{float: left  !important;padding-right: inherit  !important;padding-left: inherit  !important;}
+/* github.com *//* D */div>.site-search input[type="text"]{padding: 0px  !important;}
+/* dillinger.io *//* S */DIV.page>DIV.g.mnone>DIV.g-b.g-b--t1of2.split.split-editor{width: 49%  !important;}
+/* @font-face {font-family: "Arial";src: local("Times New Roman"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("冬青黑体简体中文"),local("Hiragino Sans GB"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB W6"),local("WenQuanYi Micro Hei"),local("文泉驿微米黑"),local("WenQuanYi Micro Hei Mono"),local("文泉驿等宽微米黑"),local("WenQuanYi Zen Hei"),local("文泉驿正黑"),local("WenQuanYi Zen Hei Mono"),local("文泉驿等宽正黑");}/* MarkDownCtrl-UserIsGod */
+}
+}/* 非火狐浏览器，使用时要删除这行代码 */
 
 /* stylish edit box CodeMirror */.CodeMirror-scroll{font-family: "Source Code Pro","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei Mono","Hiragino Sans GB"  !important;font-size:14px  !important;line-height:15pt  !important;}
 /* 扩展 *//*::-moz-selection{background: #3399FF  !important;color: #FFFFFF  !important;}/* 自定义鼠标选中字体颜色 */
