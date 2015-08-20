@@ -1,5 +1,5 @@
 /* 名称：004.ForceMyFonts.Chinese.FireFoxChromeIE.catcat520 *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣ */
-/* 更新：2015.08.19 | 20:04 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
+/* 更新：2015.08.20 | 12:28 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -8,7 +8,7 @@
 /* 范围：*/@-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet://|(.CodeMirror)|^https?://(dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|fiddle.md|github.com|wenku.baidu.com\/view|www.youziku.com|typekit.com|fontdeck.com|designgala.com|127.0.0.1|iamchucky.github.io|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){/* 非火狐浏览器，使用时要删除这行代码 */
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2015.08.19 | 20:04)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2015.08.20 | 12:28)"  !important;}
 
 /* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
 /* main(sysfont) */"XYZ0123456789XYZ","Catcat520.Lite.Latin","在这填写","Inconsolata","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei UI","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","fp-font",
@@ -17,6 +17,7 @@
 /* main(sysfont) */"Segoe UI Symbol","Symbola","Meiryo","Malgun Gothic","NSimSun","Nimbus Roman No9 L","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB","Symbol","FZSongS","方正宋体S-超大字符集","Nyala","Ebrima","Microsoft Uighur","Estrangelo Edessa","MV Boli","Mangal","Vrinda","Raavi","Shruti","Sylfaen","Kalinga","Latha","Gautami","Tunga","Kartika","Iskoola Pota","Lao UI","Microsoft Himalaya","Plantagenet Cherokee","Euphemia","Khmer UI","Mongolian Baiti","Microsoft Tai Le","Microsoft New Tai Lue","Microsoft Yi Baiti","Microsoft PhagsPa","Arial Unicode MS","Unifont"  !important;}
 
 /* stylish edit box Orion */#clientDiv>DIV , #clientDiv>DIV>SPAN , .rulerLines.odd , .rulerLines.even{font-family: "Source Code Pro","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei Mono","Hiragino Sans GB"  !important;font-size:14px  !important;line-height:15pt  !important;}
+/* stylish:userstyles.org *//* Y */UL#style-settings>LI>INPUT#setting-444243.style-setting-option , UL#style-settings>LI>INPUT#setting-444242.style-setting-option{width: 47%  !important;}
 /* taobao.com */DIV.order-go.clearfix>DIV.msg>P.tips.naked , dl>dt>span.lala , .iconfont>em , p.font-face , a.new-todo-item , a.setting-item , a.calender-book-item , span.prev-btn , span.next-btn{font-family: "shop-iconfont","global-iconfont","mticonfont","marketicon","iconfont"  !important;}
 /* taobao.com *//* D */DIV.conve.J_Conve>UL.conve-list>li.mod{margin-top: 0px  !important;}
 /* ju.taobao.com */DIV.header.clearfix>A.bookMark>span , DIV.operation>A.jubao>span , DIV.operation>A.J_ItemShare.share>span , DIV.operation>A.add-jucollect.J_AddToJuCollect>span , DIV.price-block.clearfix>SPAN.price>SPAN.i , .ju-groupbar>.backtop>a:nth-child(n) , .mod-filter>.search>form:nth-child(n)>button:nth-child(n) , .cat-menu-h>p.ju-icon-juhuasuan>a:nth-child(n) , tbody>tr.h2:nth-child(n)>td:nth-child(n)>p:nth-child(n) , .feedback>.J_feedback>span:nth-child(n) , .ju-groupbar>.mbclientli>a.mbclient , h1.logo>.ju-logo>div[class^="ju-icon-"]{font-family: "ju-font"  !important;}
