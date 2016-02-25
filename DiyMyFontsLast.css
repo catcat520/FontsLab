@@ -13,7 +13,7 @@
 
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family: "SDF.TypeSet","SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"}
 /* main(monospace) */code,kbd,pre,samp,tt,var{font-family: "SDF.Latin","SDF.Asia","Segoe UI Symbol","Symbol","Symbola","Unifont"  !important;}
-/* main(CJK) *//* Normal/Regular */@font-face {font-family: "SDF.Asia";src: local("Microsoft YaHei UI"),local("Microsoft YaHei UI Normal"),local("Microsoft YaHei UI Regular"),local("Microsoft YaHei UI Roman"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+/* main(CJK) *//* Normal/Regular/Roman */@font-face {font-family: "SDF.Asia";src: local("Microsoft YaHei"),local("Microsoft YaHei Normal"),local("Microsoft YaHei Regular"),local("Microsoft YaHei Roman"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* main(CJK) *//* Thin */@font-face {font-family: "SDF.Asia";font-weight:100;src: local("Microsoft YaHei UI Thin"),local("Microsoft YaHei Bold"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* main(CJK) *//* ExtraLight/UltraLight */@font-face {font-family: "SDF.Asia";font-weight:200;src: local("Microsoft YaHei UI ExtraLight"),local("Microsoft YaHei UI UltraLight"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* main(CJK) *//* Light */@font-face {font-family: "SDF.Asia";font-weight:300;src: local("Microsoft YaHei UI Light"),local("Microsoft YaHei Bold"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
@@ -35,7 +35,7 @@
 /* main(Latin) *//* Extrabold/Ultrabold */@font-face {font-family: "SDF.Latin";font-weight:800;src: local("Inconsolata-g"),local("Inconsolata Bold"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* main(Latin) *//* Heavy/Black */@font-face {font-family: "SDF.Latin";font-weight:900;src: local("Inconsolata-g"),local("Inconsolata Bold"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 
-/* TypeSetCtrl */@supports (object-position: inherit){ @font-face {font-family: "SDF.TypeSet";src: local('Arial');unicode-range: U+20,U+7C;} }
+/* TypeSetCtrl */x@supports (object-position: inherit){ @font-face {font-family: "SDF.TypeSet";src: local('Arial');unicode-range: U+20,U+7C;} }
 
 /* GlobalCtrl */
 /* firefox.net.cn *//* S */.wrap>.main_wrap>.bread_crumb , .main_wrap>.forum_page>.bbs_info_box{padding: 62px 1px 10px 20px  !important;}
