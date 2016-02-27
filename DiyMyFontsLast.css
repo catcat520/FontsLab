@@ -162,9 +162,6 @@
     /* 替换英文 */
     
 /* Arial is OK*/
-@font-face {font-family: "Arial Black";src: local("Arial Black");}
-@font-face {font-family: "Arial Black";src: local("Inconsolata");}
-@font-face {font-family: "Arial Black";src: local("Inconsolata Bold");}
 @font-face {font-family: "Arial";src: local("Arial");}
 @font-face {font-family: "Arial";src: local("Inconsolata");}
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Arial");}
@@ -172,8 +169,30 @@
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Inconsolata Bold");}
 /* Arial is OK*/
+@font-face {font-family: "Arial Black";src: local("Arial Black");}
+@font-face {font-family: "Arial Black";src: local("Inconsolata");}
+@font-face {font-family: "Arial Black";src: local("Inconsolata Bold");}
     
-@font-face {font-family: "Arial Nova";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+@font-face {font-family: "Arial Nova";src: local("Arial Nova");}
+@font-face {font-family: "Arial Nova";src: local("Inconsolata");}
+@font-face {font-family: "Arial Nova";font-weight: Bold;src:local("Arial Nova");}
+@font-face {font-family: "Arial Nova";font-weight: Bold;src:local("Arial Nova Bold");}
+@font-face {font-family: "Arial Nova";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Arial Nova";font-weight: Bold;src:local("Inconsolata Bold");}
+
+@font-face {font-family: "Arial Nova Cond";src: local("Arial Nova Cond");}
+@font-face {font-family: "Arial Nova Cond";src: local("Inconsolata");}
+@font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Arial Nova Cond");}
+@font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Arial Nova Cond Bold");}
+@font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Inconsolata Bold");} 
+ 
+@font-face {font-family: "Arial Nova Cond Light";src: local("Arial Nova Cond Light");}
+@font-face {font-family: "Arial Nova Cond Light";src: local("Inconsolata");}
+    
+@font-face {font-family: "Arial Nova Light";src: local("Arial Nova Light");}
+@font-face {font-family: "Arial Nova Light";src: local("Inconsolata");}    
+    
 @font-face {font-family: "Calibri";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Cambria";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Candara";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
