@@ -1,5 +1,5 @@
 /* 名称：004.DiyMyFonts.FireFoxChromeIE.catcat520.B *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣.B */
-/* 更新：2016.02.27 | 12:39 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
+/* 更新：2016.02.28 | 08:19 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -9,7 +9,7 @@
 
     *{text-decoration-color: #f06d06 !important;}
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2016.02.27 | 12:39)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2016.02.28 | 08:19)"  !important;}
 
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family: "SDF.TypeSet","SDF.Latin","SDF.Asia",
 /* main(sysfont) */"Inconsolata","Envy Code R","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei UI","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","fp-font",
@@ -173,6 +173,7 @@
 @font-face {font-family: "Arial Black";src: local("Arial Black");}
 @font-face {font-family: "Arial Black";src: local("Inconsolata");}
 @font-face {font-family: "Arial Black";src: local("Inconsolata Bold");}
+@font-face {font-family: "Arial Black";src: local("Inconsolata Black");}
     
 @font-face {font-family: "Arial Nova";src: local("Arial Nova");}
 @font-face {font-family: "Arial Nova";src: local("Inconsolata");}
@@ -180,20 +181,30 @@
 @font-face {font-family: "Arial Nova";font-weight: Bold;src:local("Arial Nova Bold");}
 @font-face {font-family: "Arial Nova";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Arial Nova";font-weight: Bold;src:local("Inconsolata Bold");}
-
+@font-face {font-family: "Arial Nova";font-weight: Lighter;src:local("Arial Nova");}
+@font-face {font-family: "Arial Nova";font-weight: Lighter;src:local("Arial Nova Light");}
+@font-face {font-family: "Arial Nova";font-weight: Lighter;src:local("Inconsolata");}
+@font-face {font-family: "Arial Nova";font-weight: Lighter;src:local("Inconsolata Light");}
+    
+@font-face {font-family: "Arial Nova Light";src: local("Arial Nova Light");}
+@font-face {font-family: "Arial Nova Light";src: local("Inconsolata");}    
+@font-face {font-family: "Arial Nova Light";src: local("Inconsolata Light");}
+    
 @font-face {font-family: "Arial Nova Cond";src: local("Arial Nova Cond");}
 @font-face {font-family: "Arial Nova Cond";src: local("Inconsolata");}
 @font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Arial Nova Cond");}
 @font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Arial Nova Cond Bold");}
 @font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Inconsolata Bold");} 
- 
+@font-face {font-family: "Arial Nova Cond";font-weight: Lighter;src:local("Arial Nova Cond");}
+@font-face {font-family: "Arial Nova Cond";font-weight: Lighter;src:local("Arial Nova Cond Light");}
+@font-face {font-family: "Arial Nova Cond";font-weight: Lighter;src:local("Inconsolata");}
+@font-face {font-family: "Arial Nova Cond";font-weight: Lighter;src:local("Inconsolata Light");}
+    
 @font-face {font-family: "Arial Nova Cond Light";src: local("Arial Nova Cond Light");}
 @font-face {font-family: "Arial Nova Cond Light";src: local("Inconsolata");}
+@font-face {font-family: "Arial Nova Cond Light";src: local("Inconsolata Light");}
     
-@font-face {font-family: "Arial Nova Light";src: local("Arial Nova Light");}
-@font-face {font-family: "Arial Nova Light";src: local("Inconsolata");}    
-
 @font-face {font-family: "Calibri";src: local("Calibri");}
 @font-face {font-family: "Calibri";src: local("Inconsolata");}
 @font-face {font-family: "Calibri";font-weight: Bold;src:local("Calibri");}
@@ -206,6 +217,7 @@
 @font-face {font-family: "Calibri";font-weight: Lighter;src:local("Inconsolata Light");}
 
 @font-face {font-family: "Calibri Light";src: local("Calibri Light");}
+@font-face {font-family: "Calibri Light";src: local("Inconsolata");}
 @font-face {font-family: "Calibri Light";src: local("Inconsolata Light");}
 
  
