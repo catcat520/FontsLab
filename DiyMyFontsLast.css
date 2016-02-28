@@ -358,9 +358,11 @@
 @font-face {font-family: "Franklin Gothic Medium";src: local("Inconsolata Medium");}    
     
 @font-face {font-family: "Gabriola";src: local("Gabriola");}
+@font-face {font-family: "Gabriola";src: local("Microsoft YaHei");}
 @font-face {font-family: "Gabriola";src: local("Inconsolata");}
 @font-face {font-family: "Gabriola";font-weight: Bold;src:local("Gabriola");}
 @font-face {font-family: "Gabriola";font-weight: Bold;src:local("Gabriola Bold");}
+@font-face {font-family: "Gabriola";font-weight: Bold;src:local("Microsoft YaHei Bold");}    
 @font-face {font-family: "Gabriola";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Gabriola";font-weight: Bold;src:local("Inconsolata Bold");}    
  
