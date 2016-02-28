@@ -142,8 +142,19 @@
 @font-face {font-family: "MingLiU-ExtB";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "MingLiU_HKSCS";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "MingLiU_HKSCS-ExtB";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "PMingLiU";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "新細明體";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+
+@font-face {font-family: "PMingLiU";src: local("PMingLiU");}
+@font-face {font-family: "PMingLiU";src: local("Microsoft YaHei");}
+@font-face {font-family: "PMingLiU";src: local("Inconsolata");}
+@font-face {font-family: "PMingLiU";font-weight: Bold;src:local("PMingLiU");}
+@font-face {font-family: "PMingLiU";font-weight: Bold;src:local("PMingLiU Bold");}
+@font-face {font-family: "PMingLiU";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "PMingLiU";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "PMingLiU";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "PMingLiU";font-weight: Bold;src:local("Inconsolata Bold");}    
+  
+    
+    @font-face {font-family: "新細明體";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "PMingLiU-ExtB";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "DFKai-SB";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "標楷體";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
@@ -320,11 +331,48 @@
 @font-face {font-family: "Courier New";font-weight: Bold;src:local("Courier New Bold");}
 @font-face {font-family: "Courier New";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Courier New";font-weight: Bold;src:local("Inconsolata Bold");} 
+ 
+
     
-@font-face {font-family: "Fixedsys";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}    
-@font-face {font-family: "Franklin Gothic";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "Gabriola";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "Georgia";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
+@font-face {font-family: "Fixedsys";src: local("Fixedsys");}
+@font-face {font-family: "Fixedsys";src: local("Inconsolata");}
+@font-face {font-family: "Fixedsys";font-weight: Bold;src:local("Fixedsys");}
+@font-face {font-family: "Fixedsys";font-weight: Bold;src:local("Fixedsys Bold");}
+@font-face {font-family: "Fixedsys";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Fixedsys";font-weight: Bold;src:local("Inconsolata Bold");}   
+   
+
+@font-face {font-family: "Franklin Gothic";src: local("Franklin Gothic");}
+@font-face {font-family: "Franklin Gothic";src: local("Inconsolata");}
+@font-face {font-family: "Franklin Gothic";font-weight: Bold;src:local("Franklin Gothic");}
+@font-face {font-family: "Franklin Gothic";font-weight: Bold;src:local("Franklin Gothic Bold");}
+@font-face {font-family: "Franklin Gothic";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Franklin Gothic";font-weight: Bold;src:local("Inconsolata Bold");} 
+@font-face {font-family: "Franklin Gothic";font-weight: 500;src:local("Franklin Gothic");}
+@font-face {font-family: "Franklin Gothic";font-weight: 500;src:local("Franklin Gothic Medium");}
+@font-face {font-family: "Franklin Gothic";font-weight: 500;src:local("Inconsolata");}
+@font-face {font-family: "Franklin Gothic";font-weight: 500;src:local("Inconsolata Medium");}
+    
+@font-face {font-family: "Franklin Gothic Medium";src: local("Franklin Gothic Medium");}
+@font-face {font-family: "Franklin Gothic Medium";src: local("Inconsolata");}
+@font-face {font-family: "Franklin Gothic Medium";src: local("Inconsolata Medium");}    
+    
+@font-face {font-family: "Gabriola";src: local("Gabriola");}
+@font-face {font-family: "Gabriola";src: local("Inconsolata");}
+@font-face {font-family: "Gabriola";font-weight: Bold;src:local("Gabriola");}
+@font-face {font-family: "Gabriola";font-weight: Bold;src:local("Gabriola Bold");}
+@font-face {font-family: "Gabriola";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Gabriola";font-weight: Bold;src:local("Inconsolata Bold");}    
+ 
+@font-face {font-family: "Georgia";src: local("Georgia");}
+@font-face {font-family: "Georgia";src: local("Microsoft YaHei");}
+@font-face {font-family: "Georgia";src: local("Inconsolata");}
+@font-face {font-family: "Georgia";font-weight: Bold;src:local("Georgia");}
+@font-face {font-family: "Georgia";font-weight: Bold;src:local("Georgia Bold");}
+@font-face {font-family: "Georgia";font-weight: Bold;src:local("Microsoft YaHei Bold");}    
+@font-face {font-family: "Georgia";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Georgia";font-weight: Bold;src:local("Inconsolata Bold");}    
+    
 @font-face {font-family: "Georgia Pro";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Gill Sans Nova";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 
@@ -364,6 +412,13 @@
 @font-face {font-family: "Verdana";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Verdana Pro";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 
+/*其他语种*/
+@font-face {font-family: "Ebima";src: local("Ebima");}
+@font-face {font-family: "Ebima";src: local("Inconsolata");}
+@font-face {font-family: "Ebima";font-weight: Bold;src:local("Ebima");}
+@font-face {font-family: "Ebima";font-weight: Bold;src:local("Ebima Bold");}
+@font-face {font-family: "Ebima";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Ebima";font-weight: Bold;src:local("Inconsolata Bold");} 
   
     /* 替换符号 *//* "Cambria Math","Segoe MDL2 Assets","Segoe UI Emoji","Segoe UI Symbol","Symbol","Symbola","Unifont","Webdings","Wingdings" */
 
