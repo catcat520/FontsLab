@@ -242,11 +242,20 @@
 @font-face {font-family: "Comic Sans MS";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Comic Sans MS";font-weight: Bold;src:local("Inconsolata Bold");}
     
+@font-face {font-family: "Consolas";src: local("Consolas");}
+@font-face {font-family: "Consolas";src: local("Inconsolata");}
+@font-face {font-family: "Consolas";font-weight: Bold;src:local("Consolas");}
+@font-face {font-family: "Consolas";font-weight: Bold;src:local("Consolas Bold");}
+@font-face {font-family: "Consolas";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Consolas";font-weight: Bold;src:local("Inconsolata Bold");}
     
-@font-face {font-family: "";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "Consolas";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "Constantia";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
+@font-face {font-family: "Constantia";src: local("Constantia");}
+@font-face {font-family: "Constantia";src: local("Inconsolata");}
+@font-face {font-family: "Constantia";font-weight: Bold;src:local("Constantia");}
+@font-face {font-family: "Constantia";font-weight: Bold;src:local("Constantia Bold");}
+@font-face {font-family: "Constantia";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Constantia";font-weight: Bold;src:local("Inconsolata Bold");}
+    
 @font-face {font-family: "Corbel";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Courier";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Courier New";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
