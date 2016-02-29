@@ -466,11 +466,49 @@
 @font-face {font-family: "Georgia Pro Cond Light";src: local("Microsoft YaHei");}
 @font-face {font-family: "Georgia Pro Cond Light";src: local("Microsoft YaHei Light");}
 @font-face {font-family: "Georgia Pro Cond Light";src: local("Inconsolata");}
-@font-face {font-family: "Georgia Pro Cond Light";src: local("Inconsolata Light");}   
+@font-face {font-family: "Georgia Pro Cond Light";src: local("Inconsolata Light");}
+    
+/* Gill Sans Nova 替换部分字体 */
+@font-face {font-family: "Gill Sans Nova";src: local("Gill Sans Nova");}
+@font-face {font-family: "Gill Sans Nova";src: local("Microsoft YaHei");}
+@font-face {font-family: "Gill Sans Nova";src: local("Inconsolata");}
+@font-face {font-family: "Gill Sans Nova";font-weight: Bold;src:local("Gill Sans Nova");}
+@font-face {font-family: "Gill Sans Nova";font-weight: Bold;src:local("Gill Sans Nova Bold");}
+@font-face {font-family: "Gill Sans Nova";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Gill Sans Nova";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Gill Sans Nova";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Gill Sans Nova";font-weight: Bold;src:local("Inconsolata Bold");}
+
+@font-face {font-family: "Gill Sans Nova Cond";src: local("Georgia Pro Cond");}
+@font-face {font-family: "Gill Sans Nova Cond";src: local("Microsoft YaHei");}
+@font-face {font-family: "Gill Sans Nova Cond";src: local("Inconsolata");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: Bold;src:local("Gill Sans Nova Cond");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: Bold;src:local("Gill Sans Nova Cond Bold");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: 300;src:local("Gill Sans Nova Cond");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: 300;src:local("Gill Sans Nova Cond Lt");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: 300;src:local("Microsoft YaHei");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: 300;src:local("Microsoft YaHei Light");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "Gill Sans Nova Cond";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "Gill Sans Nova Cond Lt";src: local("Gill Sans Nova Cond Lt");}
+@font-face {font-family: "Gill Sans Nova Cond Lt";src: local("Microsoft YaHei");}
+@font-face {font-family: "Gill Sans Nova Cond Lt";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "Gill Sans Nova Cond Lt";src: local("Inconsolata");}
+@font-face {font-family: "Gill Sans Nova Cond Lt";src: local("Inconsolata Light");}
+@font-face {font-family: "Gill Sans Nova Light";src: local("Gill Sans Nova");}
+@font-face {font-family: "Gill Sans Nova Light";src: local("Gill Sans Nova Light");}
+@font-face {font-family: "Gill Sans Nova Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "Gill Sans Nova Light";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "Gill Sans Nova Light";src: local("Inconsolata");}
+@font-face {font-family: "Gill Sans Nova Light";src: local("Inconsolata Light");}
     
     
     
-    @font-face {font-family: "Gill Sans Nova";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
+    @font-face {font-family: "";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 
 @font-face {font-family: "Impact";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Lucida Console";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
