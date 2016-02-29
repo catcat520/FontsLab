@@ -246,9 +246,12 @@
     
 /* Arial is OK*/
 @font-face {font-family: "Arial";src: local("Arial");}
+@font-face {font-family: "Arial";src: local("Microsoft YaHei");}
 @font-face {font-family: "Arial";src: local("Inconsolata");}
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Arial");}
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Arial Bold");}
+@font-face {font-family: "Arial";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Arial";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Inconsolata Bold");}
 /* Arial is OK*/
@@ -269,44 +272,58 @@
 @font-face {font-family: "Arial Nova";font-weight: 300;src:local("Inconsolata Light");}
     
 @font-face {font-family: "Arial Nova Light";src: local("Arial Nova Light");}
+@font-face {font-family: "Arial Nova Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "Arial Nova Light";src: local("Microsoft YaHei Light");}
 @font-face {font-family: "Arial Nova Light";src: local("Inconsolata");}    
 @font-face {font-family: "Arial Nova Light";src: local("Inconsolata Light");}
     
 @font-face {font-family: "Arial Nova Cond";src: local("Arial Nova Cond");}
+@font-face {font-family: "Arial Nova Cond";src: local("Microsoft YaHei");}
 @font-face {font-family: "Arial Nova Cond";src: local("Inconsolata");}
 @font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Arial Nova Cond");}
 @font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Arial Nova Cond Bold");}
+@font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Arial Nova Cond";font-weight: Bold;src:local("Inconsolata Bold");} 
 @font-face {font-family: "Arial Nova Cond";font-weight: 300;src:local("Arial Nova Cond");}
 @font-face {font-family: "Arial Nova Cond";font-weight: 300;src:local("Arial Nova Cond Light");}
+@font-face {font-family: "Arial Nova Cond";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "Arial Nova Cond";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "Arial Nova Cond";font-weight: 300;src:local("Inconsolata Light");}
     
 @font-face {font-family: "Arial Nova Cond Light";src: local("Arial Nova Cond Light");}
+@font-face {font-family: "Arial Nova Cond Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "Arial Nova Cond Light";src: local("Microsoft YaHei Light");}
 @font-face {font-family: "Arial Nova Cond Light";src: local("Inconsolata");}
 @font-face {font-family: "Arial Nova Cond Light";src: local("Inconsolata Light");}
     
 @font-face {font-family: "Calibri";src: local("Calibri");}
+@font-face {font-family: "Calibri";src: local("Microsoft YaHei");}
 @font-face {font-family: "Calibri";src: local("Inconsolata");}
 @font-face {font-family: "Calibri";font-weight: Bold;src:local("Calibri");}
 @font-face {font-family: "Calibri";font-weight: Bold;src:local("Calibri Bold");}
+@font-face {font-family: "Calibri";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Calibri";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Calibri";font-weight: Bold;src:local("Inconsolata Bold");}
 @font-face {font-family: "Calibri";font-weight: 300;src:local("Calibri");}
 @font-face {font-family: "Calibri";font-weight: 300;src:local("Calibri Light");}
+@font-face {font-family: "Calibri";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "Calibri";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "Calibri";font-weight: 300;src:local("Inconsolata Light");}
 
 @font-face {font-family: "Calibri Light";src: local("Calibri Light");}
+@font-face {font-family: "Calibri Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "Calibri Light";src: local("Microsoft YaHei Light");}
 @font-face {font-family: "Calibri Light";src: local("Inconsolata");}
 @font-face {font-family: "Calibri Light";src: local("Inconsolata Light");}
 
  
 @font-face {font-family: "Cambria";src: local("Cambria");}
+@font-face {font-family: "Cambria";src: local("Microsoft YaHei");}
 @font-face {font-family: "Cambria";src: local("Inconsolata");}
 @font-face {font-family: "Cambria";font-weight: Bold;src:local("Cambria");}
 @font-face {font-family: "Cambria";font-weight: Bold;src:local("Cambria Bold");}
+@font-face {font-family: "Cambria";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Cambria";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Cambria";font-weight: Bold;src:local("Inconsolata Bold");}    
     
