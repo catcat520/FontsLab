@@ -427,7 +427,9 @@
 @font-face {font-family: "Georgia";font-weight: Bold;src:local("Inconsolata Bold");}
     
 
-
+    
+    
+/* Georgia Pro 替换部分字体 */
 @font-face {font-family: "Georgia Pro";src: local("Georgia Pro");}
 @font-face {font-family: "Georgia Pro";src: local("Microsoft YaHei");}
 @font-face {font-family: "Georgia Pro";src: local("Inconsolata");}
@@ -444,6 +446,28 @@
 @font-face {font-family: "Georgia Pro Black";src: local("Inconsolata");}
 @font-face {font-family: "Georgia Pro Black";src: local("Inconsolata Bold");}
 @font-face {font-family: "Georgia Pro Black";src: local("Inconsolata Black");}
+
+@font-face {font-family: "Georgia Pro Cond";src: local("Georgia Pro Cond");}
+@font-face {font-family: "Georgia Pro Cond";src: local("Microsoft YaHei");}
+@font-face {font-family: "Georgia Pro Cond";src: local("Inconsolata");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: Bold;src:local("Georgia Pro Cond");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: Bold;src:local("Georgia Pro Cond Bold");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: 300;src:local("Georgia Pro Cond");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: 300;src:local("Georgia Pro Cond Light");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: 300;src:local("Microsoft YaHei");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: 300;src:local("Microsoft YaHei Light");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "Georgia Pro Cond";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "Georgia Pro Cond Light";src: local("Georgia Pro Cond Light");}
+@font-face {font-family: "Georgia Pro Cond Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "Georgia Pro Cond Light";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "Georgia Pro Cond Light";src: local("Inconsolata");}
+@font-face {font-family: "Georgia Pro Cond Light";src: local("Inconsolata Light");}   
+    
     
     
     @font-face {font-family: "Gill Sans Nova";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
