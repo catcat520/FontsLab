@@ -43,7 +43,8 @@
 /* main(Latin) *//* Extrabold/Ultrabold */@font-face {font-family: "SDF.Latin";font-weight:800;src: local("Inconsolata-g"),local("Inconsolata Bold"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* main(Latin) *//* Heavy/Black */@font-face {font-family: "SDF.Latin";font-weight:900;src: local("Inconsolata-g"),local("Inconsolata Bold"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 
-/* TypeSetCtrl : 空格/| */@supports (object-position: inherit){ @font-face {font-family: "SDF.TypeSet";src: local('Times New Roman');unicode-range: U+20,U+7C,U+50;} }
+/* TypeSetCtrl : 空格/| */@supports (object-position: inherit){ @font-face {font-family: "SDF.TypeSet";src: local('Arial');unicode-range: U+20,U+7C,U+50;} }
+
 
 
 /* GlobalCtrl */
@@ -107,9 +108,7 @@
 @font-face {font-family: "SimHei";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "SimHei";font-weight: Bold;src:local("Inconsolata Bold");} 
     
-    
-    
-    @font-face {font-family: "黑体";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+@font-face {font-family: "黑体";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "KaiTi";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "楷体";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "FangSong";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
@@ -151,8 +150,7 @@
 @font-face {font-family: "Microsoft JhengHei";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Microsoft JhengHei";font-weight: Bold;src:local("Inconsolata Bold");}      
     
-   
-    @font-face {font-family: "Microsoft JhengHei UI";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+@font-face {font-family: "Microsoft JhengHei UI";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
     
 @font-face {font-family: "微軟正黑體";src: local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "微軟正黑體";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
@@ -189,7 +187,7 @@
 @font-face {font-family: "Yu Mincho";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 
     
-    /* 替换韩文 */
+/* 替换韩文 */
 @font-face {font-family: "Batang";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "BatangChe";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 
@@ -234,6 +232,7 @@
 @font-face {font-family: "Arial";src: local("Arial");}
 @font-face {font-family: "Arial";src: local("Microsoft YaHei");}
 @font-face {font-family: "Arial";src: local("Inconsolata");}
+/* TypeSetCtrl : 空格/| */@supports (object-position: inherit){ @font-face {font-family: "Arial";src: local('Arial');unicode-range: U+20,U+7C,U+50;} }
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Arial");}
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Arial Bold");}
 @font-face {font-family: "Arial";font-weight: Bold;src:local("Microsoft YaHei");}
@@ -428,7 +427,23 @@
 @font-face {font-family: "Georgia";font-weight: Bold;src:local("Inconsolata Bold");}
     
 @font-face {font-family: "Georgia Pro";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "Gill Sans Nova";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
+
+@font-face {font-family: "Arial";font-weight: Bold;src:local("Arial");}
+@font-face {font-family: "Arial";font-weight: Bold;src:local("Arial Bold");}
+@font-face {font-family: "Arial";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Arial";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Arial";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Arial";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "Arial Black";src: local("Arial Black");}
+@font-face {font-family: "Arial Black";src: local("Microsoft YaHei");}
+@font-face {font-family: "Arial Black";src: local("Microsoft YaHei Blod");}
+@font-face {font-family: "Arial Black";src: local("Microsoft YaHei Black");}
+@font-face {font-family: "Arial Black";src: local("Inconsolata");}
+@font-face {font-family: "Arial Black";src: local("Inconsolata Bold");}
+@font-face {font-family: "Arial Black";src: local("Inconsolata Black");} 
+    
+    
+    @font-face {font-family: "Gill Sans Nova";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 
 @font-face {font-family: "Impact";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Lucida Console";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
@@ -442,8 +457,7 @@
     @font-face {font-family: "Palatino Linotype";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Rockwell Nova";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 
-  
-    @font-face {font-family: "Roman";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
+@font-face {font-family: "Roman";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Script";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}    
 @font-face {font-family: "Segoe Print";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Segoe Script";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
@@ -456,8 +470,7 @@
 @font-face {font-family: "Sitka Subheading";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Sitka Text";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
    
-    
-    @font-face {font-family: "Small Fonts";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
+@font-face {font-family: "Small Fonts";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "System";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Tahoma";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Terminal";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
@@ -599,5 +612,3 @@ arial
 Kana : U+3040-30FF
 
 */
-
-
