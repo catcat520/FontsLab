@@ -99,10 +99,37 @@
 @font-face {font-family: "宋体";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "宋体";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "宋体";font-weight: Bold;src:local("Inconsolata Bold");}
+
+@font-face {font-family: "SimSun-ExtB";src: local("SimSun-ExtB");}
+@font-face {font-family: "SimSun-ExtB";src: local("Microsoft YaHei");}
+@font-face {font-family: "SimSun-ExtB";src: local("Inconsolata");}
+@font-face {font-family: "SimSun-ExtB";font-weight: Bold;src:local("SimSun-ExtB");}
+@font-face {font-family: "SimSun-ExtB";font-weight: Bold;src:local("SimSun-ExtB Bold");}
+@font-face {font-family: "SimSun-ExtB";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "SimSun-ExtB";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "SimSun-ExtB";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "SimSun-ExtB";font-weight: Bold;src:local("Inconsolata Bold");}    
+ 
+@font-face {font-family: "NSimSun";src: local("NSimSun");}
+@font-face {font-family: "NSimSun";src: local("Microsoft YaHei");}
+@font-face {font-family: "NSimSun";src: local("Inconsolata");}
+@font-face {font-family: "NSimSun";font-weight: Bold;src:local("NSimSun");}
+@font-face {font-family: "NSimSun";font-weight: Bold;src:local("NSimSun Bold");}
+@font-face {font-family: "NSimSun";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "NSimSun";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "NSimSun";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "NSimSun";font-weight: Bold;src:local("Inconsolata Bold");}     
+ 
+@font-face {font-family: "新宋体";src: local("新宋体");}
+@font-face {font-family: "新宋体";src: local("Microsoft YaHei");}
+@font-face {font-family: "新宋体";src: local("Inconsolata");}
+@font-face {font-family: "新宋体";font-weight: Bold;src:local("新宋体");}
+@font-face {font-family: "新宋体";font-weight: Bold;src:local("新宋体 Bold");}
+@font-face {font-family: "新宋体";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "新宋体";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "新宋体";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "新宋体";font-weight: Bold;src:local("Inconsolata Bold");}    
     
-@font-face {font-family: "SimSun-ExtB";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "NSimSun";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "新宋体";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 
 @font-face {font-family: "SimHei";src: local("SimHei");}
 @font-face {font-family: "SimHei";src: local("Microsoft YaHei");}
@@ -114,17 +141,56 @@
 @font-face {font-family: "SimHei";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "SimHei";font-weight: Bold;src:local("Inconsolata Bold");} 
     
-@font-face {font-family: "黑体";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "KaiTi";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "楷体";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "FangSong";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-@font-face {font-family: "仿宋";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-
-
-@font-face {font-family: "微软雅黑";src: local("Microsoft YaHei");}
-@font-face {font-family: "微软雅黑";src: local("Inconsolata");}
-@font-face {font-family: "微软雅黑";font-weight: Bold;src:local("Microsoft YaHei");}
-@font-face {font-family: "微软雅黑";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "黑体";src: local("黑体");}
+@font-face {font-family: "黑体";src: local("Microsoft YaHei");}
+@font-face {font-family: "黑体";src: local("Inconsolata");}
+@font-face {font-family: "黑体";font-weight: Bold;src:local("黑体");}
+@font-face {font-family: "黑体";font-weight: Bold;src:local("黑体 Bold");}
+@font-face {font-family: "黑体";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "黑体";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "黑体";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "黑体";font-weight: Bold;src:local("Inconsolata Bold");}    
+    
+@font-face {font-family: "KaiTi";src: local("KaiTi");}
+@font-face {font-family: "KaiTi";src: local("Microsoft YaHei");}
+@font-face {font-family: "KaiTi";src: local("Inconsolata");}
+@font-face {font-family: "KaiTi";font-weight: Bold;src:local("KaiTi");}
+@font-face {font-family: "KaiTi";font-weight: Bold;src:local("KaiTi Bold");}
+@font-face {font-family: "KaiTi";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "KaiTi";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "KaiTi";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "KaiTi";font-weight: Bold;src:local("Inconsolata Bold");}
+    
+@font-face {font-family: "楷体";src: local("楷体");}
+@font-face {font-family: "楷体";src: local("Microsoft YaHei");}
+@font-face {font-family: "楷体";src: local("Inconsolata");}
+@font-face {font-family: "楷体";font-weight: Bold;src:local("楷体");}
+@font-face {font-family: "楷体";font-weight: Bold;src:local("楷体 Bold");}
+@font-face {font-family: "楷体";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "楷体";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "楷体";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "楷体";font-weight: Bold;src:local("Inconsolata Bold");}
+  
+@font-face {font-family: "FangSong";src: local("FangSong");}
+@font-face {font-family: "FangSong";src: local("Microsoft YaHei");}
+@font-face {font-family: "FangSong";src: local("Inconsolata");}
+@font-face {font-family: "FangSong";font-weight: Bold;src:local("FangSong");}
+@font-face {font-family: "FangSong";font-weight: Bold;src:local("FangSong Bold");}
+@font-face {font-family: "FangSong";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "FangSong";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "FangSong";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "FangSong";font-weight: Bold;src:local("Inconsolata Bold");}    
+ 
+@font-face {font-family: "仿宋";src: local("仿宋");}
+@font-face {font-family: "仿宋";src: local("Microsoft YaHei");}
+@font-face {font-family: "仿宋";src: local("Inconsolata");}
+@font-face {font-family: "仿宋";font-weight: Bold;src:local("仿宋");}
+@font-face {font-family: "仿宋";font-weight: Bold;src:local("仿宋 Bold");}
+@font-face {font-family: "仿宋";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "仿宋";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "仿宋";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "仿宋";font-weight: Bold;src:local("Inconsolata Bold");}     
+    
     
 @font-face {font-family: "Microsoft YaHei";src: local("Microsoft YaHei");}
 @font-face {font-family: "Microsoft YaHei";src: local("Inconsolata");}
@@ -139,6 +205,22 @@
 @font-face {font-family: "Microsoft YaHei Light";src: local("Microsoft YaHei Light");}
 @font-face {font-family: "Microsoft YaHei Light";src: local("Inconsolata");}    
 @font-face {font-family: "Microsoft YaHei Light";src: local("Inconsolata Light");} 
+    
+    
+@font-face {font-family: "微软雅黑";src: local("微软雅黑");}
+@font-face {font-family: "微软雅黑";src: local("Inconsolata");}
+@font-face {font-family: "微软雅黑";font-weight: Bold;src:local("微软雅黑");}
+@font-face {font-family: "微软雅黑";font-weight: Bold;src:local("微软雅黑 Bold");}
+@font-face {font-family: "微软雅黑";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "微软雅黑";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "微软雅黑";font-weight: 300;src:local("微软雅黑");}
+@font-face {font-family: "微软雅黑";font-weight: 300;src:local("微软雅黑 Light");}
+@font-face {font-family: "微软雅黑";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "微软雅黑";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "微软雅黑 Light";src: local("微软雅黑 Light");}
+@font-face {font-family: "微软雅黑 Light";src: local("Inconsolata");}    
+@font-face {font-family: "微软雅黑 Light";src: local("Inconsolata Light");}     
+    
     
     @font-face {font-family: "Microsoft YaHei UI";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 
