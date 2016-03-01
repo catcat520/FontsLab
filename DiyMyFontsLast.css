@@ -221,11 +221,63 @@
 @font-face {font-family: "微软雅黑 Light";src: local("Inconsolata");}    
 @font-face {font-family: "微软雅黑 Light";src: local("Inconsolata Light");}     
     
+@font-face {font-family: "Microsoft YaHei UI";src: local("Microsoft YaHei UI");}
+@font-face {font-family: "Microsoft YaHei UI";src: local("Inconsolata");}
+@font-face {font-family: "Microsoft YaHei UI";font-weight: Bold;src:local("Microsoft YaHei UI");}
+@font-face {font-family: "Microsoft YaHei UI";font-weight: Bold;src:local("Microsoft YaHei UI Bold");}
+@font-face {font-family: "Microsoft YaHei UI";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Microsoft YaHei UI";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "Microsoft YaHei UI";font-weight: 300;src:local("Microsoft YaHei UI");}
+@font-face {font-family: "Microsoft YaHei UI";font-weight: 300;src:local("Microsoft YaHei UI Light");}
+@font-face {font-family: "Microsoft YaHei UI";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "Microsoft YaHei UI";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "Microsoft YaHei UI Light";src: local("Microsoft YaHei UI Light");}
+@font-face {font-family: "Microsoft YaHei UI Light";src: local("Inconsolata");}    
+@font-face {font-family: "Microsoft YaHei UI Light";src: local("Inconsolata Light");} 
     
-    @font-face {font-family: "Microsoft YaHei UI";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+@font-face {font-family: "微软雅黑 UI";src: local("微软雅黑 UI");}
+@font-face {font-family: "微软雅黑 UI";src: local("Inconsolata");}
+@font-face {font-family: "微软雅黑 UI";font-weight: Bold;src:local("微软雅黑 UI");}
+@font-face {font-family: "微软雅黑 UI";font-weight: Bold;src:local("微软雅黑 UI Bold");}
+@font-face {font-family: "微软雅黑 UI";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "微软雅黑 UI";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "微软雅黑 UI";font-weight: 300;src:local("微软雅黑 UI");}
+@font-face {font-family: "微软雅黑 UI";font-weight: 300;src:local("微软雅黑 UI Light");}
+@font-face {font-family: "微软雅黑 UI";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "微软雅黑 UI";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "微软雅黑 UI Light";src: local("微软雅黑 UI Light");}
+@font-face {font-family: "微软雅黑 UI Light";src: local("Inconsolata");}    
+@font-face {font-family: "微软雅黑 UI Light";src: local("Inconsolata Light");}
+    
+@font-face {font-family: "等线";src: local("等线");}
+@font-face {font-family: "等线";src: local("Inconsolata");}
+@font-face {font-family: "等线";font-weight: Bold;src:local("等线");}
+@font-face {font-family: "等线";font-weight: Bold;src:local("等线 Bold");}
+@font-face {font-family: "等线";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "等线";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "等线";font-weight: 300;src:local("等线");}
+@font-face {font-family: "等线";font-weight: 300;src:local("等线 Light");}
+@font-face {font-family: "等线";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "等线";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "等线 Light";src: local("等线 Light");}
+@font-face {font-family: "等线 Light";src: local("Inconsolata");}    
+@font-face {font-family: "等线 Light";src: local("Inconsolata Light");}
+    
+@font-face {font-family: "DengXian";src: local("DengXian");}
+@font-face {font-family: "DengXian";src: local("Inconsolata");}
+@font-face {font-family: "DengXian";font-weight: Bold;src:local("DengXian");}
+@font-face {font-family: "等线";font-weight: Bold;src:local("DengXian Bold");}
+@font-face {font-family: "DengXian";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "DengXian";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "DengXian";font-weight: 300;src:local("DengXian");}
+@font-face {font-family: "DengXian";font-weight: 300;src:local("DengXian Light");}
+@font-face {font-family: "DengXian";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "DengXian";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "DengXian Light";src: local("DengXian Light");}
+@font-face {font-family: "DengXian Light";src: local("Inconsolata");}    
+@font-face {font-family: "DengXian Light";src: local("Inconsolata Light");}
+    
 
-    @font-face {font-family: "等线";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
-   
     /* 替换繁体 */
     
 @font-face {font-family: "Microsoft JhengHei";src: local("Microsoft JhengHei");}
