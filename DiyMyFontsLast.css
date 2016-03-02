@@ -1,5 +1,5 @@
 /* 名称：004.DiyMyFonts.FireFoxChromeIE.catcat520.B *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣.B */
-/* 更新：2016.03.02 | 18:59 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
+/* 更新：2016.03.02 | 22:48 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -9,7 +9,7 @@
 
     *{text-decoration-color: #f06d06 !important;}
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2016.03.02 | 18:59)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2016.03.02 | 22:48)"  !important;}
 
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family: "SDF.TypeSet","SDF.Latin","SDF.Asia",
 /* main(sysfont) */"Inconsolata","Envy Code R","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei UI","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","fp-font",
@@ -478,9 +478,6 @@
 @font-face {font-family: "標楷體";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "標楷體";font-weight: Bold;src:local("Inconsolata Bold");}
 /* 替换日文 *//* 日文部分字体名称的英文为全角而非半角 */
-    
-    
-    
 @font-face {font-family: "Meiryo";src: local("Meiryo");}
 @font-face {font-family: "Meiryo";src: local("Microsoft YaHei");}
 @font-face {font-family: "Meiryo";src: local("Inconsolata");}
@@ -496,8 +493,6 @@
 @font-face {font-family: "Meiryo";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "Meiryo";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "Meiryo";font-weight: 300;src:local("Inconsolata Light");}
-   
-   
 @font-face {font-family: "メイリオ";src: local("メイリオ");}
 @font-face {font-family: "メイリオ";src: local("Microsoft YaHei");}
 @font-face {font-family: "メイリオ";src: local("Inconsolata");}
@@ -513,9 +508,6 @@
 @font-face {font-family: "メイリオ";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "メイリオ";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "メイリオ";font-weight: 300;src:local("Inconsolata Light");}
- 
-    
-
 @font-face {font-family: "Meiryo UI";src: local("Meiryo UI");}
 @font-face {font-family: "Meiryo UI";src: local("Microsoft YaHei");}
 @font-face {font-family: "Meiryo UI";src: local("Inconsolata");}
@@ -531,8 +523,6 @@
 @font-face {font-family: "Meiryo UI";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "Meiryo UI";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "Meiryo UI";font-weight: 300;src:local("Inconsolata Light");}
-   
-   
 @font-face {font-family: "メイリオ UI";src: local("メイリオ UI");}
 @font-face {font-family: "メイリオ UI";src: local("Microsoft YaHei");}
 @font-face {font-family: "メイリオ UI";src: local("Inconsolata");}
@@ -548,10 +538,7 @@
 @font-face {font-family: "メイリオ UI";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "メイリオ UI";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "メイリオ UI";font-weight: 300;src:local("Inconsolata Light");}
-
-    
-
- @font-face {font-family: "MS Gothic";src: local("MS Gothic");}
+@font-face {font-family: "MS Gothic";src: local("MS Gothic");}
 @font-face {font-family: "MS Gothic";src: local("Microsoft YaHei");}
 @font-face {font-family: "MS Gothic";src: local("Inconsolata");}
 @font-face {font-family: "MS Gothic";font-weight: Bold;src:local("MS Gothic");}
@@ -566,9 +553,6 @@
 @font-face {font-family: "MS Gothic";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "MS Gothic";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "MS Gothic";font-weight: 300;src:local("Inconsolata Light");}
-
-    
-    
 @font-face {font-family: "ＭＳ ゴシック";src: local("ＭＳ ゴシック");}
 @font-face {font-family: "ＭＳ ゴシック";src: local("Microsoft YaHei");}
 @font-face {font-family: "ＭＳ ゴシック";src: local("Inconsolata");}
@@ -584,9 +568,7 @@
 @font-face {font-family: "ＭＳ ゴシック";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "ＭＳ ゴシック";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "ＭＳ ゴシック";font-weight: 300;src:local("Inconsolata Light");}
-    
-    
- @font-face {font-family: "MS PGothic";src: local("MS PGothic");}
+@font-face {font-family: "MS PGothic";src: local("MS PGothic");}
 @font-face {font-family: "MS PGothic";src: local("Microsoft YaHei");}
 @font-face {font-family: "MS PGothic";src: local("Inconsolata");}
 @font-face {font-family: "MS PGothic";font-weight: Bold;src:local("MS PGothic");}
@@ -601,10 +583,6 @@
 @font-face {font-family: "MS PGothic";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "MS PGothic";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "MS PGothic";font-weight: 300;src:local("Inconsolata Light");}
-   
-
-    
-    
 @font-face {font-family: "ＭＳ Ｐゴシック";src: local("ＭＳ Ｐゴシック");}
 @font-face {font-family: "ＭＳ Ｐゴシック";src: local("Microsoft YaHei");}
 @font-face {font-family: "ＭＳ Ｐゴシック";src: local("Inconsolata");}
@@ -620,8 +598,6 @@
 @font-face {font-family: "ＭＳ Ｐゴシック";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "ＭＳ Ｐゴシック";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "ＭＳ Ｐゴシック";font-weight: 300;src:local("Inconsolata Light");}
-    
-
 @font-face {font-family: "MS UI Gothic";src: local("MS UI Gothic");}
 @font-face {font-family: "MS UI Gothic";src: local("Microsoft YaHei");}
 @font-face {font-family: "MS UI Gothic";src: local("Inconsolata");}
@@ -637,7 +613,6 @@
 @font-face {font-family: "MS UI Gothic";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "MS UI Gothic";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "MS UI Gothic";font-weight: 300;src:local("Inconsolata Light");}
-  
 @font-face {font-family: "MS Mincho";src: local("MS Mincho");}
 @font-face {font-family: "MS Mincho";src: local("Microsoft YaHei");}
 @font-face {font-family: "MS Mincho";src: local("Inconsolata");}
@@ -653,7 +628,6 @@
 @font-face {font-family: "MS Mincho";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "MS Mincho";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "MS Mincho";font-weight: 300;src:local("Inconsolata Light");}
-    
 @font-face {font-family: "ＭＳ 明朝";src: local("ＭＳ 明朝");}
 @font-face {font-family: "ＭＳ 明朝";src: local("Microsoft YaHei");}
 @font-face {font-family: "ＭＳ 明朝";src: local("Inconsolata");}
@@ -669,7 +643,6 @@
 @font-face {font-family: "ＭＳ 明朝";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "ＭＳ 明朝";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "ＭＳ 明朝";font-weight: 300;src:local("Inconsolata Light");}
-    
 @font-face {font-family: "MS PMincho";src: local("MS PMincho");}
 @font-face {font-family: "MS PMincho";src: local("Microsoft YaHei");}
 @font-face {font-family: "MS PMincho";src: local("Inconsolata");}
@@ -685,7 +658,6 @@
 @font-face {font-family: "MS PMincho";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "MS PMincho";font-weight: 300;src:local("Inconsolata");}
 @font-face {font-family: "MS PMincho";font-weight: 300;src:local("Inconsolata Light");}
-    
 @font-face {font-family: "ＭＳ Ｐ明朝";src: local("ＭＳ Ｐ明朝");}
 @font-face {font-family: "ＭＳ Ｐ明朝";src: local("Microsoft YaHei");}
 @font-face {font-family: "ＭＳ Ｐ明朝";src: local("Inconsolata");}
@@ -700,9 +672,7 @@
 @font-face {font-family: "ＭＳ Ｐ明朝";font-weight: 300;src:local("Microsoft YaHei");}
 @font-face {font-family: "ＭＳ Ｐ明朝";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "ＭＳ Ｐ明朝";font-weight: 300;src:local("Inconsolata");}
-@font-face {font-family: "ＭＳ Ｐ明朝";font-weight: 300;src:local("Inconsolata Light");}    
-    
-    
+@font-face {font-family: "ＭＳ Ｐ明朝";font-weight: 300;src:local("Inconsolata Light");}
 @font-face {font-family: "Yu Gothic";src: local("Yu Gothic");}
 @font-face {font-family: "Yu Gothic";src: local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic";src: local("Inconsolata");}
@@ -717,13 +687,13 @@
 @font-face {font-family: "Yu Gothic";font-weight: 300;src:local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "Yu Gothic";font-weight: 300;src:local("Inconsolata");}
-@font-face {font-family: "Yu Gothic";font-weight: 300;src:local("Inconsolata Light");}    
+@font-face {font-family: "Yu Gothic";font-weight: 300;src:local("Inconsolata Light");}
 @font-face {font-family: "Yu Gothic";font-weight: 500;src:local("Yu Gothic");}
 @font-face {font-family: "Yu Gothic";font-weight: 500;src:local("Yu Gothic Medium");}
 @font-face {font-family: "Yu Gothic";font-weight: 500;src:local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic";font-weight: 500;src:local("Microsoft YaHei Medium");}
 @font-face {font-family: "Yu Gothic";font-weight: 500;src:local("Inconsolata");}
-@font-face {font-family: "Yu Gothic";font-weight: 500;src:local("Inconsolata Light");}     
+@font-face {font-family: "Yu Gothic";font-weight: 500;src:local("Inconsolata Light");}
 @font-face {font-family: "Yu Gothic Light";src: local("Yu Gothic Light");}
 @font-face {font-family: "Yu Gothic Light";src: local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic Light";src: local("Microsoft YaHei Light");}
@@ -733,9 +703,7 @@
 @font-face {font-family: "Yu Gothic Medium";src: local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic Medium";src: local("Microsoft YaHei Medium");}
 @font-face {font-family: "Yu Gothic Medium";src: local("Inconsolata");}
-@font-face {font-family: "Yu Gothic Medium";src: local("Inconsolata Light");} 
-   
-    
+@font-face {font-family: "Yu Gothic Medium";src: local("Inconsolata Light");}
 @font-face {font-family: "游ゴシック";src: local("游ゴシック");}
 @font-face {font-family: "游ゴシック";src: local("Microsoft YaHei");}
 @font-face {font-family: "游ゴシック";src: local("Inconsolata");}
@@ -750,13 +718,13 @@
 @font-face {font-family: "游ゴシック";font-weight: 300;src:local("Microsoft YaHei");}
 @font-face {font-family: "游ゴシック";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "游ゴシック";font-weight: 300;src:local("Inconsolata");}
-@font-face {font-family: "游ゴシック";font-weight: 300;src:local("Inconsolata Light");}    
+@font-face {font-family: "游ゴシック";font-weight: 300;src:local("Inconsolata Light");}
 @font-face {font-family: "游ゴシック";font-weight: 500;src:local("游ゴシック");}
 @font-face {font-family: "游ゴシック";font-weight: 500;src:local("游ゴシック Medium");}
 @font-face {font-family: "游ゴシック";font-weight: 500;src:local("Microsoft YaHei");}
 @font-face {font-family: "游ゴシック";font-weight: 500;src:local("Microsoft YaHei Medium");}
 @font-face {font-family: "游ゴシック";font-weight: 500;src:local("Inconsolata");}
-@font-face {font-family: "游ゴシック";font-weight: 500;src:local("Inconsolata Light");}     
+@font-face {font-family: "游ゴシック";font-weight: 500;src:local("Inconsolata Light");}
 @font-face {font-family: "游ゴシック Light";src: local("游ゴシック Light");}
 @font-face {font-family: "游ゴシック Light";src: local("Microsoft YaHei");}
 @font-face {font-family: "游ゴシック Light";src: local("Microsoft YaHei Light");}
@@ -766,9 +734,7 @@
 @font-face {font-family: "游ゴシック Medium";src: local("Microsoft YaHei");}
 @font-face {font-family: "游ゴシック Medium";src: local("Microsoft YaHei Medium");}
 @font-face {font-family: "游ゴシック Medium";src: local("Inconsolata");}
-@font-face {font-family: "游ゴシック Medium";src: local("Inconsolata Light");}    
-    
-
+@font-face {font-family: "游ゴシック Medium";src: local("Inconsolata Light");}
 @font-face {font-family: "Yu Gothic UI";src: local("Yu Gothic UI");}
 @font-face {font-family: "Yu Gothic UI";src: local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic UI";src: local("Inconsolata");}
@@ -784,20 +750,20 @@
 @font-face {font-family: "Yu Gothic UI";font-weight: 200;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 200;src:local("Microsoft YaHei Semilight");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 200;src:local("Inconsolata");}
-@font-face {font-family: "Yu Gothic UI";font-weight: 200;src:local("Inconsolata Light");}  
+@font-face {font-family: "Yu Gothic UI";font-weight: 200;src:local("Inconsolata Light");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 300;src:local("Yu Gothic UI");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 300;src:local("Yu Gothic UI Light");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 300;src:local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 300;src:local("Inconsolata");}
-@font-face {font-family: "Yu Gothic UI";font-weight: 300;src:local("Inconsolata Light");}    
+@font-face {font-family: "Yu Gothic UI";font-weight: 300;src:local("Inconsolata Light");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 600;src:local("Yu Gothic UI");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 600;src:local("Yu Gothic UI Semibold");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 600;src:local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 600;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 600;src:local("Microsoft YaHei Semibold");}
 @font-face {font-family: "Yu Gothic UI";font-weight: 600;src:local("Inconsolata");}
-@font-face {font-family: "Yu Gothic UI";font-weight: 600;src:local("Inconsolata Light");}     
+@font-face {font-family: "Yu Gothic UI";font-weight: 600;src:local("Inconsolata Light");}
 @font-face {font-family: "Yu Gothic UI Light";src: local("Yu Gothic UI Light");}
 @font-face {font-family: "Yu Gothic UI Light";src: local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic UI Light";src: local("Microsoft YaHei Light");}
@@ -808,15 +774,13 @@
 @font-face {font-family: "Yu Gothic UI Semibold";src: local("Microsoft YaHei Bold");}
 @font-face {font-family: "Yu Gothic UI Semibold";src: local("Microsoft YaHei Semibold");}
 @font-face {font-family: "Yu Gothic UI Semibold";src: local("Inconsolata");}
-@font-face {font-family: "Yu Gothic UI Semibold";src: local("Inconsolata Light");} 
+@font-face {font-family: "Yu Gothic UI Semibold";src: local("Inconsolata Light");}
 @font-face {font-family: "Yu Gothic UI Semilight";src: local("Yu Gothic UI Semilight");}
 @font-face {font-family: "Yu Gothic UI Semilight";src: local("Microsoft YaHei");}
 @font-face {font-family: "Yu Gothic UI Semilight";src: local("Microsoft YaHei Light");}
 @font-face {font-family: "Yu Gothic UI Semilight";src: local("Microsoft YaHei Semilight");}
 @font-face {font-family: "Yu Gothic UI Semilight";src: local("Inconsolata");}
 @font-face {font-family: "Yu Gothic UI Semilight";src: local("Inconsolata Light");}
-    
-    
 @font-face {font-family: "游ゴシック UI";src: local("游ゴシック UI");}
 @font-face {font-family: "游ゴシック UI";src: local("Microsoft YaHei");}
 @font-face {font-family: "游ゴシック UI";src: local("Inconsolata");}
@@ -832,13 +796,13 @@
 @font-face {font-family: "游ゴシック UI";font-weight: 200;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "游ゴシック UI";font-weight: 200;src:local("Microsoft YaHei Semilight");}
 @font-face {font-family: "游ゴシック UI";font-weight: 200;src:local("Inconsolata");}
-@font-face {font-family: "游ゴシック UI";font-weight: 200;src:local("Inconsolata Light");}  
+@font-face {font-family: "游ゴシック UI";font-weight: 200;src:local("Inconsolata Light");}
 @font-face {font-family: "游ゴシック UI";font-weight: 300;src:local("游ゴシック UI");}
 @font-face {font-family: "游ゴシック UI";font-weight: 300;src:local("游ゴシック UI Light");}
 @font-face {font-family: "游ゴシック UI";font-weight: 300;src:local("Microsoft YaHei");}
 @font-face {font-family: "游ゴシック UI";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "游ゴシック UI";font-weight: 300;src:local("Inconsolata");}
-@font-face {font-family: "游ゴシック UI";font-weight: 300;src:local("Inconsolata Light");}    
+@font-face {font-family: "游ゴシック UI";font-weight: 300;src:local("Inconsolata Light");}
 @font-face {font-family: "游ゴシック UI";font-weight: 600;src:local("游ゴシック UI");}
 @font-face {font-family: "游ゴシック UI";font-weight: 600;src:local("游ゴシック UI Semibold");}
 @font-face {font-family: "游ゴシック UI";font-weight: 600;src:local("Microsoft YaHei");}
@@ -856,17 +820,13 @@
 @font-face {font-family: "游ゴシック UI Semibold";src: local("Microsoft YaHei Bold");}
 @font-face {font-family: "游ゴシック UI Semibold";src: local("Microsoft YaHei Semibold");}
 @font-face {font-family: "游ゴシック UI Semibold";src: local("Inconsolata");}
-@font-face {font-family: "游ゴシック UI Semibold";src: local("Inconsolata Light");} 
+@font-face {font-family: "游ゴシック UI Semibold";src: local("Inconsolata Light");}
 @font-face {font-family: "游ゴシック UI Semilight";src: local("游ゴシック UI Semilight");}
 @font-face {font-family: "游ゴシック UI Semilight";src: local("Microsoft YaHei");}
 @font-face {font-family: "游ゴシック UI Semilight";src: local("Microsoft YaHei Light");}
 @font-face {font-family: "游ゴシック UI Semilight";src: local("Microsoft YaHei Semilight");}
 @font-face {font-family: "游ゴシック UI Semilight";src: local("Inconsolata");}
 @font-face {font-family: "游ゴシック UI Semilight";src: local("Inconsolata Light");}
-  
- 
-    
-
 @font-face {font-family: "Yu Mincho";src: local("Yu Mincho");}
 @font-face {font-family: "Yu Mincho";src: local("Microsoft YaHei");}
 @font-face {font-family: "Yu Mincho";src: local("Inconsolata");}
@@ -881,14 +841,14 @@
 @font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Microsoft YaHei");}
 @font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Inconsolata");}
-@font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Inconsolata Light");}    
+@font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Inconsolata Light");}
 @font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Yu Mincho");}
 @font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Yu Mincho Demibold");}
 @font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Microsoft YaHei");}
 @font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Microsoft YaHei Demibold");}
 @font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Inconsolata");}
-@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Inconsolata Light");}     
+@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Inconsolata Light");}
 @font-face {font-family: "Yu Mincho Light";src: local("Yu Mincho Light");}
 @font-face {font-family: "Yu Mincho Light";src: local("Microsoft YaHei");}
 @font-face {font-family: "Yu Mincho Light";src: local("Microsoft YaHei Light");}
@@ -899,9 +859,7 @@
 @font-face {font-family: "Yu Mincho Demibold";src: local("Microsoft YaHei Bold");}
 @font-face {font-family: "Yu Mincho Demibold";src: local("Microsoft YaHei Semibold");}
 @font-face {font-family: "Yu Mincho Demibold";src: local("Inconsolata");}
-@font-face {font-family: "Yu Mincho Demibold";src: local("Inconsolata Light");} 
-  
-    
+@font-face {font-family: "Yu Mincho Demibold";src: local("Inconsolata Light");}
 @font-face {font-family: "游明朝";src: local("游明朝");}
 @font-face {font-family: "游明朝";src: local("Microsoft YaHei");}
 @font-face {font-family: "游明朝";src: local("Inconsolata");}
@@ -916,14 +874,14 @@
 @font-face {font-family: "游明朝";font-weight: 300;src:local("Microsoft YaHei");}
 @font-face {font-family: "游明朝";font-weight: 300;src:local("Microsoft YaHei Light");}
 @font-face {font-family: "游明朝";font-weight: 300;src:local("Inconsolata");}
-@font-face {font-family: "游明朝";font-weight: 300;src:local("Inconsolata Light");}    
+@font-face {font-family: "游明朝";font-weight: 300;src:local("Inconsolata Light");}
 @font-face {font-family: "游明朝";font-weight: 600;src:local("游明朝");}
 @font-face {font-family: "游明朝";font-weight: 600;src:local("游明朝 Demibold");}
 @font-face {font-family: "游明朝";font-weight: 600;src:local("Microsoft YaHei");}
 @font-face {font-family: "游明朝";font-weight: 600;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "游明朝";font-weight: 600;src:local("Microsoft YaHei Demibold");}
 @font-face {font-family: "游明朝";font-weight: 600;src:local("Inconsolata");}
-@font-face {font-family: "游明朝";font-weight: 600;src:local("Inconsolata Light");}     
+@font-face {font-family: "游明朝";font-weight: 600;src:local("Inconsolata Light");}
 @font-face {font-family: "游明朝 Light";src: local("游明朝 Light");}
 @font-face {font-family: "游明朝 Light";src: local("Microsoft YaHei");}
 @font-face {font-family: "游明朝 Light";src: local("Microsoft YaHei Light");}
@@ -934,10 +892,11 @@
 @font-face {font-family: "游明朝 Demibold";src: local("Microsoft YaHei Bold");}
 @font-face {font-family: "游明朝 Demibold";src: local("Microsoft YaHei Semibold");}
 @font-face {font-family: "游明朝 Demibold";src: local("Inconsolata");}
-@font-face {font-family: "游明朝 Demibold";src: local("Inconsolata Light");}    
-
-    
+@font-face {font-family: "游明朝 Demibold";src: local("Inconsolata Light");}
 /* 替换韩文 */
+    
+    
+    
 @font-face {font-family: "Batang";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "BatangChe";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 
