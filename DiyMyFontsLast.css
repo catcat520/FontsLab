@@ -864,8 +864,77 @@
 @font-face {font-family: "游ゴシック UI Semilight";src: local("Inconsolata");}
 @font-face {font-family: "游ゴシック UI Semilight";src: local("Inconsolata Light");}
   
+ 
     
-@font-face {font-family: "Yu Mincho";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
+
+@font-face {font-family: "Yu Mincho";src: local("Yu Mincho");}
+@font-face {font-family: "Yu Mincho";src: local("Microsoft YaHei");}
+@font-face {font-family: "Yu Mincho";src: local("Inconsolata");}
+@font-face {font-family: "Yu Mincho";font-weight: Bold;src:local("Yu Mincho");}
+@font-face {font-family: "Yu Mincho";font-weight: Bold;src:local("Yu Mincho Bold");}
+@font-face {font-family: "Yu Mincho";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Yu Mincho";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Yu Mincho";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Yu Mincho";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Yu Mincho");}
+@font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Yu Mincho Light");}
+@font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Microsoft YaHei");}
+@font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Microsoft YaHei Light");}
+@font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "Yu Mincho";font-weight: 300;src:local("Inconsolata Light");}    
+@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Yu Mincho");}
+@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Yu Mincho Demibold");}
+@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Microsoft YaHei");}
+@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Microsoft YaHei Demibold");}
+@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Inconsolata");}
+@font-face {font-family: "Yu Mincho";font-weight: 600;src:local("Inconsolata Light");}     
+@font-face {font-family: "Yu Mincho Light";src: local("Yu Mincho Light");}
+@font-face {font-family: "Yu Mincho Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "Yu Mincho Light";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "Yu Mincho Light";src: local("Inconsolata");}
+@font-face {font-family: "Yu Mincho Light";src: local("Inconsolata Light");}
+@font-face {font-family: "Yu Mincho Demibold";src: local("Yu Mincho Demibold");}
+@font-face {font-family: "Yu Mincho Demibold";src: local("Microsoft YaHei");}
+@font-face {font-family: "Yu Mincho Demibold";src: local("Microsoft YaHei Bold");}
+@font-face {font-family: "Yu Mincho Demibold";src: local("Microsoft YaHei Semibold");}
+@font-face {font-family: "Yu Mincho Demibold";src: local("Inconsolata");}
+@font-face {font-family: "Yu Mincho Demibold";src: local("Inconsolata Light");} 
+  
+    
+@font-face {font-family: "游明朝";src: local("游明朝");}
+@font-face {font-family: "游明朝";src: local("Microsoft YaHei");}
+@font-face {font-family: "游明朝";src: local("Inconsolata");}
+@font-face {font-family: "游明朝";font-weight: Bold;src:local("游明朝");}
+@font-face {font-family: "游明朝";font-weight: Bold;src:local("游明朝 Bold");}
+@font-face {font-family: "游明朝";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "游明朝";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "游明朝";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "游明朝";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "游明朝";font-weight: 300;src:local("游明朝");}
+@font-face {font-family: "游明朝";font-weight: 300;src:local("游明朝 Light");}
+@font-face {font-family: "游明朝";font-weight: 300;src:local("Microsoft YaHei");}
+@font-face {font-family: "游明朝";font-weight: 300;src:local("Microsoft YaHei Light");}
+@font-face {font-family: "游明朝";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "游明朝";font-weight: 300;src:local("Inconsolata Light");}    
+@font-face {font-family: "游明朝";font-weight: 600;src:local("游明朝");}
+@font-face {font-family: "游明朝";font-weight: 600;src:local("游明朝 Demibold");}
+@font-face {font-family: "游明朝";font-weight: 600;src:local("Microsoft YaHei");}
+@font-face {font-family: "游明朝";font-weight: 600;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "游明朝";font-weight: 600;src:local("Microsoft YaHei Demibold");}
+@font-face {font-family: "游明朝";font-weight: 600;src:local("Inconsolata");}
+@font-face {font-family: "游明朝";font-weight: 600;src:local("Inconsolata Light");}     
+@font-face {font-family: "游明朝 Light";src: local("游明朝 Light");}
+@font-face {font-family: "游明朝 Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "游明朝 Light";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "游明朝 Light";src: local("Inconsolata");}
+@font-face {font-family: "游明朝 Light";src: local("Inconsolata Light");}
+@font-face {font-family: "游明朝 Demibold";src: local("游明朝 Demibold");}
+@font-face {font-family: "游明朝 Demibold";src: local("Microsoft YaHei");}
+@font-face {font-family: "游明朝 Demibold";src: local("Microsoft YaHei Bold");}
+@font-face {font-family: "游明朝 Demibold";src: local("Microsoft YaHei Semibold");}
+@font-face {font-family: "游明朝 Demibold";src: local("Inconsolata");}
+@font-face {font-family: "游明朝 Demibold";src: local("Inconsolata Light");}    
 
     
 /* 替换韩文 */
