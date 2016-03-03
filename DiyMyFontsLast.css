@@ -1064,6 +1064,11 @@
 @font-face {font-family: "Malgun Gothic";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Malgun Gothic";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Malgun Gothic";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "Malgun Gothic Semilight";src: local("Malgun Gothic Semilight");}
+@font-face {font-family: "Malgun Gothic Semilight";src: local("Microsoft YaHei");}
+@font-face {font-family: "Malgun Gothic Semilight";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "Malgun Gothic Semilight";src: local("Inconsolata");}
+@font-face {font-family: "Malgun Gothic Semilight";src: local("Inconsolata Light");}
 @font-face {font-family: "맑은 고딕";src: local("맑은 고딕");}
 @font-face {font-family: "맑은 고딕";src: local("Microsoft YaHei");}
 @font-face {font-family: "맑은 고딕";src: local("Inconsolata");}
@@ -1073,6 +1078,11 @@
 @font-face {font-family: "맑은 고딕";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "맑은 고딕";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "맑은 고딕";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "맑은 고딕 Semilight";src: local("맑은 고딕 Semilight");}
+@font-face {font-family: "맑은 고딕 Semilight";src: local("Microsoft YaHei");}
+@font-face {font-family: "맑은 고딕 Semilight";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "맑은 고딕 Semilight";src: local("Inconsolata");}
+@font-face {font-family: "맑은 고딕 Semilight";src: local("Inconsolata Light");}
 @font-face {font-family: "New Gulim";src: local("New Gulim");}
 @font-face {font-family: "New Gulim";src: local("Microsoft YaHei");}
 @font-face {font-family: "New Gulim";src: local("Inconsolata");}
