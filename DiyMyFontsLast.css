@@ -74,7 +74,7 @@
 /* 注册本地特殊字体*/    
 @font-face {font-family: "Not@font-face_Arial";src: local("Arial"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "Not@font-face_Helvetica";src: local("Helvetica"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
- 
+
 /* 替换字体 */    
 /* WIN */
 /* 替换简体 */
@@ -910,7 +910,7 @@
 @font-face {font-family: "游明朝 Demibold";src: local("Microsoft YaHei Semibold");}
 @font-face {font-family: "游明朝 Demibold";src: local("Inconsolata");}
 @font-face {font-family: "游明朝 Demibold";src: local("Inconsolata Light");}
-/* 替换韩文 *//* 部分韩文跳过中文字体中的韩文字体而直接调用韩文字体 */
+/* 替换韩文 *//* 部分韩文绕过中文字体中的韩文字体而直接调用韩文字体 */
 @font-face {font-family: "Batang";src: local("Batang");}
 @font-face {font-family: "Batang";src: local("Microsoft YaHei");}
 @font-face {font-family: "Batang";src: local("Inconsolata");}
@@ -1585,7 +1585,7 @@
     
     @font-face {font-family: "Verdana Pro";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 
-/*其他语种*/
+/* 替换其他语种 */
 @font-face {font-family: "Ebima";src: local("Ebima");}
 @font-face {font-family: "Ebima";src: local("Inconsolata");}
 @font-face {font-family: "Ebima";font-weight: Bold;src:local("Ebima");}
@@ -1669,9 +1669,17 @@
 @font-face {font-family: "Roboto";font-weight: Bold;src:local("Microsoft YaHei");}
 @font-face {font-family: "Roboto";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Roboto";font-weight: Bold;src:local("Inconsolata");}
-@font-face {font-family: "Roboto";font-weight: Bold;src:local("Inconsolata Bold");}   
-    
-    
+@font-face {font-family: "Roboto";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "Droid Sans";src: local("Droid Sans");}
+@font-face {font-family: "Droid Sans";src: local("Microsoft YaHei");}
+@font-face {font-family: "Droid Sans";src: local("Inconsolata");}
+@font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Droid Sans");}
+@font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Droid Sans Bold");}
+@font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Inconsolata Bold");}
+
 /* 扩展 *//* 启用便携字体 */
 
 /* 范围：*/}/* 非火狐浏览器，使用时要删除这行代码 */
