@@ -159,6 +159,15 @@
 @font-face {font-family: "楷体";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "楷体";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "楷体";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "KaiTi_GB2312";src: local("KaiTi_GB2312");}
+@font-face {font-family: "KaiTi_GB2312";src: local("Microsoft YaHei");}
+@font-face {font-family: "KaiTi_GB2312";src: local("Inconsolata");}
+@font-face {font-family: "KaiTi_GB2312";font-weight: Bold;src:local("KaiTi_GB2312");}
+@font-face {font-family: "KaiTi_GB2312";font-weight: Bold;src:local("KaiTi_GB2312 Bold");}
+@font-face {font-family: "KaiTi_GB2312";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "KaiTi_GB2312";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "KaiTi_GB2312";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "KaiTi_GB2312";font-weight: Bold;src:local("Inconsolata Bold");}
 @font-face {font-family: "楷体_GB2312";src: local("楷体_GB2312");}
 @font-face {font-family: "楷体_GB2312";src: local("Microsoft YaHei");}
 @font-face {font-family: "楷体_GB2312";src: local("Inconsolata");}
@@ -186,6 +195,15 @@
 @font-face {font-family: "仿宋";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "仿宋";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "仿宋";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "FangSong_GB2312";src: local("FangSong_GB2312");}
+@font-face {font-family: "FangSong_GB2312";src: local("Microsoft YaHei");}
+@font-face {font-family: "FangSong_GB2312";src: local("Inconsolata");}
+@font-face {font-family: "FangSong_GB2312";font-weight: Bold;src:local("FangSong_GB2312");}
+@font-face {font-family: "FangSong_GB2312";font-weight: Bold;src:local("FangSong_GB2312 Bold");}
+@font-face {font-family: "FangSong_GB2312";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "FangSong_GB2312";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "FangSong_GB2312";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "FangSong_GB2312";font-weight: Bold;src:local("Inconsolata Bold");}
 @font-face {font-family: "仿宋_GB2312";src: local("仿宋_GB2312");}
 @font-face {font-family: "仿宋_GB2312";src: local("Microsoft YaHei");}
 @font-face {font-family: "仿宋_GB2312";src: local("Inconsolata");}
@@ -1680,6 +1698,39 @@
 @font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Inconsolata Bold");}
 
+/* 替换热门字体（非系统自带） */    
+   
+@font-face {font-family: "Lato";src: local("Lato");}
+@font-face {font-family: "Lato";src: local("Microsoft YaHei");}
+@font-face {font-family: "Lato";src: local("Inconsolata");}
+@font-face {font-family: "Lato";font-weight: Bold;src:local("Lato");}
+@font-face {font-family: "Lato";font-weight: Bold;src:local("Lato Bold");}
+@font-face {font-family: "Lato";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Lato";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Lato";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Lato";font-weight: Bold;src:local("Inconsolata Bold");}
+    
+@font-face {font-family: "Open Sans";src: local("Open Sans");}
+@font-face {font-family: "Open Sans";src: local("Microsoft YaHei");}
+@font-face {font-family: "Open Sans";src: local("Inconsolata");}
+@font-face {font-family: "Open Sans";font-weight: Bold;src:local("Open Sans");}
+@font-face {font-family: "Open Sans";font-weight: Bold;src:local("Open Sans Bold");}
+@font-face {font-family: "Open Sans";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Open Sans";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Open Sans";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Open Sans";font-weight: Bold;src:local("Inconsolata Bold");}    
+    
+@font-face {font-family: "华文楷体";src: local("华文楷体");}
+@font-face {font-family: "华文楷体";src: local("Microsoft YaHei");}
+@font-face {font-family: "华文楷体";src: local("Inconsolata");}
+@font-face {font-family: "华文楷体";font-weight: Bold;src:local("华文楷体");}
+@font-face {font-family: "华文楷体";font-weight: Bold;src:local("华文楷体 Bold");}
+@font-face {font-family: "华文楷体";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "华文楷体";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "华文楷体";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "华文楷体";font-weight: Bold;src:local("Inconsolata Bold");}     
+    
+    
 /* 扩展 *//* 启用便携字体 */
 
 /* 范围：*/}/* 非火狐浏览器，使用时要删除这行代码 */
