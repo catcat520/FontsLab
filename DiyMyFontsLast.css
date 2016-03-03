@@ -1109,6 +1109,76 @@
 @font-face {font-family: "맑은 고딕 Semilight";src: local("Microsoft YaHei Light");}
 @font-face {font-family: "맑은 고딕 Semilight";src: local("Inconsolata");}
 @font-face {font-family: "맑은 고딕 Semilight";src: local("Inconsolata Light");}
+    
+    
+@font-face {font-family: "NanumGothic";src: local("Malgun Gothic");}
+@font-face {font-family: "NanumGothic";src: local("Microsoft YaHei");}
+@font-face {font-family: "NanumGothic";src: local("Inconsolata");}
+@font-face {font-family: "NanumGothic";font-weight: Bold;src:local("Malgun Gothic");}
+@font-face {font-family: "NanumGothic";font-weight: Bold;src:local("Malgun Gothic Bold");}
+@font-face {font-family: "NanumGothic";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "NanumGothic";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "NanumGothic";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "NanumGothic";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "NanumGothic";font-weight: 300;src:local("Malgun Gothic");}
+@font-face {font-family: "NanumGothic";font-weight: 300;src:local("Malgun Gothic Semilight");}
+@font-face {font-family: "NanumGothic";font-weight: 300;src:local("Microsoft YaHei");}
+@font-face {font-family: "NanumGothic";font-weight: 300;src:local("Microsoft YaHei Light");}
+@font-face {font-family: "NanumGothic";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "NanumGothic";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "NanumGothic";font-weight: 800;src:local("Malgun Gothic");}
+@font-face {font-family: "NanumGothic";font-weight: 800;src:local("Malgun Gothic Bold");}
+@font-face {font-family: "NanumGothic";font-weight: 800;src:local("Microsoft YaHei");}
+@font-face {font-family: "NanumGothic";font-weight: 800;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "NanumGothic";font-weight: 800;src:local("Inconsolata");}
+@font-face {font-family: "NanumGothic";font-weight: 800;src:local("Inconsolata Bold");}    
+@font-face {font-family: "NanumGothicExtraBold";src: local("Malgun Gothic");}
+@font-face {font-family: "NanumGothicExtraBold";src: local("Malgun Gothic Bold");}
+@font-face {font-family: "NanumGothicExtraBold";src: local("Microsoft YaHei");}
+@font-face {font-family: "NanumGothicExtraBold";src: local("Microsoft YaHei Bold");}
+@font-face {font-family: "NanumGothicExtraBold";src: local("Inconsolata");}
+@font-face {font-family: "NanumGothicExtraBold";src: local("Inconsolata Bold");}
+@font-face {font-family: "NanumGothic Light";src: local("Malgun Gothic");}
+@font-face {font-family: "NanumGothic Light";src: local("Malgun Gothic Semilight");}
+@font-face {font-family: "NanumGothic Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "NanumGothic Light";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "NanumGothic Light";src: local("Inconsolata");}
+@font-face {font-family: "NanumGothic Light";src: local("Inconsolata Light");}
+
+@font-face {font-family: "나눔고딕";src: local("Malgun Gothic");}
+@font-face {font-family: "나눔고딕";src: local("Microsoft YaHei");}
+@font-face {font-family: "나눔고딕";src: local("Inconsolata");}
+@font-face {font-family: "나눔고딕";font-weight: Bold;src:local("Malgun Gothic");}
+@font-face {font-family: "나눔고딕";font-weight: Bold;src:local("Malgun Gothic Bold");}
+@font-face {font-family: "나눔고딕";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "나눔고딕";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "나눔고딕";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "나눔고딕";font-weight: Bold;src:local("Inconsolata Bold");}
+@font-face {font-family: "나눔고딕";font-weight: 300;src:local("Malgun Gothic");}
+@font-face {font-family: "나눔고딕";font-weight: 300;src:local("Malgun Gothic Semilight");}
+@font-face {font-family: "나눔고딕";font-weight: 300;src:local("Microsoft YaHei");}
+@font-face {font-family: "나눔고딕";font-weight: 300;src:local("Microsoft YaHei Light");}
+@font-face {font-family: "나눔고딕";font-weight: 300;src:local("Inconsolata");}
+@font-face {font-family: "나눔고딕";font-weight: 300;src:local("Inconsolata Light");}
+@font-face {font-family: "나눔고딕";font-weight: 800;src:local("Malgun Gothic");}
+@font-face {font-family: "나눔고딕";font-weight: 800;src:local("Malgun Gothic Bold");}
+@font-face {font-family: "나눔고딕";font-weight: 800;src:local("Microsoft YaHei");}
+@font-face {font-family: "나눔고딕";font-weight: 800;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "나눔고딕";font-weight: 800;src:local("Inconsolata");}
+@font-face {font-family: "나눔고딕";font-weight: 800;src:local("Inconsolata Bold");}    
+@font-face {font-family: "나눔고딕 ExtraBold";src: local("Malgun Gothic");}
+@font-face {font-family: "나눔고딕 ExtraBold";src: local("Malgun Gothic Bold");}
+@font-face {font-family: "나눔고딕 ExtraBold";src: local("Microsoft YaHei");}
+@font-face {font-family: "나눔고딕 ExtraBold";src: local("Microsoft YaHei Bold");}
+@font-face {font-family: "나눔고딕 ExtraBold";src: local("Inconsolata");}
+@font-face {font-family: "나눔고딕 ExtraBold";src: local("Inconsolata Bold");}
+@font-face {font-family: "나눔고딕 Light";src: local("Malgun Gothic");}
+@font-face {font-family: "나눔고딕 Light";src: local("Malgun Gothic Semilight");}
+@font-face {font-family: "나눔고딕 Light";src: local("Microsoft YaHei");}
+@font-face {font-family: "나눔고딕 Light";src: local("Microsoft YaHei Light");}
+@font-face {font-family: "나눔고딕 Light";src: local("Inconsolata");}
+@font-face {font-family: "나눔고딕 Light";src: local("Inconsolata Light");}    
+    
 @font-face {font-family: "New Gulim";src: local("New Gulim");}
 @font-face {font-family: "New Gulim";src: local("Microsoft YaHei");}
 @font-face {font-family: "New Gulim";src: local("Inconsolata");}
