@@ -1841,7 +1841,23 @@
 @font-face {font-family: "Verdana Pro";font-weight: Bold;src:local("Inconsolata Bold");}    
     
 /* 替换其他语种 */
- 
+/* 替换符号 *//* "Cambria Math","Segoe MDL2 Assets","Segoe UI Emoji","Segoe UI Symbol","Symbol","Symbola","Unifont","Webdings","Wingdings" */
+@font-face {font-family: "Segoe UI Symbol";src: local("Segoe UI Symbol");}
+@font-face {font-family: "Segoe UI Symbol";src: local("Symbola");}
+@font-face {font-family: "Segoe UI Symbol";src: local("Android Emoji");}
+@font-face {font-family: "Segoe UI Symbol";src: local("Apple Color Emoji");}
+@font-face {font-family: "Segoe UI Symbol";src: local("NotoColorEmoji");}
+@font-face {font-family: "Segoe UI Symbol";src: local("Segoe UI Emoji");}
+@font-face {font-family: "Segoe UI Symbol";src: local("Firefox Emoji");}
+@font-face {font-family: "Segoe UI Symbol";src: local("Microsoft YaHei");}
+@font-face {font-family: "Segoe UI Symbol";src: local("Inconsolata");}
+@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Segoe UI Symbol");}
+@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Segoe UI Symbol Bold");}
+@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Symbola");}
+@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Symbola Bold");}
+@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Microsoft YaHei Bold");}    
+@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Inconsolata Bold");}  
 
     
     
@@ -1892,23 +1908,7 @@
 @font-face {font-family: "Monaco";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Nimbus Roman No9 L";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 
-/* 替换符号 *//* "Cambria Math","Segoe MDL2 Assets","Segoe UI Emoji","Segoe UI Symbol","Symbol","Symbola","Unifont","Webdings","Wingdings" */
-@font-face {font-family: "Segoe UI Symbol";src: local("Segoe UI Symbol");}
-@font-face {font-family: "Segoe UI Symbol";src: local("Symbola");}
-@font-face {font-family: "Segoe UI Symbol";src: local("Android Emoji");}
-@font-face {font-family: "Segoe UI Symbol";src: local("Apple Color Emoji");}
-@font-face {font-family: "Segoe UI Symbol";src: local("NotoColorEmoji");}
-@font-face {font-family: "Segoe UI Symbol";src: local("Segoe UI Emoji");}
-@font-face {font-family: "Segoe UI Symbol";src: local("Firefox Emoji");}
-@font-face {font-family: "Segoe UI Symbol";src: local("Microsoft YaHei");}
-@font-face {font-family: "Segoe UI Symbol";src: local("Inconsolata");}
-@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Segoe UI Symbol");}
-@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Segoe UI Symbol Bold");}
-@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Symbola");}
-@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Symbola Bold");}
-@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Microsoft YaHei Bold");}    
-@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Inconsolata");}
-@font-face {font-family: "Segoe UI Symbol";font-weight: Bold;src:local("Inconsolata Bold");} 
+
 /* Android */
 @font-face {font-family: "Roboto";src: local("Roboto");}
 @font-face {font-family: "Roboto";src: local("Microsoft YaHei");}
