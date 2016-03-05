@@ -4,7 +4,7 @@ ForceMyFontsLast.css : 采用 *:not([class*="ico"]):not(i){font-family: 方式�
 DiyMyFontsLast.css : 采用 @font-face {font-family: 方式逐个替换字体<br>
 
 <b>求赞助</b><br>
-目前调试字体都是在 WIN 下，求赞助 MAC 台式机一台，<br>
+目前调试字体都是在 WIN 下，求赞助 MAC 台式机一台，京东价如下<br>
 ￥:17000左右 ; Apple iMac 27英寸一体机（Core i5 处理器/8GB内存/1TB存储/2GB独显/Retina 5K屏 MF886CH/A）<br>
 或者 <br>
 ￥:7000左右 ; (Apple Mac mini台式电脑 (Core i5 处理器/8GB内存/1TB Fusion Drive存储 MGEQ2CH/A ))<br>
