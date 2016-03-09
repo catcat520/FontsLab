@@ -1,3 +1,7 @@
+2016.03.09 | 11:55:22
+1.chrome 调用粗体的方式与 firefox 不同
+firefox : /* main(Latin) *//* 700:Bold */@font-face {font-family: "SDF.Latin";font-weight:700;src: local("Inconsolata-g Bold")
+chrome : /* main(Latin) *//* 700:Bold */@font-face {font-family: "SDF.Latin";font-weight:700;src: local("Inconsolata Bold"),local("Inconsolata")
 2016.03.08 | 18:06:24
 1.为了调用，提取，测试几个字体，不断的折腾我的机子，安装了win10会员版和win8.1，累累累累累
 2016.02.28 | 08:32:03
