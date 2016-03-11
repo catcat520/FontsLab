@@ -1895,10 +1895,36 @@
 @font-face {font-family: "WenQuanYi Zen Hei Sharp";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 @font-face {font-family: "文泉驿点阵正黑";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3");}
 /* 替换英文 */
-@font-face {font-family: "Helvetica";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "Helvetica CY";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "Helvetica Neue";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
-@font-face {font-family: "Helvetica Neue LT Std";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
+    
+@font-face {font-family: "Helvetica";src: local("Helvetica");}
+@font-face {font-family: "Helvetica";src: local("Microsoft YaHei");}
+@font-face {font-family: "Helvetica";src: local("Inconsolata");}
+@font-face {font-family: "Helvetica";font-weight: Bold;src:local("Helvetica");}
+@font-face {font-family: "Helvetica";font-weight: Bold;src:local("Helvetica Bold");}
+@font-face {font-family: "Helvetica";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Helvetica";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Helvetica";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Helvetica";font-weight: Bold;src:local("Inconsolata Bold");}
+    
+@font-face {font-family: "Helvetica CY";src: local("Helvetica CY");}
+@font-face {font-family: "Helvetica CY";src: local("Microsoft YaHei");}
+@font-face {font-family: "Helvetica CY";src: local("Inconsolata");}
+@font-face {font-family: "Helvetica CY";font-weight: Bold;src:local("Helvetica CY");}
+@font-face {font-family: "Helvetica CY";font-weight: Bold;src:local("Helvetica CY Bold");}
+@font-face {font-family: "Helvetica CY";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Helvetica CY";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Helvetica CY";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Helvetica CY";font-weight: Bold;src:local("Inconsolata Bold");}
+    
+@font-face {font-family: "Helvetica Neue";src: local("Helvetica Neue");}
+@font-face {font-family: "Helvetica Neue";src: local("Microsoft YaHei");}
+@font-face {font-family: "Helvetica Neue";src: local("Inconsolata");}
+@font-face {font-family: "Helvetica Neue";font-weight: Bold;src:local("Helvetica Neue");}
+@font-face {font-family: "Helvetica Neue";font-weight: Bold;src:local("Lucida Grande Bold");}
+@font-face {font-family: "Helvetica Neue";font-weight: Bold;src:local("Microsoft YaHei");}
+@font-face {font-family: "Helvetica Neue";font-weight: Bold;src:local("Microsoft YaHei Bold");}
+@font-face {font-family: "Helvetica Neue";font-weight: Bold;src:local("Inconsolata");}
+@font-face {font-family: "Helvetica Neue";font-weight: Bold;src:local("Inconsolata Bold");}
 
 @font-face {font-family: "Lucida Grande";src: local("Lucida Grande");}
 @font-face {font-family: "Lucida Grande";src: local("Microsoft YaHei");}
@@ -1910,7 +1936,6 @@
 @font-face {font-family: "Lucida Grande";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Lucida Grande";font-weight: Bold;src:local("Inconsolata Bold");}    
     
-    @font-face {font-family: "";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 
     @font-face {font-family: "Menlo";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
 @font-face {font-family: "Monaco";src: local("Inconsolata-g"),local("Inconsolata"),local("Tahoma"),local("Menlo"),local("Monaco"),local("Nimbus Roman No9 L");}
@@ -1918,6 +1943,7 @@
 
 
 /* Android */
+/* 替换英文 */
 @font-face {font-family: "Roboto";src: local("Roboto");}
 @font-face {font-family: "Roboto";src: local("Microsoft YaHei");}
 @font-face {font-family: "Roboto";src: local("Inconsolata");}
@@ -1936,7 +1962,8 @@
 @font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Microsoft YaHei Bold");}
 @font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Inconsolata");}
 @font-face {font-family: "Droid Sans";font-weight: Bold;src:local("Inconsolata Bold");}
-
+/* 替换中文 */
+    
 /* 替换热门字体（非系统自带） */    
    
 @font-face {font-family: "Lato";src: local("Lato");}
