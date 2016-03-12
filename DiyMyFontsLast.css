@@ -1828,15 +1828,7 @@
 @font-face{font-family:"BiauKai";font-weight:Bold;src:local("Microsoft YaHei Bold");}
 @font-face{font-family:"BiauKai";font-weight:Bold;src:local("Inconsolata");}
 @font-face{font-family:"BiauKai";font-weight:Bold;src:local("Inconsolata Bold");}
-@font-face{font-family:"標楷體";src:local("標楷體");}
-@font-face{font-family:"標楷體";src:local("Microsoft YaHei");}
-@font-face{font-family:"標楷體";src:local("Inconsolata");}
-@font-face{font-family:"標楷體";font-weight:Bold;src:local("標楷體");}
-@font-face{font-family:"標楷體";font-weight:Bold;src:local("標楷體 Bold");}
-@font-face{font-family:"標楷體";font-weight:Bold;src:local("Microsoft YaHei");}
-@font-face{font-family:"標楷體";font-weight:Bold;src:local("Microsoft YaHei Bold");}
-@font-face{font-family:"標楷體";font-weight:Bold;src:local("Inconsolata");}
-@font-face{font-family:"標楷體";font-weight:Bold;src:local("Inconsolata Bold");}
+/* 標楷體 同 WIN */
 @font-face{font-family:"Hannotate SC";src:local("Hannotate SC");}
 @font-face{font-family:"Hannotate SC";src:local("Microsoft YaHei");}
 @font-face{font-family:"Hannotate SC";src:local("Inconsolata");}
