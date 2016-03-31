@@ -5,12 +5,12 @@
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
-/* 范围：*/@-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet|ssh://|(.CodeMirror)|^https?://(dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|fiddle.md|www.imooc.com|markdown.xiaoshujiang.com|app.gistboxapp.com|gist.github.com|github.com|wenku.baidu.com\/(view|link)|www.youziku.com|typekit.com|fontdeck.com|designgala.com|127.0.0.1|iamchucky.github.io|www.google.com\/font|.*.justfont.com\/font|.*ifontcloud.com|www.hanyi.com.cn\/products\/|www.arphic.com..*\/.*\/font\/|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){/* 非火狐浏览器，使用时要删除这行代码 */
+/* 范围：*/@-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet|ssh://|(.CodeMirror)|^https?://(dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|fiddle.md|www.imooc.com|markdown.xiaoshujiang.com|app.gistboxapp.com|gist.github.com|github.com|wenku.baidu.com\/(view|link)|www.youziku.com|typekit.com|fontdeck.com|designgala.com|127.0.0.1|iamchucky.github.io|www.google.com\/font|.*justfont.com\/font|.*ifontcloud.com|.*hanyi.com.cn\/products\/|www.arphic.com..*\/.*\/font\/|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){/* 非火狐浏览器，使用时要删除这行代码 */
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
 /* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2016.03.31 | 08:28)"  !important;}
 /* FontsTest */#left-info:after
-/* FontsTest */{background: #CBDDE3;color: black;content: "字体测试 : 0123456789 中国 ちゅうごく チュウゴク 중국 abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ `~!@#$%^&*()-=_+[]\{}|;':\",./<>? "  !important;}
+/* FontsTest */{background: #CBDDE3;color: black;content: "字体测试 : 0123456789　`~!@#$%^&*()-=_+[]{}\\|;':\",./<>? abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ　中国 ちゅうごく チュウゴク 중국 "  !important;}
 
 /* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
 /* main(sysfont) */"XYZ0123456789XYZ","HighLevelEmoji","Catcat520.Lite.Latin","在这填写","Inconsolata","Envy Code R","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei UI","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","fp-font",
