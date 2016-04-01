@@ -1,5 +1,5 @@
 /* 名称：004.ForceMyFonts.Chinese.FireFoxChromeIE.catcat520 *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣ */
-/* 更新：2016.03.31 | 08:28 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
+/* 更新：2016.04.02 | 02:14 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
 /* 功能：自定义字体，英 Segoe UI，中 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -8,9 +8,12 @@
 /* 范围：*/@-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet|ssh://|(.CodeMirror)|^https?://(dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|fiddle.md|www.imooc.com|markdown.xiaoshujiang.com|app.gistboxapp.com|gist.github.com|github.com|wenku.baidu.com\/(view|link)|www.youziku.com|typekit.com|fontdeck.com|designgala.com|127.0.0.1|iamchucky.github.io|www.google.com\/font|.*justfont.com\/font|.*ifontcloud.com|.*hanyi.com.cn\/products\/|www.arphic.com..*\/.*\/font\/|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){/* 非火狐浏览器，使用时要删除这行代码 */
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2016.03.31 | 08:28)"  !important;}
-/* FontsTest */#left-info:after
-/* FontsTest */{background: #CBDDE3;color: black;content: "字体演示 : 0123456789　`~!@#$%^&*()-=_+[]{}\\|;':\",./<>? abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ　龙凤龍鳳　ドラゴンふしちょう　용과봉황　"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2016.04.02 | 02:14)"  !important;}
+/* FontsDemo */@-moz-document url-prefix("https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520"){
+/* FontsDemo */div#content-wrapper>article#main-article>div#left-info:after
+/* FontsDemo */{background: #CBDDE3;color: black;content: "字体演示 : 0123456789　`~!@#$%^&*()-=_+[]{}\\|;':\",./<>? abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ　龙凤龍鳳　ドラゴンふしちょう　용과봉황　"  !important;}
+/* SitePosFix */section#style-info>div#main-style-info>ul#style-settings{padding-left: 1em  !important;}
+}
 
 /* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
 /* main(sysfont) */"XYZ0123456789XYZ","HighLevelEmoji","Catcat520.Lite.Latin","在这填写","Inconsolata","Envy Code R","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei UI","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","fp-font",
