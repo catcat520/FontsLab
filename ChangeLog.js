@@ -1,3 +1,5 @@
+2016.04.10 | 17:12:11
+1.分离 淘宝/天猫/支付宝 代码，以保证不乱码
 2016.03.09 | 11:55:22
 1.chrome 调用粗体的方式与 firefox 不同
 firefox : /* main(Latin) *//* 700:Bold */@font-face {font-family: "SDF.Latin";font-weight:700;src: local("Inconsolata-g Bold")
