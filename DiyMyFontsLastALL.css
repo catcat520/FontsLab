@@ -1,5 +1,5 @@
 /* 名称：004.DiyMyFonts.FireFoxChromeIE.catcat520.B *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣.B */
-/* 更新：2016.03.15 | 00:28 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu，空间赞助 JasonBarnabe(userstyles space sponsor) */
+/* 更新：2016.04.11 | 20:45 *//* 感谢：该 CSS 最初版本来至 卡饭 904055262，字体阴影数值参考 卡饭 freelu，空间赞助 JasonBarnabe(userstyles space sponsor) */
 /* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -9,7 +9,7 @@
 
 /* tempcode */*{text-decoration-color: #f06d06 !important;}
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2016.03.15 | 00:28)"  !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " B.Now(2016.04.11 | 20:45)"  !important;}
 
 /* FontCtrl */
 /* main(SpecDiyFonts) */*:not([class*="ico"]):not(i){font-family:"SDF.TypeSet","SDF.Latin","SDF.Asia",
@@ -251,19 +251,6 @@
 @font-face{font-family:"Microsoft YaHei UI Light";src:local("Microsoft YaHei UI Light");}
 @font-face{font-family:"Microsoft YaHei UI Light";src:local("Temp Latin Fonts Variables"),local("Inconsolata"),local("Envy Code R"),local("Segoe UI"),local("Ubuntu"),local("Liberation Sans"),local("Helvetica Neue"),local("Liberation Mono"),local("Menlo"),local("Monaco"),local("Consolas"),local("Lucida Grande"),local("Tahoma"),local("Helvetica"),local("Nimbus Roman No9 L");}
 @font-face{font-family:"Microsoft YaHei UI Light";src:local("Temp Latin Fonts Variables Light"),local("Inconsolata Light"),local("Envy Code R Light"),local("Segoe UI Light"),local("Ubuntu Light"),local("Liberation Sans Light"),local("Helvetica Neue Light"),local("Liberation Mono Light"),local("Menlo Light"),local("Monaco Light"),local("Consolas Light"),local("Lucida Grande Light"),local("Tahoma Light"),local("Helvetica Light"),local("Nimbus Roman No9 L Light");}
-@font-face{font-family:"微软雅黑 UI";src:local("微软雅黑 UI");}
-@font-face{font-family:"微软雅黑 UI";src:local("Temp Latin Fonts Variables"),local("Inconsolata"),local("Envy Code R"),local("Segoe UI"),local("Ubuntu"),local("Liberation Sans"),local("Helvetica Neue"),local("Liberation Mono"),local("Menlo"),local("Monaco"),local("Consolas"),local("Lucida Grande"),local("Tahoma"),local("Helvetica"),local("Nimbus Roman No9 L");}
-@font-face{font-family:"微软雅黑 UI";font-weight:Bold;src:local("微软雅黑 UI");}
-@font-face{font-family:"微软雅黑 UI";font-weight:Bold;src:local("微软雅黑 UI Bold");}
-@font-face{font-family:"微软雅黑 UI";font-weight:Bold;src:local("Temp Latin Fonts Variables"),local("Inconsolata"),local("Envy Code R"),local("Segoe UI"),local("Ubuntu"),local("Liberation Sans"),local("Helvetica Neue"),local("Liberation Mono"),local("Menlo"),local("Monaco"),local("Consolas"),local("Lucida Grande"),local("Tahoma"),local("Helvetica"),local("Nimbus Roman No9 L");}
-@font-face{font-family:"微软雅黑 UI";font-weight:Bold;src:local("Temp Latin Fonts Variables Bold"),local("Inconsolata Bold"),local("Envy Code R Bold"),local("Segoe UI Bold"),local("Ubuntu Bold"),local("Liberation Sans Bold"),local("Helvetica Neue Bold"),local("Liberation Mono Bold"),local("Menlo Bold"),local("Monaco Bold"),local("Consolas Bold"),local("Lucida Grande Bold"),local("Tahoma Bold"),local("Helvetica Bold"),local("Nimbus Roman No9 L Bold");}
-@font-face{font-family:"微软雅黑 UI";font-weight:300;src:local("微软雅黑 UI");}
-@font-face{font-family:"微软雅黑 UI";font-weight:300;src:local("微软雅黑 UI Light");}
-@font-face{font-family:"微软雅黑 UI";font-weight:300;src:local("Temp Latin Fonts Variables"),local("Inconsolata"),local("Envy Code R"),local("Segoe UI"),local("Ubuntu"),local("Liberation Sans"),local("Helvetica Neue"),local("Liberation Mono"),local("Menlo"),local("Monaco"),local("Consolas"),local("Lucida Grande"),local("Tahoma"),local("Helvetica"),local("Nimbus Roman No9 L");}
-@font-face{font-family:"微软雅黑 UI";font-weight:300;src:local("Temp Latin Fonts Variables Light"),local("Inconsolata Light"),local("Envy Code R Light"),local("Segoe UI Light"),local("Ubuntu Light"),local("Liberation Sans Light"),local("Helvetica Neue Light"),local("Liberation Mono Light"),local("Menlo Light"),local("Monaco Light"),local("Consolas Light"),local("Lucida Grande Light"),local("Tahoma Light"),local("Helvetica Light"),local("Nimbus Roman No9 L Light");}
-@font-face{font-family:"微软雅黑 UI Light";src:local("微软雅黑 UI Light");}
-@font-face{font-family:"微软雅黑 UI Light";src:local("Temp Latin Fonts Variables"),local("Inconsolata"),local("Envy Code R"),local("Segoe UI"),local("Ubuntu"),local("Liberation Sans"),local("Helvetica Neue"),local("Liberation Mono"),local("Menlo"),local("Monaco"),local("Consolas"),local("Lucida Grande"),local("Tahoma"),local("Helvetica"),local("Nimbus Roman No9 L");}
-@font-face{font-family:"微软雅黑 UI Light";src:local("Temp Latin Fonts Variables Light"),local("Inconsolata Light"),local("Envy Code R Light"),local("Segoe UI Light"),local("Ubuntu Light"),local("Liberation Sans Light"),local("Helvetica Neue Light"),local("Liberation Mono Light"),local("Menlo Light"),local("Monaco Light"),local("Consolas Light"),local("Lucida Grande Light"),local("Tahoma Light"),local("Helvetica Light"),local("Nimbus Roman No9 L Light");}
 @font-face{font-family:"等线";src:local("等线");}
 @font-face{font-family:"等线";src:local("Temp Asia Fonts Variables"),local("Microsoft YaHei UI"),local("Microsoft JhengHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Yu Gothic UI"),local("Yu Gothic"),local("Meiryo UI"),local("Meiryo"),local("Malgun Gothic"),local("Dotum"),local("PingFang SC"),local("PingFang TC"),local("PingFang HK"),local("Hiragino Sans GB"),local("Heiti SC"),local("Heiti TC"),local("STHeiti"),local("WenQuanYi Zen Hei"),local("WenQuanYi Micro Hei");}
 @font-face{font-family:"等线";src:local("Temp Latin Fonts Variables"),local("Inconsolata"),local("Envy Code R"),local("Segoe UI"),local("Ubuntu"),local("Liberation Sans"),local("Helvetica Neue"),local("Liberation Mono"),local("Menlo"),local("Monaco"),local("Consolas"),local("Lucida Grande"),local("Tahoma"),local("Helvetica"),local("Nimbus Roman No9 L");}
