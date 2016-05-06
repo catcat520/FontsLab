@@ -1,7 +1,9 @@
 unicode-range:
 
+数字 :
 阿拉伯数字 : U+0030-0039 : 0 1 2 3 4 5 6 7 8 9
 
+日文 : 
 日文平假名 : Hiragana : U+3040-309F
 日文片假名 : Katakana : U+30A0-30FF
 日文假名 : Hiragana + Katakana : U+3040-30FF
@@ -10,12 +12,14 @@ unicode-range:
 日文 CJK 扩展 : CJK : U+3220-325F,U+3280-33FF,U+FF66-FF9D
 日文 unicode-range : U+3040-30FF,U+3190-319F,U+31F0-31FF,U+3220-325F,U+3280-33FF,U+FF66-FF9D
 
+标点 :
 英文标点符号 : unicode-range : U+0000-002F,U+003A-0040,U+005B-0060,U+007B-FFFF
 中文标点符号 : unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0,U+FFE0-FFFF
 
+韩文 : 
 韩语谚文 : unicode-range : U+1100-11FF,U+312E-318E,U+3200-321F,U+3260-327F,U+AC00-D7FF,U+FFA1-FFDF
 
-中文字符 : 
+中文 : 
 CJK Radicals Supplement : U+2E80-2EFF
 Kangxi Radicals : U+2F00-2FDF
 Ideographic Description Characters : U+2FE0-2FFF
