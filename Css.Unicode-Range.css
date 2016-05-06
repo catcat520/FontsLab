@@ -5,9 +5,10 @@ unicode-range:
 日文平假名 : Hiragana : U+3040-309F
 日文片假名 : Katakana : U+30A0-30FF
 日文假名 : Hiragana + Katakana : U+3040-30FF
+日文宽文 : Kanbun : U+3190-319F
 日文片假名语音扩展 : Katakana Phonetic Extensions : U+31F0-31FF : ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ
 日文 CJK 扩展 : CJK : U+3220-325F,U+3280-33FF,U+FF66-FF9D
-日文 unicode-range : U+3040-30FF,U+31F0-31FF,U+3220-325F,U+3280-33FF,U+FF66-FF9D
+日文 unicode-range : U+3040-30FF,U+3190-319F,U+31F0-31FF,U+3220-325F,U+3280-33FF,U+FF66-FF9D
 
 英文标点符号 : unicode-range : U+0000-002F,U+003A-0040,U+005B-0060,U+007B-FFFF
 中文标点符号 : unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0,U+FFE0-FFFF
