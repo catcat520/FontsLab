@@ -1,5 +1,5 @@
 /* 名称：004.ForceMyFonts.TaiWan.HongKong.FireFoxChromeIE *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣ */
-/* 更新：2016.05.14 | 07:23 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
+/* 更新：2016.05.14 | 15:31 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
 /* 功能：客制化字型，英 Segoe UI，中 正黑。修正亂碼，網頁錯位 *//*[[SwitchAGENT_SHEET]]*/
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
@@ -9,7 +9,7 @@
 /* 范围：*//*[[CoveRage]]*/
 
 /* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " TWHK.A.Now(2016.05.14 | 07:23)" !important;}
+/* VerCtrl */{background: #CBDDE3;color: black;content: " TWHK.A.Now(2016.05.14 | 15:31)" !important;}
 
 /* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
 /* main(sysfont) */"/*[[ForceALL]]*//*[[Chinese font]]*/","HighLevelEmoji","Catcat520.Lite.Latin","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","/*[[DiyMyEnFonts]]*/","/*[[WebFontFamilyName]]*/","/*[[English font]]*/","Inconsolata","Envy Code R","Segoe UI","Helvetica Neue","Lucida Grande","Open Sans","Ubuntu","Tahoma","Verdana","Menlo","Monaco","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyMyCnFonts]]*/","SDF.FixScTcFonts","SDF.Hangul","/*[[Chinese font]]*/","Microsoft JhengHei","Microsoft YaHei","fp-font",
