@@ -14,7 +14,7 @@ unicode-range:
 
 标点 :
 英文标点符号 : unicode-range : U+0000-002F,U+003A-0040,U+005B-0060,U+007B-FFFF
-分隔符(英文标点子类) : unicode-range : U+20,U+2F,U+7C : “ ”，“/”，“|”
+分隔符(英文标点符号子类) : unicode-range : U+20,U+2F,U+7C : “ ”，“/”，“|”
 中文标点符号 : unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0
 未完善 : unicode-range : U+FFE0-FFFF
 
