@@ -153,21 +153,114 @@
 @font-face{font-family:"Source Han Sans SC";font-weight:300;src:local("Source Han Sans SC Light"),local("Source Han Sans SC");}
 @font-face{font-family:"Source Han Sans TC";font-weight:300;src:local("Source Han Sans TC Light"),local("Source Han Sans TC");}
 /* 替换中外文字体 */
-
 /* EN */
 /* 400 */
 @font-face{font-family:"Arial";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
 @font-face{font-family:"Arial";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"ArialMT";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"ArialMT";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Comic Sans MS";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Comic Sans MS";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Consolas";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Consolas";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Courier";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Courier";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Courier New";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Courier New";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Droid Sans";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Droid Sans";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Georgia";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Georgia";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Helvetica";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Helvetica";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Helvetica Neue";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Helvetica Neue";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Impact";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Impact";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Lato";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Lato";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Lucida Grande";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Lucida Grande";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Menlo";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Menlo";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Monaco";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Monaco";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Open Sans";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Open Sans";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Roboto";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Roboto";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Segoe UI";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Segoe UI";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
 @font-face{font-family:"Tahoma";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
 @font-face{font-family:"Tahoma";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Times New Roman";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Times New Roman";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Trebuchet MS";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Trebuchet MS";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Ubuntu";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Ubuntu";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Verdana";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Verdana";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
 /* EN */
 /* 700 */
 @font-face{font-family:"Arial";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
 @font-face{font-family:"Arial";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"ArialMT";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"ArialMT";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Comic Sans MS";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Comic Sans MS";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Consolas";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Consolas";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Courier";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Courier";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Courier New";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Courier New";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Droid Sans";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Droid Sans";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Georgia";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Georgia";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Helvetica";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Helvetica";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Helvetica Neue";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Helvetica Neue";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Impact";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Impact";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Lato";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Lato";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Lucida Grande";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Lucida Grande";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Menlo";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Menlo";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Monaco";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Monaco";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Open Sans";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Open Sans";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Roboto";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Roboto";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Segoe UI";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Segoe UI";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
 @font-face{font-family:"Tahoma";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
 @font-face{font-family:"Tahoma";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Times New Roman";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Times New Roman";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Trebuchet MS";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Trebuchet MS";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Ubuntu";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Ubuntu";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Verdana";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Verdana";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
 /* EN */
 /* 300*/
+@font-face{font-family:"Lato";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"Lato";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Open Sans";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"Open Sans";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Roboto";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"Roboto";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Segoe UI";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"Segoe UI";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Ubuntu";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"Ubuntu";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
 /* CN */
 /* 400 */
 @font-face{font-family:"DengXian";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
