@@ -16,7 +16,7 @@
    },
    {
       "all_frames": true,
-      "css": ["JpFonts.Sub.css"] ,    
+      "css": ["JpFonts.Lang.Sub.css"] ,    
       "matches": ["*://*/*"],
       "exclude_matches": ["*://yahoo.co.jp/*"]
    }
