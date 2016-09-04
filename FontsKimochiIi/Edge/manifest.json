@@ -3,15 +3,24 @@
 
 
 "name": "字体很舒服(FontsKimochiIi) For Edge",
-"version": "2016.09.04 | 04:38 | 14",
+"version": "2016.09.04 | 23:46 | 21",
 "author": "catcat520",
+"description": "反馈 : http://bbs.kafan.cn/thread-1681393-1-1.html , 需附上网址 url , 截图 , 浏览器名称。",
 "content_scripts": 
-   [{
+ [
+   {
       "all_frames": true,
+      "css": ["EdgeCustomMain.css"] ,    
       "matches": ["*://*/*"],
-      "css": ["EdgeCustomMain.css"]
-   }],
-      "description": "反馈 : http://bbs.kafan.cn/thread-1681393-1-1.html , 需附上网址 url , 截图 , 浏览器名称。"
+      "exclude_matches": ["*://dillinger.io/*","*://www.zybuluo.com/*","*://mahua.jser.me/*","*://markable.in/*","*://laverna.cc/*","*://fiddle.md/*","*://www.imooc.com/*","*://markdown.xiaoshujiang.com/*","*://app.gistboxapp.com/*","*://gist.github.com/*","*://github.com/*","*://wenku.baidu.com\/view/*","*://wenku.baidu.com\/link*","*://www.youziku.com/*","*://*.typekit.com/*","*://*.fontdeck.com/*","*://*.designgala.com/*","*://127.0.0.1/*","*://iamchucky.github.io/*","*://www.google.com\/fonts\/*","*://fonts.google.com\/*","*://*.justfont.com\/font*","*://*.ifontcloud.com/*","*://*.hanyi.com.cn\/products\/*","*://www.arphic.com.cn\/*\/font\/*","*://www.arphic.com.tw\/*\/font\/*","*://*.tmall.com/*","*://*.taobao.com/*","*://*.alipay.com/*","*://*.alimama.com/*","*://*.tanx.com/*","*://*.95095.com/*","*://*.tmall.hk/*"]
+   },
+   {
+      "all_frames": true,
+      "css": ["JpFonts.Sub.css"] ,    
+      "matches": ["*://*/*"],
+      "exclude_matches": ["*://yahoo.co.jp/*"]
+   }
+ ]
 
 
 
