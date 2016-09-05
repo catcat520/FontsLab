@@ -1,0 +1,37 @@
+{
+
+
+"name": "字体很舒服(FontsKimochiIi) For Edge",
+"version": "2016.09.05 | 20:35 | 37",
+"author": "catcat520",
+"description": "反馈 : http://bbs.kafan.cn/thread-1681393-1-1.html , 需附上网址 url , 截图 , 浏览器名称。",
+"content_scripts": 
+ [
+   {
+      "all_frames": true,
+      "css": ["EdgeCustomMain.css"],
+      "matches": ["<all_urls>"],
+      "exclude_globs": ["*://*.jp/*","**://ja.*","**://jp.*"]
+   },
+   {
+      "all_frames": true,
+      "css": ["JpFonts.Domain.Sub.css"],
+      "matches": ["<all_urls>"],
+      "include_globs": ["**://*.jp*","**://ja.*","**://jp.*","**://*.a-q-f.com*","**://a-q-f.com*","**://*.cookpad.com*","**://cookpad.com*","**://*.dietnavi.com*","**://dietnavi.com*","**://*.dtiblog.com*","**://dtiblog.com*","**://*.gunosy.com*","**://gunosy.com*","**://*.j-bleach.com*","**://j-bleach.com*","**://*.j-cast.com*","**://j-cast.com*","**://*.labaq.com*","**://labaq.com*","**://*.logsoku.com*","**://logsoku.com*","**://*.kabu.com*","**://kabu.com*","**://*.m3.com*","**://m3.com*","**://*.mi-mollet.com*","**://mi-mollet.com*","**://*.mnrate.com*","**://mnrate.com*","**://*.news-postseven.com*","**://news-postseven.com*","**://*.netflix.com*","**://netflix.com*","**://*.nikkei.com*","**://nikkei.com*","**://*.qiita.com*","**://qiita.com*","**://*.sanspo.com*","**://sanspo.com*","**://*.smbc-card.com*","**://smbc-card.com*","**://*.sourcenext.com*","**://sourcenext.com*","**://*.teacup.com*","**://teacup.com*","**://*.tvbok.com*","**://tvbok.com*","**://*.yodobashi.com*","**://yodobashi.com*","**://*.2chan.net*","**://*.2ch.net*","**://*.a8.net*","**://*.fruitmail.net*","**://*.sanseido.net*","**://*.superdollfie.net*","**://*.townwork.net*","**://*.webcg.net*","**://*.with2.net*","**://2chan.net*","**://2ch.net*","**://a8.net*","**://fruitmail.net*","**://sanseido.net*","**://superdollfie.net*","**://townwork.net*","**://webcg.net*","**://with2.net*","**://*.nosub.tv*","**://*.pandora.tv*","**://nosub.tv*","**://pandora.tv*","**://j.people.com.cn*","**://*.webry.info*","**://*.lineblog.me*","**://*.2ch.sc*","**://webry.info*","**://lineblog.me*","**://2ch.sc*"]
+   },
+   {
+      "all_frames": true,
+      "css": ["JpFonts.Twitter.Sub.css"],
+      "matches": ["*://twitter.com/*"]
+   },
+   {
+      "all_frames": true,
+      "css": ["JpFonts.Lang.Sub.css"],
+      "matches": ["<all_urls>"],
+      "exclude_globs": ["**://*.jp*","**://ja.*","**://jp.*"]
+   }
+ ]
+
+
+
+}
