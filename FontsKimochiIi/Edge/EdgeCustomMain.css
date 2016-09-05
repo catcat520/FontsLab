@@ -5,7 +5,7 @@
 /* 适用：Win 系统 和 Edge 内核浏览器 */
 /* 网址：https://github.com/catcat520/FontsLab/tree/master/FontsKimochiIi/Edge */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本 */" CNSG.D.(2016.09.06 | 03:22)";}
+/* 版本 */" CNSG.D.(2016.09.06 | 07:51)";}
 
 /* 指定标签字体 */
 /* main(monospace) */code,kbd,pre,samp,tt,var{font-family:"Anonymous Pro","Envy Code R","Inconsolata","mononoki","Open Sans@Fix","Roboto@Fix","Helvetica Neue@Fix","Ubuntu@Fix","Menlo@Fix","Monaco@Fix","Consolas@Fix","Segoe UI@Fix","Microsoft YaHei UI","Microsoft JhengHei UI","Microsoft YaHei","Microsoft JhengHei" !important;}
@@ -767,22 +767,69 @@
 @font-face{font-family:"Roboto";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 @font-face{font-family:"Segoe UI";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 @font-face{font-family:"Ubuntu";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
-
-
-
-
-
-
-
 /* JP */
 /* 400 */
-
-
-
-
-
-
-
+@font-face{font-family:"Meiryo";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"メイリオ";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Meiryo UI";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"MS Gothic";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ＭＳ ゴシック";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"MS PGothic";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ＭＳ Ｐゴシック";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"MS Mincho";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ＭＳ 明朝";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"MS PMincho";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ＭＳ Ｐ明朝";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Yu Gothic";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游ゴシック";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Yu Mincho";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游明朝";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Hiragino Sans";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ヒラギノ角ゴシック";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Hiragino Kaku Gothic Pro";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ヒラギノ角ゴ Pro";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Hiragino Kaku Gothic ProN";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ヒラギノ角ゴ ProN";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Osaka";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"YuGothic";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游ゴシック体";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"YuMincho";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游明朝体";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Source Han Sans";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+/* 700 */
+@font-face{font-family:"Meiryo";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"メイリオ";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Meiryo UI";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"MS Gothic";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ＭＳ ゴシック";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"MS PGothic";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ＭＳ Ｐゴシック";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"MS Mincho";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ＭＳ 明朝";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"MS PMincho";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ＭＳ Ｐ明朝";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Yu Gothic";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游ゴシック";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Yu Mincho";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游明朝";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Hiragino Sans";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ヒラギノ角ゴシック";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Hiragino Kaku Gothic Pro";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ヒラギノ角ゴ Pro";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Hiragino Kaku Gothic ProN";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"ヒラギノ角ゴ ProN";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Osaka";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"YuGothic";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游ゴシック体";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"YuMincho";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游明朝体";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Source Han Sans";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+/* 300 */
+@font-face{font-family:"Yu Gothic";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游ゴシック";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Yu Mincho";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"游明朝";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Source Han Sans";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 /* CN */
 /* 400 */
 @font-face{font-family:"DengXian";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}

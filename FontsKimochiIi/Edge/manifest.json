@@ -3,7 +3,7 @@
 
 
 "name": "字体很舒服(FontsKimochiIi) For Edge",
-"version": "2016.09.06 | 02:22 | 40",
+"version": "2016.09.06 | 07:51 | 42",
 "author": "catcat520",
 "description": "反馈 : http://bbs.kafan.cn/thread-1681393-1-1.html , 需附上网址 url , 截图 , 浏览器名称。",
 "content_scripts": 
@@ -11,7 +11,7 @@
    {
       "all_frames": true,
       "css": ["EdgeCustomMain.css"],
-      "matches": ["*://*/*"]
+      "matches": ["<all_urls>"]
    }
  ]
 
