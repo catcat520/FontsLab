@@ -5,7 +5,7 @@
 /* 适用：Win 系统 和 Edge 内核浏览器 */
 /* 网址：https://github.com/catcat520/FontsLab/tree/master/FontsKimochiIi/Edge */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本 */" CNSG.D.(2016.09.06 | 08:37)";}
+/* 版本 */" CNSG.D.(2016.09.07 | 08:06)";}
 
 /* 指定标签字体 */
 /* main(monospace) */code,kbd,pre,samp,tt,var{font-family:"Anonymous Pro","Envy Code R","Inconsolata","mononoki","Open Sans@Fix","Roboto@Fix","Helvetica Neue@Fix","Ubuntu@Fix","Menlo@Fix","Monaco@Fix","Consolas@Fix","Segoe UI@Fix","Microsoft YaHei UI","Microsoft JhengHei UI","Microsoft YaHei","Microsoft JhengHei" !important;}
@@ -174,6 +174,51 @@
 @font-face{font-family:"Yu Mincho";font-weight:300;src:local("Yu Mincho Light"),local("Yu Mincho");}
 @font-face{font-family:"游明朝";font-weight:300;src:local("Yu Mincho Light"),local("Yu Mincho");}
 @font-face{font-family:"Source Han Sans";font-weight:300;src:local("Source Han Sans Light"),local("Source Han Sans");}
+/* KR */
+/* 400 */
+@font-face{font-family:"Batang";src:local("Batang");}
+@font-face{font-family:"Batang";src:local("Malgun Gothic");}
+@font-face{font-family:"바탕";src:local("Batang");}
+@font-face{font-family:"바탕";src:local("Malgun Gothic");}
+@font-face{font-family:"Dotum";src:local("Dotum");}
+@font-face{font-family:"Dotum";src:local("Malgun Gothic");}
+@font-face{font-family:"돋움";src:local("Dotum");}
+@font-face{font-family:"돋움";src:local("Malgun Gothic");}
+@font-face{font-family:"Gulim";src:local("Gulim");}
+@font-face{font-family:"Gulim";src:local("Malgun Gothic");}
+@font-face{font-family:"굴림";src:local("Gulim");}
+@font-face{font-family:"굴림";src:local("Malgun Gothic");}
+@font-face{font-family:"Gungsuh";src:local("Gungsuh");}
+@font-face{font-family:"Gungsuh";src:local("Malgun Gothic");}
+@font-face{font-family:"궁서";src:local("Gungsuh");}
+@font-face{font-family:"궁서";src:local("Malgun Gothic");}
+@font-face{font-family:"Malgun Gothic";src:local("Malgun Gothic");}
+@font-face{font-family:"맑은 고딕";src:local("Malgun Gothic");}
+@font-face{font-family:"Source Han Sans K";src:local("Source Han Sans K Regular"),local("Source Han Sans K");}
+/* 700 */
+@font-face{font-family:"Batang";font-weight:Bold;src:local("Batang");}
+@font-face{font-family:"Batang";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"바탕";font-weight:Bold;src:local("Batang");}
+@font-face{font-family:"바탕";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"Dotum";font-weight:Bold;src:local("Dotum");}
+@font-face{font-family:"Dotum";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"돋움";font-weight:Bold;src:local("Dotum");}
+@font-face{font-family:"돋움";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"Gulim";font-weight:Bold;src:local("Gulim");}
+@font-face{font-family:"Gulim";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"굴림";font-weight:Bold;src:local("Gulim");}
+@font-face{font-family:"굴림";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"Gungsuh";font-weight:Bold;src:local("Gungsuh");}
+@font-face{font-family:"Gungsuh";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"궁서";font-weight:Bold;src:local("Gungsuh");}
+@font-face{font-family:"궁서";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"Malgun Gothic";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"맑은 고딕";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
+@font-face{font-family:"Source Han Sans K";font-weight:Bold;src:local("Source Han Sans K Bold"),local("Source Han Sans K");}
+/* 300 */
+@font-face{font-family:"Malgun Gothic";font-weight:300;src:local("Malgun Gothic Semilight"),local("Malgun Gothic");}
+@font-face{font-family:"맑은 고딕";font-weight:300;src:local("Malgun Gothic Semilight"),local("Malgun Gothic");}
+@font-face{font-family:"Source Han Sans K";font-weight:300;src:local("Source Han Sans K Light"),local("Source Han Sans K");}
 /* CN */
 /* 400 */
 @font-face{font-family:"DengXian";src:local("DengXian");}
@@ -508,6 +553,60 @@
 @font-face{font-family:"游明朝";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
 @font-face{font-family:"Source Han Sans";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
 @font-face{font-family:"Source Han Sans";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
+/* KR */
+/* 400 */
+@font-face{font-family:"Batang";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Batang";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"바탕";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"바탕";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Dotum";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Dotum";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"돋움";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"돋움";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Gulim";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Gulim";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"굴림";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"굴림";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Gungsuh";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Gungsuh";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"궁서";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"궁서";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Malgun Gothic";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Malgun Gothic";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"맑은 고딕";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"맑은 고딕";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Source Han Sans K";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
+@font-face{font-family:"Source Han Sans K";src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI"),local("Menlo"),local("Monaco");}
+/* 700 */
+@font-face{font-family:"Batang";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Batang";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"바탕";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"바탕";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Dotum";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Dotum";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"돋움";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"돋움";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Gulim";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Gulim";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"굴림";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"굴림";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Gungsuh";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Gungsuh";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"궁서";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"궁서";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Malgun Gothic";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Malgun Gothic";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"맑은 고딕";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"맑은 고딕";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+@font-face{font-family:"Source Han Sans K";font-weight:Bold;src:local("Microsoft YaHei UI Bold"),local("Microsoft YaHei UI"),local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Source Han Sans K";font-weight:Bold;src:local("Anonymous Pro Bold"),local("Envy Code R Bold"),local("Inconsolata Bold"),local("mononoki Bold"),local("Segoe UI Bold"),local("Menlo Bold"),local("Monaco Bold");}
+/* 300 */
+@font-face{font-family:"Malgun Gothic";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"Malgun Gothic";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"맑은 고딕";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"맑은 고딕";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
+@font-face{font-family:"Source Han Sans K";font-weight:300;src:local("Microsoft YaHei UI Light"),local("Microsoft YaHei UI"),local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"Source Han Sans K";font-weight:300;src:local("Anonymous Pro"),local("Envy Code R"),local("Inconsolata"),local("mononoki"),local("Segoe UI Light"),local("Menlo"),local("Monaco");}
 /* CN */
 /* 400 */
 @font-face{font-family:"DengXian";src:local("Microsoft YaHei UI"),local("Microsoft YaHei");}
@@ -830,6 +929,35 @@
 @font-face{font-family:"Yu Mincho";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 @font-face{font-family:"游明朝";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 @font-face{font-family:"Source Han Sans";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+/* KR */
+/* 400 */
+@font-face{font-family:"Batang";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"바탕";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Dotum";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"돋움";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Gulim";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"굴림";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Gungsuh";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"궁서";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Malgun Gothic";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"맑은 고딕";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Source Han Sans K";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+/* 700 */
+@font-face{font-family:"Batang";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"바탕";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Dotum";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"돋움";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Gulim";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"굴림";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Gungsuh";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"궁서";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Malgun Gothic";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"맑은 고딕";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Source Han Sans K";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+/* 300 */
+@font-face{font-family:"Malgun Gothic";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"맑은 고딕";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
+@font-face{font-family:"Source Han Sans K";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 /* CN */
 /* 400 */
 @font-face{font-family:"DengXian";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
@@ -921,7 +1049,7 @@
 @font-face{font-family:"Source Han Sans TC";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 @font-face{font-family:"YouYuan";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 @font-face{font-family:"幼圆";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
-/* CN */
+/* 300 */
 @font-face{font-family:"Microsoft YaHei";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 @font-face{font-family:"微软雅黑";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
 @font-face{font-family:"寰蒋闆呴粦";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("KaiTi");}
