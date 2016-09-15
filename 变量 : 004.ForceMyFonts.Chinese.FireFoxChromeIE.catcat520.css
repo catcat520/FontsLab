@@ -6,7 +6,7 @@
 /* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*//*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.A.(2016.09.10 | 21:25)";}
+/* 版本：*/" CNSG.A.(2016.09.11 | 03:01)";}
 
 /* 范围：*//*[[CoveRage]]*/
 
@@ -106,7 +106,7 @@ section#style-info>div#main-style-info>ul#style-settings{padding-left: 0.9em !im
 #style-settings>li>select[class*="option"]{max-width: 23.5em !important;}
 body>header#main-header>h1{font-family: "Times New Roman" !important;}
 UL#style-settings>LI>INPUT#setting-444243.style-setting-option , UL#style-settings>LI>INPUT#setting-444242.style-setting-option , UL#style-settings>LI>INPUT#setting-450961.style-setting-option , UL#style-settings>LI>INPUT#setting-450962.style-setting-option , UL#style-settings>LI>INPUT#setting-451083.style-setting-option , UL#style-settings>LI>INPUT#setting-451084.style-setting-option , UL#style-settings>LI>INPUT#setting-451200.style-setting-option , UL#style-settings>LI>INPUT#setting-451201.style-setting-option , UL#style-settings>LI>INPUT#setting-451425.style-setting-option , UL#style-settings>LI>INPUT#setting-451426.style-setting-option , UL#style-settings>LI>INPUT#setting-451428.style-setting-option , UL#style-settings>LI>INPUT#setting-451429.style-setting-option , UL#style-settings>LI>INPUT#setting-451563.style-setting-option , UL#style-settings>LI>INPUT#setting-451564.style-setting-option , UL#style-settings>LI>INPUT#setting-451565.style-setting-option , UL#style-settings>LI>INPUT#setting-451566.style-setting-option , UL#style-settings>LI>INPUT#setting-451568.style-setting-option , UL#style-settings>LI>INPUT#setting-451569.style-setting-option{width: 46% !important;}
-#style-info>#main-style-info>#style-settings *{font-family:"Consolas","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","Andale Mono","Menlo","PingFang SC","PingFang TC","PingFang HK","Hiragino Sans GB","Noto Sans CJK SC","Noto Sans CJK TC","Source Han Sans SC","Source Han Sans TC","WenQuanYi Micro Hei","WenQuanYi Zen Hei","SimSun" !important;}
+#style-info>#main-style-info>#style-settings *{font-family:"Consolas","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","Andale Mono","Menlo","PingFang SC","PingFang TC","PingFang HK","Hiragino Sans GB","Noto Sans CJK SC","Noto Sans CJK TC","Source Han Sans SC","Source Han Sans TC","WenQuanYi Micro Hei","WenQuanYi Zen Hei","SimSun" !important;vertical-align:16% !important;}
 }/* 范围 *//* UserStyles */
 
 /* 阿里类网站&ForceFont */
