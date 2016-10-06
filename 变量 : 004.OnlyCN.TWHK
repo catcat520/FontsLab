@@ -906,10 +906,10 @@ MainFontsModule{content:"中外網站 : 域名規則";}
 @font-face{font-family:"Japanese@VrFonts";font-weight:Bold;src:local("/*[[JapaneseFonts]]*/ Bold"),local("/*[[JapaneseFonts]]*/ Demibold"),local("/*[[JapaneseFonts]]*/");}
 @font-face{font-family:"Japanese@VrFonts";font-weight:300;src:local("/*[[JapaneseFonts]]*/ Light"),local("/*[[JapaneseFonts]]*/");}
 /* 英文字型@VrFonts */
-@font-face{font-family:"Arial@VrFonts";src:local("Lucida Grande");}
-@font-face{font-family:"Arial@VrFonts";font-weight:Bold;src:local("Lucida Grande Bold"),local("Lucida Grande");}
-@font-face{font-family:"Consolas@VrFonts";src:local("Lucida Grande");}
-@font-face{font-family:"Consolas@VrFonts";font-weight:Bold;src:local("Lucida Grande Bold"),local("Lucida Grande");}
+@font-face{font-family:"Arial@VrFonts";src:local("Arial");}
+@font-face{font-family:"Arial@VrFonts";font-weight:Bold;src:local("Arial Bold"),local("Arial");}
+@font-face{font-family:"Consolas@VrFonts";src:local("Consolas");}
+@font-face{font-family:"Consolas@VrFonts";font-weight:Bold;src:local("Consolas Bold"),local("Consolas");}
 @font-face{font-family:"English@VrFonts";src:local("/*[[English font]]*/");}
 @font-face{font-family:"English@VrFonts";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/");}
 @font-face{font-family:"English@VrFonts";font-weight:300;src:local("/*[[English font]]*/ Light"),local("/*[[English font]]*/");}
