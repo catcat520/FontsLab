@@ -1,0 +1,158 @@
+/*[[CoveRage]]*/
+MainFontsModule{content:"中外網站 : 域名規則";}
+/* 替換標簽字型 */
+/* main(monospace) */code,kbd,pre,samp,tt,var{font-family:"/*[[ForceALL]]*//*[[Chinese font]]*/","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","/*[[DiyMyEnFonts]]*/","/*[[WebFontFamilyName]]*/","mononoki","Inconsolata","Envy Code R","Anonymous Pro","Source Code Pro","Andale Mono","DejaVu Sans Mono","Menlo@VrFonts","Monaco@VrFonts","PT Mono","Ubuntu Mono","Consolas@VrFonts","Open Sans@VrFonts","Roboto@VrFonts","Segoe UI@VrFonts","Helvetica Neue@VrFonts","Lucida Grande@VrFonts","Ubuntu@VrFonts","Tahoma@VrFonts","Verdana@VrFonts","Arial@VrFonts","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyMyCnFonts]]*/","SDF.FixScTcFonts","SDF.Hangul","/*[[Chinese font]]*/","Microsoft JhengHei UI","Microsoft YaHei UI","Microsoft JhengHei","Microsoft YaHei" !important;}
+/* main(textarea) */input,select,textarea{font-family:"/*[[ForceALL]]*//*[[Chinese font]]*/","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","/*[[DiyMyEnFonts]]*/","/*[[WebFontFamilyName]]*/","mononoki","Inconsolata","Envy Code R","Anonymous Pro","Source Code Pro","Andale Mono","DejaVu Sans Mono","Menlo@VrFonts","Monaco@VrFonts","PT Mono","Ubuntu Mono","Consolas@VrFonts","Open Sans@VrFonts","Roboto@VrFonts","Segoe UI@VrFonts","Helvetica Neue@VrFonts","Lucida Grande@VrFonts","Ubuntu@VrFonts","Tahoma@VrFonts","Verdana@VrFonts","Arial@VrFonts","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyMyCnFonts]]*/","SDF.FixScTcFonts","SDF.Hangul","/*[[Chinese font]]*/","Microsoft JhengHei UI","Microsoft YaHei UI","Microsoft JhengHei","Microsoft YaHei" !important;}
+/* 只替換中文字型 */
+/* EN */
+@font-face{font-family:"Arial";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Arial";src:local("Arial");}
+@font-face{font-family:"Arial";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Arial";font-weight:Bold;src:local("Arial Bold"),local("Arial");}
+@font-face{font-family:"ArialMT";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"ArialMT";src:local("ArialMT");}
+@font-face{font-family:"ArialMT";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"ArialMT";font-weight:Bold;src:local("ArialMT Bold"),local("ArialMT");}
+@font-face{font-family:"Comic Sans MS";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Comic Sans MS";src:local("Comic Sans MS");}
+@font-face{font-family:"Comic Sans MS";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Comic Sans MS";font-weight:Bold;src:local("Comic Sans MS Bold"),local("Comic Sans MS");}
+@font-face{font-family:"Consolas";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Consolas";src:local("Consolas");}
+@font-face{font-family:"Consolas";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Consolas";font-weight:Bold;src:local("Consolas Bold"),local("Consolas");}
+@font-face{font-family:"Courier";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Courier";src:local("Courier");}
+@font-face{font-family:"Courier";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Courier";font-weight:Bold;src:local("Courier Bold"),local("Courier");}
+@font-face{font-family:"Courier New";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Courier New";src:local("Courier New");}
+@font-face{font-family:"Courier New";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Courier New";font-weight:Bold;src:local("Courier New Bold"),local("Courier New");}
+@font-face{font-family:"Droid Sans";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Droid Sans";src:local("Droid Sans");}
+@font-face{font-family:"Droid Sans";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Droid Sans";font-weight:Bold;src:local("Droid Sans Bold"),local("Droid Sans");}
+@font-face{font-family:"Georgia";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Georgia";src:local("Georgia");}
+@font-face{font-family:"Georgia";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Georgia";font-weight:Bold;src:local("Georgia Bold"),local("Georgia");}
+@font-face{font-family:"Helvetica";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Helvetica";src:local("Helvetica"),local("Arial");}
+@font-face{font-family:"Helvetica";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Helvetica";font-weight:Bold;src:local("Helvetica Bold"),local("Helvetica"),local("Arial Bold"),local("Arial");}
+@font-face{font-family:"Helvetica Neue";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Helvetica Neue";src:local("Helvetica Neue");}
+@font-face{font-family:"Helvetica Neue";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Helvetica Neue";font-weight:Bold;src:local("Helvetica Neue Bold"),local("Helvetica Neue");}
+@font-face{font-family:"Impact";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Impact";src:local("Impact");}
+@font-face{font-family:"Impact";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Impact";font-weight:Bold;src:local("Impact Bold"),local("Impact");}
+@font-face{font-family:"Lato";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Lato";src:local("Lato");}
+@font-face{font-family:"Lato";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Lato";font-weight:Bold;src:local("Lato Bold"),local("Lato");}
+@font-face{font-family:"Lato";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Lato";font-weight:300;src:local("Lato Light"),local("Lato");}
+@font-face{font-family:"Lucida Grande";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Lucida Grande";src:local("Lucida Grande");}
+@font-face{font-family:"Lucida Grande";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Lucida Grande";font-weight:Bold;src:local("Lucida Grande Bold"),local("Lucida Grande");}
+@font-face{font-family:"Menlo";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Menlo";src:local("Menlo");}
+@font-face{font-family:"Menlo";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Menlo";font-weight:Bold;src:local("Menlo Bold"),local("Menlo");}
+@font-face{font-family:"Monaco";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Monaco";src:local("Monaco");}
+@font-face{font-family:"Monaco";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Monaco";font-weight:Bold;src:local("Monaco Bold"),local("Monaco");}
+@font-face{font-family:"Open Sans";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Open Sans";src:local("Open Sans");}
+@font-face{font-family:"Open Sans";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Open Sans";font-weight:Bold;src:local("Open Sans Bold"),local("Open Sans");}
+@font-face{font-family:"Open Sans";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Open Sans";font-weight:300;src:local("Open Sans Light"),local("Open Sans");}
+@font-face{font-family:"Roboto";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Roboto";src:local("Roboto");}
+@font-face{font-family:"Roboto";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Roboto";font-weight:Bold;src:local("Roboto Bold"),local("Roboto");}
+@font-face{font-family:"Roboto";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Roboto";font-weight:300;src:local("Roboto Light"),local("Roboto");}
+@font-face{font-family:"Segoe UI";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Segoe UI";src:local("Segoe UI");}
+@font-face{font-family:"Segoe UI";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Segoe UI";font-weight:Bold;src:local("Segoe UI Bold"),local("Segoe UI");}
+@font-face{font-family:"Segoe UI";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Segoe UI";font-weight:300;src:local("Segoe UI Light"),local("Segoe UI");}
+@font-face{font-family:"Tahoma";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Tahoma";src:local("Tahoma");}
+@font-face{font-family:"Tahoma";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Tahoma";font-weight:Bold;src:local("Tahoma Bold"),local("Tahoma");}
+@font-face{font-family:"Times New Roman";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Times New Roman";src:local("Times New Roman");}
+@font-face{font-family:"Times New Roman";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Times New Roman";font-weight:Bold;src:local("Times New Roman Bold"),local("Times New Roman");}
+@font-face{font-family:"Trebuchet MS";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Trebuchet MS";src:local("Trebuchet MS");}
+@font-face{font-family:"Trebuchet MS";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Trebuchet MS";font-weight:Bold;src:local("Trebuchet MS Bold"),local("Trebuchet MS");}
+@font-face{font-family:"Ubuntu";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Ubuntu";src:local("Ubuntu");}
+@font-face{font-family:"Ubuntu";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Ubuntu";font-weight:Bold;src:local("Ubuntu Bold"),local("Ubuntu");}
+@font-face{font-family:"Ubuntu";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Ubuntu";font-weight:300;src:local("Ubuntu Light"),local("Ubuntu");}
+@font-face{font-family:"Verdana";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Verdana";src:local("Verdana");}
+@font-face{font-family:"Verdana";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Verdana";font-weight:Bold;src:local("Verdana Bold"),local("Verdana");}
+/* CN */
+@font-face{font-family:"DengXian";src:local("DengXian");}
+@font-face{font-family:"DengXian";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"DengXian";font-weight:Bold;src:local("DengXian Bold"),local("DengXian");}
+@font-face{font-family:"DengXian";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"等线";src:local("DengXian");}
+@font-face{font-family:"等线";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"等线";font-weight:Bold;src:local("DengXian Bold"),local("DengXian");}
+@font-face{font-family:"等线";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"FangSong";src:local("FangSong");}
+@font-face{font-family:"FangSong";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"FangSong";font-weight:Bold;src:local("FangSong");}
+@font-face{font-family:"FangSong";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"仿宋";src:local("FangSong");}
+@font-face{font-family:"仿宋";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"仿宋";font-weight:Bold;src:local("FangSong");}
+@font-face{font-family:"仿宋";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"KaiTi";src:local("KaiTi");}
+@font-face{font-family:"KaiTi";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"KaiTi";font-weight:Bold;src:local("KaiTi");}
+@font-face{font-family:"KaiTi";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"楷体";src:local("KaiTi");}
+@font-face{font-family:"楷体";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"楷体";font-weight:Bold;src:local("KaiTi");}
+@font-face{font-family:"楷体";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Microsoft YaHei";src:local("Microsoft YaHei");}
+@font-face{font-family:"Microsoft YaHei";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Microsoft YaHei";font-weight:Bold;src:local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"Microsoft YaHei";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"Microsoft YaHei";font-weight:300;src:local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"Microsoft YaHei";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"微软雅黑";src:local("Microsoft YaHei");}
+@font-face{font-family:"微软雅黑";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"微软雅黑";font-weight:Bold;src:local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
+@font-face{font-family:"微软雅黑";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"微软雅黑";font-weight:300;src:local("Microsoft YaHei Light"),local("Microsoft YaHei");}
+@font-face{font-family:"微软雅黑";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"NSimSun";src:local("NSimSun");}
+@font-face{font-family:"NSimSun";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"NSimSun";font-weight:Bold;src:local("NSimSun");}
+@font-face{font-family:"NSimSun";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"新宋体";src:local("NSimSun");}
+@font-face{font-family:"新宋体";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"新宋体";font-weight:Bold;src:local("NSimSun");}
+@font-face{font-family:"新宋体";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"SimHei";src:local("SimHei");}
+@font-face{font-family:"SimHei";src:local("/*[[Chinese font]]*/ Regular"),local("/*[[Chinese font]]*/");}
+@font-face{font-family:"SimHei";font-weight:Bold;src:local("SimHei");}
+@font-face{font-family:"SimHei";font-weight:Bold;src:local("/*[[Chinese 
