@@ -6,7 +6,7 @@
 /* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.A.(2016.10.11 | 03:05)";}
+/* 版本：*/" CNSG.A.(2016.10.12 | 03:06)";}
 
 @-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet://|ssh://|(.CodeMirror)|^https?://(((w*.){0,15}(amasan.co.uk|ctrlshift.net|dillinger.io|fiddle.md|gistboxapp.com|github.com|hackmd.io|herokuapp.com|imooc.com|joncom.be|jser.me|laverna.cc|markable.in|markdownlivepreview.com|maxiang.io|tool.oschina.net|stackedit.io|wri.pe|xiaoshujiang.com|zybuluo.com))|wenku.baidu.com\/(view|link)|www.youziku.com|typekit.com|fontdeck.com|designgala.com|127.0.0.1|iamchucky.github.io|www.google.com\/font|fonts.google.com|.*justfont.com\/font|.*ifontcloud.com|.*hanyi.com.cn\/products\/|www.arphic.com..*\/.*\/font\/|.*\.tmall\.com|.*\.taobao\.com|.*\.alipay\.com|.*\.alimama\.com|.*\.tanx\.com|.*\.95095\.com|.*\.tmall\.hk|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){
 MainFontsModule{content:"中外网站 : 域名规则";}
