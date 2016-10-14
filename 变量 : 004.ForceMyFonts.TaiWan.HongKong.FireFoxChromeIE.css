@@ -6,7 +6,7 @@
 /* 網址：https://userstyles.org/styles/126356/004-forcemyfonts-taiwan-hongkong-firefoxchromeie */
 /* 幫助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 回報問題需附上網址 url，對比截圖，瀏覽器名稱，字型名稱 */
 /* 網路：*//*[[WebFonts]]*//* 網路字型 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" TWHK.A.(2016.10.14 | 12:24)";}
+/* 版本：*/" TWHK.A.(2016.10.15 | 05:58)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外網站 : 域名規則";}
@@ -44,7 +44,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /*[[SDF.FixJpFonts]]*/
 
 /* Css Priority */
-/* 範圍 */@-moz-document url-prefix("http"),url-prefix("ftp"),url-prefix("file"){
+/* 範圍 */@-moz-document url-prefix("http"),url-prefix("ftp"),url-prefix("file"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
 /* sports.163.com/nba *//* CD */span.nba_matchnav_score , .pbody{font-family: "System","SimSun" !important;margin: 1px auto !important;}
 /* 2345.com *//* L */.these_col_1>.tool_ul>li>a>ins , DIV.module_t>span>a>ins , DIV.module_t>a>ins , .category_in>div.panel:nth-child(n)>p>ins>a , #rightToolBox>dd>ins>a , .cnxh_hd>#J_gul_cata>a>ins{font-family: "2345" !important;}
 /* 2345.com *//* D */#content>#left>.kzjx h2 a{margin: 0px 7.5px !important;}
@@ -121,6 +121,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* SpecFix */
 /* Rgba Color Syntax Fix */#respond>#commentform>#comment-author-info>p>input[id]{color: inherit !important;}
 /* IOF Error Font Fix - uBlock Origin */.tooltipContainer>#switch>span , .tooltipContainer>.statName>#gotoPick , .tooltipContainer>.statName>A , .tooltipContainer>#extraTools>#no-popups , .tooltipContainer>#extraTools>#no-large-media , .tooltipContainer>#extraTools>#no-cosmetic-filtering , .tooltipContainer>#extraTools>#no-remote-fonts , #panes>.tooltipContainer>#refresh , .permatoolbar>div>.button{font-family: FontAwesome !important;}
+/* IOF Error Font Fix - uMatrix */.paneHead>#gotoDashboard.extensionURL>span.fa:last-child , .paneHead>#toolbarLeft>#mtxSwitch_matrix-off , #toolbarLeft>div>#buttonMtxSwitches , .paneHead>#toolbarLeft>#buttonPersist , .paneHead>#toolbarLeft>#buttonRevertScope , .paneHead>#toolbarLeft>#buttonRevertScope , .paneHead>#toolbarLeft>#buttonReload , .paneHead>.toolbar.alignRight>#buttonRevertAll , .paneHead>.toolbar.alignRight>.fa.extensionURL.tip-anchor-right , #toolbar>div>span#refresh.button.disabled.fa , #toolbar>div>#compactViewToggler.button.fa , #toolbar>div>span#clean.button.fa.disabled , #toolbar>div>span#clear.button.fa , #toolbar>div>span#clean.button.fa , #toolbar>div>span#filterButton.button{font-family: FontAwesome !important;}
 /* icibaCnFontsFix */#icibaResultContainer>#iciba_search_box>#icibaSearchInput , #icibaResultContainer *{font-family: "/*[[ForceALL]]*//*[[Chinese font]]*/","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","/*[[DiyMyEnFonts]]*/","/*[[WebFontFamilyName]]*/","/*[[English font]]*/","Inconsolata","Envy Code R","Open Sans","Roboto","Segoe UI","Helvetica Neue","Lucida Grande","Ubuntu","Tahoma","Verdana","Menlo","Monaco","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyMyCnFonts]]*/","SDF.FixScTcFonts","SDF.Hangul","/*[[Chinese font]]*/","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","PingFang TC","PingFang HK","PingFang SC","Noto Sans CJK TC","Noto Sans CJK SC","Noto Sans CJK JP","Source Han Sans TC","Source Han Sans SC","Source Han Sans","SimSun","LowLevelEmoji","Segoe UI Symbol","Segoe UI Historic","Symbola","Meiryo","Malgun Gothic","NSimSun","MingLiU","MingLiU_HKSCS","SimSun-ExtB","MingLiU-ExtB","MingLiU_HKSCS-ExtB","Nimbus Roman No9 L","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Droid Sans Fallback","Hiragino Sans GB","Symbol","FZSongS","Simsun (Founder Extended)","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Uighur","Microsoft Yi Baiti","Mongolian Baiti","Arial Unicode MS","Unifont" !important;}
 /* 2345/hao123/sogou:split/space *//* C */li#nlhv_cp_li>DIV.memu>SPAN.l , DIV.g_clr.baritem>DIV.category>SPAN.split , #rightToolBox>dd>SPAN.split , div.js_site>ul.js_bd>li.js_site-item:nth-child(n) , .widget-famoussite>.wf-inner>span.famoussite-span-hassub:nth-child(n) , ul[class*="groups"]>li[class*="coolsite-item"]>span:nth-child(n){font-family: "Arial@VrFonts","Helvetica Neue","Helvetica","Arial" !important;}
 /* Adobe Flash Player Set Fix */div.inner>div#center>div.mark-cover{display: none !important;}
