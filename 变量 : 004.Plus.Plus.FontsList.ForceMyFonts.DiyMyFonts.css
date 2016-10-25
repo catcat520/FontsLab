@@ -1,0 +1,20 @@
+/* 名称：004.Plus.FontsList.ForceMyFonts.DiyMyFonts */
+/* 别名：004.Plus.FontsList.ForceMyFonts.DiyMyFonts */
+/* 感谢： */ 
+/* 功能：004.ForceMyFonts 和 004.DiyMyFonts 的扩展字体列表 *//* AGENT_SHEET */
+/* 注释： */
+/* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
+/* 网址：https://userstyles.org/styles/133855/004-plus-func-forcemyfonts */
+/* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
+
+/* Plus.FontsList 启用标志 */
+/* 范围 *//*[[Plus.FontsListSwitch]]*/@-moz-document regexp("https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520|https://userstyles.org/styles/126356/004-forcemyfonts-taiwan-hongkong-firefoxchromeie|https://userstyles.org/styles/100478/004-diymyfonts-chinese-firefoxchromeie-catcat520|https://userstyles.org/styles/133855/004-plus-fontslist-forcemyfonts-diymyfonts"){
+body>header#main-header>h1:nth-child(1):after{font-family:"Georgia" !important;color: #f00;text-shadow: 1.5px 1.5px 0.5px #212121;content: "ℙlus" !important;}
+}/* 范围 */
+
+/* Plus.FontsList *//*[[Plus.FontsListSwitch]]*/
+/*[[FzGB18030FontsList]]*/
+/*[[FzGBKFontsList]]*/
+/*[[FzGB2312FontsList]]*/
+/*[[FzGBT12345FontsList]]*/
+/* Plus.FontsList */
