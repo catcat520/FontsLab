@@ -6,7 +6,7 @@
 /* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*//*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.A.(2016.10.21 | 23:32)";}
+/* 版本：*/" CNSG.A.(2016.10.27 | 00:33)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外网站 : 域名规则";}
@@ -501,7 +501,7 @@ UL#style-settings>LI>INPUT#setting-444243.style-setting-option , UL#style-settin
 
 /* 启用便携字体 *//*[[NetCore]]*//*[[Catcat520LiteLatin]]*//* 扩展 */
 /* 自定义选中文字颜色 *//*[[Force-moz-selection]]*/::selection{background: /*[[Diy-moz-selection-A]]*/ !important;color: /*[[Diy-moz-selection-B]]*/ !important;} ::-moz-selection{background: /*[[Diy-moz-selection-A]]*/ !important;color: /*[[Diy-moz-selection-B]]*/ !important;}/* 扩展 */
-/* 自定义文字阴影特效 *//*[[Force-Text-Shadow]]*/*{text-shadow: /*[[DiyText-H-Shadow]]*/em /*[[DiyText-V-Shadow]]*/em /*[[DiyTextShadowBlur]]*/em /*[[DiyTextShadowColor]]*/ !important;}/* 扩展 */
+/* 自定义文字阴影特效 *//*[[Force-Text-Shadow]]*/*/*[[PlayershadowSwitch]]*/{text-shadow: /*[[DiyText-H-Shadow]]*/em /*[[DiyText-V-Shadow]]*/em /*[[DiyTextShadowBlur]]*/em /*[[DiyTextShadowColor]]*/ !important;}/* 扩展 */
 /* 未被访问链接的颜色 *//*[[linkColor]]*/a:link{color: /*[[DiylinkColor]]*/ !important;}/* 扩展 */
 /* 已被访问链接的颜色 *//*[[visitedColor]]*/a:visited{color: /*[[DiyvisitedColor]]*/ !important;}/* 扩展 */
 /* 鼠标悬停链接的颜色 *//*[[hoverColor]]*/a:hover{color: /*[[DiyhoverColor]]*/ !important;}/* 扩展 */
