@@ -6,7 +6,7 @@
 /* 網址：https://userstyles.org/styles/126356/004-forcemyfonts-taiwan-hongkong-firefoxchromeie */
 /* 幫助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 回報問題需附上網址 url，對比截圖，瀏覽器名稱，字型名稱 */
 /* 網路：*//*[[WebFonts]]*//* 網路字型 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" TWHK.A.(2016.10.22 | 09:08)";}
+/* 版本：*/" TWHK.A.(2016.10.27 | 23:18)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外網站 : 域名規則";}
@@ -501,7 +501,7 @@ UL#style-settings>LI>INPUT#setting-444243.style-setting-option , UL#style-settin
 
 /* 啟用便攜字型 *//*[[NetCore]]*//*[[Catcat520LiteLatin]]*//* 擴展 */
 /* 自訂選中文字顏色 *//*[[Force-moz-selection]]*/::selection{background: /*[[Diy-moz-selection-A]]*/ !important;color: /*[[Diy-moz-selection-B]]*/ !important;} ::-moz-selection{background: /*[[Diy-moz-selection-A]]*/ !important;color: /*[[Diy-moz-selection-B]]*/ !important;}/* 擴展 */
-/* 自訂文字陰影特效 *//*[[Force-Text-Shadow]]*/*{text-shadow: /*[[DiyText-H-Shadow]]*/em /*[[DiyText-V-Shadow]]*/em /*[[DiyTextShadowBlur]]*/em /*[[DiyTextShadowColor]]*/ !important;}/* 擴展 */
+/* 自訂文字陰影特效 *//*[[Force-Text-Shadow]]*/*/*[[PlayershadowSwitch]]*/{text-shadow: /*[[DiyText-H-Shadow]]*/em /*[[DiyText-V-Shadow]]*/em /*[[DiyTextShadowBlur]]*/em /*[[DiyTextShadowColor]]*/ !important;}/* 擴展 */
 /* 未被訪問鏈接顏色 *//*[[linkColor]]*/a:link{color: /*[[DiylinkColor]]*/ !important;}/* 擴展 */
 /* 已被訪問鏈接顏色 *//*[[visitedColor]]*/a:visited{color: /*[[DiyvisitedColor]]*/ !important;}/* 擴展 */
 /* 遊標懸停鏈接顏色 *//*[[hoverColor]]*/a:hover{color: /*[[DiyhoverColor]]*/ !important;}/* 擴展 */
