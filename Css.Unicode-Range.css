@@ -3,6 +3,9 @@ unicode-range:
 数字 :
 阿拉伯数字 : U+0030-0039 : 0 1 2 3 4 5 6 7 8 9
 
+英文(Arial range) : 拉丁文;希腊语;西里尔文;亚美尼亚语;希伯来语;阿拉伯语
+英文(Arial range) : unicode-range : U+0000-06FF
+
 日文 : 
 日文平假名 : Hiragana : U+3040-309F
 日文片假名 : Katakana : U+30A0-30FF
@@ -10,7 +13,7 @@ unicode-range:
 日文宽文 : Kanbun : U+3190-319F
 日文片假名语音扩展 : Katakana Phonetic Extensions : U+31F0-31FF : ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ
 日文 CJK 扩展 : CJK : U+3220-325F,U+3280-33FF,U+FF66-FF9D
-日文 unicode-range : U+3040-30FF,U+3190-319F,U+31F0-31FF,U+3220-325F,U+3280-33FF,U+FF66-FF9D
+日文 ： unicode-range : U+3040-30FF,U+3190-319F,U+31F0-31FF,U+3220-325F,U+3280-33FF,U+FF66-FF9D
 
 标点 :
 英文标点符号 : unicode-range : U+0000-002F,U+003A-0040,U+005B-0060,U+007B-FFFF
