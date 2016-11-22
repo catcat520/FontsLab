@@ -6,7 +6,7 @@
 /* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*//*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.A.(2016.11.20 | 10:58)";}
+/* 版本：*/" CNSG.A.(2016.11.22 | 14:03)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外网站 : 域名规则";}
@@ -116,8 +116,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* wooyun.org *//* Y */div.rightItem>.remindInfo>a>span , .infoContent>ul>LI[id*=remind]>a{color: red !important;}
 /* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color: gray !important;}
 /* youku.com *//* L */.subscribe-square-pc__sidebar__channel-list>li>.subscribe-square-pc__sidebar__avatar--all-update{font-family: "youkuMobile" !important;}
-/* youku.com *//* DS */#playBox>#module_basic_playbox>.vpactionv5_iframe_wrap{top: auto !important;}
-/* youku.com *//* DS */body>div#sMain>div.mainCol , div.sideCol>div#module_basic_info>div.wrapper , div#sMain>div.sideCol>div#module_basic_relationright{margin-top: 35px !important;}
+/* youku.com *//* DS */div#module_basic_player>div#player>object#movie_player{width: 100% !important;height: 95% !important;}
 /* youtube.com *//* Y */div.comment-renderer.channel-owner>div.comment-renderer-content>div.comment-renderer-header>a:after{background: white;color: red;content:" 📣 "}
 /* zybuluo.com *//* D */#preview-button-bar>#preview-button-row>.dropdown{margin-right: auto !important;}
 
