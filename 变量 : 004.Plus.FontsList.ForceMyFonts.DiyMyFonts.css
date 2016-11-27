@@ -12,12 +12,13 @@
 body>header#main-header>h1:nth-child(1):after{font-family:"Georgia" !important;color: #f00;text-shadow: 1.5px 1.5px 0.5px #212121;content: "ℙlus" !important;}
 }/* 范围 */
 
-/* Plus.FontsList *//*[[Plus.FontsListSwitch]]*/
+/* Plus.AllFunc *//*[[Plus.FontsListSwitch]]*/
 /*[[FzGB18030FontsList]]*/
 /*[[FzGBKFontsList]]*/
 /*[[FzGB2312FontsList]]*/
 /*[[FzGBT12345FontsList]]*/
 /*[[CN.FallBack.List]]*/
-/* Plus.FontsList */
+/*[[DanmuSub.Html5Fonts]]*/
+/* Plus.AllFunc */
 
 
