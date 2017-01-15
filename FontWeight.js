@@ -1,3 +1,9 @@
+字重回退口诀 : 5上6下
+http://www.w2bc.com/Article/44187
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/font-weight
+
+
+
 /* 100:Thin/Hairline */
 /* 200:Extra Light/Ultra Light */
 /* 300:Light */
