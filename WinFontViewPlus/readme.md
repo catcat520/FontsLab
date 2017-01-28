@@ -9,3 +9,5 @@
 <img src=https://raw.githubusercontent.com/catcat520/FontsLab/master/WinFontViewPlus/img/PvFontSx02.png>
 <img src=https://github.com/catcat520/FontsLab/blob/master/WinFontViewPlus/img/PvFontLmc02.png>
 <img src=https://github.com/catcat520/FontsLab/blob/master/WinFontViewPlus/img/PvFontXht02.png>
+<img src=https://github.com/catcat520/FontsLab/blob/master/WinFontViewPlus/img/PvFontKxzidt.png>
+<img src=https://github.com/catcat520/FontsLab/blob/master/WinFontViewPlus/img/PvFontQh01.png>
