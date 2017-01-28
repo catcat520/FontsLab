@@ -6,3 +6,5 @@
 2.增加了标点符号<br>
 3.多国语言文字预览<br><br>
 <img src=https://raw.githubusercontent.com/catcat520/FontsLab/master/WinFontViewPlus/img/PvFontXss01.png>
+<img src=https://raw.githubusercontent.com/catcat520/FontsLab/master/WinFontViewPlus/img/PvFontSx02.png>
+
