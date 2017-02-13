@@ -1,15 +1,16 @@
-/* 名称：004.DiyMyFonts.Chinese.FireFoxChromeIE.catcat520 *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣ */
+/* 名称：004.DiyMyFonts.Chinese.FireFoxChromeEdge.catcat520 *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣ */
 /* 更新：2016.08.13 | 16:48 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 freelu@卡饭 mayuyu@Ptt */
 /* 功能：自定义字体，英 Segoe UI，中 雅黑。修正乱码，网页错位 *//*[[SwitchAGENT_SHEET]]*/
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
-/* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
+/* 适用：Win/*nix 系统 和 FireFox/Chrome/IE/Edge 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100478/004-diymyfonts-chinese-firefoxchromeie-catcat520 */
+/* 主页: https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
-/* 网络：*//*[[WebFonts]]*//* 网络字体 */
-/* 范围：*//*[[CoveRage]]*/
+/* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
+/* 版本：*/" CNSG.B.(2017.02.13 | 14:42)";}}
 
-/* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
-/* VerCtrl */{background: #CBDDE3;color: black;content: " CNSG.B.(2016.08.13 | 16:48)" !important;}
+/*//*[[NetCore]]*//*//*[[CoveRage]]*/
+/*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"){
 
 /* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
 /* main(sysfont) */"/*[[ForceALL]]*//*[[Chinese font]]*/","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","/*[[DiyMyEnFonts]]*/","/*[[WebFontFamilyName]]*/","/*[[English font]]*/","Inconsolata","Envy Code R","Open Sans@Fix","Roboto","Segoe UI","Helvetica Neue","Lucida Grande","Ubuntu","Tahoma@Fix","Verdana@Fix","Menlo","Monaco","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyMyCnFonts]]*/","SDF.FixScTcFonts","SDF.Hangul","/*[[Chinese font]]*/","Microsoft YaHei","Microsoft JhengHei","Microsoft YaHei UI","Microsoft JhengHei UI","fp-font",
@@ -723,128 +724,6 @@
 /* SitePosFix */section#style-info>div#main-style-info>ul#style-settings{padding-left: 0.9em !important;}
 }
 }/* 范围 *//* 字体演示 */
-
-/* 阿里类网站&ForceFont */
-/* 范围：*/@-moz-document regexp("(^https?://(.*\.google\.co\.jp|.*\.tmall\.com|.*\.taobao\.com|.*\.alipay\.com|.*\.alimama\.com|.*\.tanx\.com|.*\.95095\.com|.*\.tmall\.hk)).*"){
-/* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
-/* main(sysfont) */"/*[[ForceALL]]*//*[[Chinese font]]*/","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","/*[[DiyMyEnFonts]]*/","/*[[WebFontFamilyName]]*/","/*[[English font]]*/","Inconsolata","Envy Code R","Open Sans@Fix","Roboto","Segoe UI","Helvetica Neue","Lucida Grande","Ubuntu","Tahoma@Fix","Verdana@Fix","Menlo","Monaco","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyMyCnFonts]]*/","SDF.FixScTcFonts","SDF.Hangul","/*[[Chinese font]]*/","Microsoft YaHei","Microsoft JhengHei","Microsoft YaHei UI","Microsoft JhengHei UI","fp-font",
-/* main(fixfont) */"sellerCenter","tm-detail-font",
-/* main(sysfont) */"Noto Sans CJK TC","Noto Sans CJK SC","Source Han Sans TC","Source Han Sans SC","PingFang TC","PingFang HK","PingFang SC","SimSun","LowLevelEmoji","Segoe UI Symbol","Symbola","Quivira","Meiryo","Malgun Gothic","NSimSun","MingLiU","MingLiU_HKSCS","SimSun-ExtB","MingLiU-ExtB","MingLiU_HKSCS-ExtB","Nimbus Roman No9 L","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Droid Sans Fallback","Hiragino Sans GB","Symbol","FZSongS","Simsun (Founder Extended)","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Uighur","Microsoft Yi Baiti","Mongolian Baiti","Estrangelo Edessa","Ebrima","Euphemia","Nyala","Plantagenet Cherokee","sylfaen","Arial Unicode MS","Unifont" }
-/* alipay.com *//* L */DIV.order-real-amount>I.iconfont>.order-reload , div>i.iconfont>span , i.iconfont>span>span{font-family: "cashier" !important;}
-/* ratewrite.tmall.com *//* L */DIV.tm-rating-star-list>div[class*=iconfont]>span[class*=rating-star]{font-family: "review-iconfont" !important;}
-/* shopxxx.taobao.com:收藏 */.search-bottom>.iconfont>em , .line-right>.iconfont>em{font-family: "shop-iconfont" !important;}
-/* vip.tmall.com *//* C */.hottop .layout .personal .assets li .value{width: auto !important;}
-@font-face{font-family:"Arial";src:local("Arial");}
-@font-face{font-family:"Arial";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Arial";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-/* SDF.Number:400 */@font-face {font-family: "Arial";unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/"),local("/*[[SDF.Number]]*/ Regular"),local("/*[[SDF.Number]]*/ Normal"),local("/*[[SDF.Number]]*/ Roman");}
-@font-face{font-family:"Arial";font-weight:Bold;src:local("Arial Bold"),local("Arial");}
-@font-face{font-family:"Arial";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Arial";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-/* SDF.Number:700 */@font-face {font-family: "Arial";font-weight: Bold;unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/ Bold"),local("/*[[SDF.Number]]*/");}
-@font-face{font-family:"Helvetica";src:local("Helvetica");}
-@font-face{font-family:"Helvetica";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Helvetica";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-/* SDF.Number:400 */@font-face {font-family: "Helvetica";unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/"),local("/*[[SDF.Number]]*/ Regular"),local("/*[[SDF.Number]]*/ Normal"),local("/*[[SDF.Number]]*/ Roman");}
-@font-face{font-family:"Helvetica";font-weight:Bold;src:local("Helvetica Bold"),local("Helvetica");}
-@font-face{font-family:"Helvetica";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Helvetica";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-/* SDF.Number:700 */@font-face {font-family: "Helvetica";font-weight: Bold;unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/ Bold"),local("/*[[SDF.Number]]*/");}
-@font-face{font-family:"Open Sans";src:local("Open Sans");}
-@font-face{font-family:"Open Sans";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Open Sans";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-/* SDF.Number:400 */@font-face {font-family: "Open Sans";unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/"),local("/*[[SDF.Number]]*/ Regular"),local("/*[[SDF.Number]]*/ Normal"),local("/*[[SDF.Number]]*/ Roman");}
-@font-face{font-family:"Open Sans";font-weight:Bold;src:local("Open Sans Bold"),local("Open Sans");}
-@font-face{font-family:"Open Sans";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Open Sans";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-/* SDF.Number:700 */@font-face {font-family: "Open Sans";font-weight: Bold;unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/ Bold"),local("/*[[SDF.Number]]*/");}
-@font-face{font-family:"Tahoma";src:local("Tahoma");}
-@font-face{font-family:"Tahoma";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Tahoma";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-/* SDF.Number:400 */@font-face {font-family: "Tahoma";unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/"),local("/*[[SDF.Number]]*/ Regular"),local("/*[[SDF.Number]]*/ Normal"),local("/*[[SDF.Number]]*/ Roman");}
-@font-face{font-family:"Tahoma";font-weight:Bold;src:local("Tahoma Bold"),local("Tahoma");}
-@font-face{font-family:"Tahoma";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Tahoma";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-/* SDF.Number:700 */@font-face {font-family: "Tahoma";font-weight: Bold;unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/ Bold"),local("/*[[SDF.Number]]*/");}
-@font-face{font-family:"Verdana";src:local("Verdana");}
-@font-face{font-family:"Verdana";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Verdana";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma");}
-/* SDF.Number:400 */@font-face {font-family: "Verdana";unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/"),local("/*[[SDF.Number]]*/ Regular"),local("/*[[SDF.Number]]*/ Normal"),local("/*[[SDF.Number]]*/ Roman");}
-@font-face{font-family:"Verdana";font-weight:Bold;src:local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"Verdana";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Verdana";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma");}
-/* SDF.Number:700 */@font-face {font-family: "Verdana";font-weight: Bold;unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/ Bold"),local("/*[[SDF.Number]]*/");}
-@font-face{font-family:"SimHei";src:local("SimHei");}
-@font-face{font-family:"SimHei";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"SimHei";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"SimHei";font-weight:Bold;src:local("SimHei");}
-@font-face{font-family:"SimHei";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"SimHei";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"黑体";src:local("SimHei");}
-@font-face{font-family:"黑体";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"黑体";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"黑体";font-weight:Bold;src:local("SimHei");}
-@font-face{font-family:"黑体";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"黑体";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"SimSun";src:local("SimSun");}
-@font-face{font-family:"SimSun";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"SimSun";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"SimSun";font-weight:Bold;src:local("SimSun");}
-@font-face{font-family:"SimSun";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"SimSun";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"宋体";src:local("SimSun");}
-@font-face{font-family:"宋体";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"宋体";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"宋体";font-weight:Bold;src:local("SimSun");}
-@font-face{font-family:"宋体";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"宋体";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"Microsoft YaHei";src:local("Microsoft YaHei");}
-@font-face{font-family:"Microsoft YaHei";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Microsoft YaHei";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"Microsoft YaHei";font-weight:Bold;src:local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
-@font-face{font-family:"Microsoft YaHei";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Microsoft YaHei";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"Microsoft YaHei";font-weight:300;src:local("Microsoft YaHei Light"),local("Microsoft YaHei");}
-@font-face{font-family:"Microsoft YaHei";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Light"),local("Microsoft YaHei"),local("Microsoft JhengHei Light"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Microsoft YaHei";font-weight:300;src:local("/*[[English font]]*/ Light"),local("/*[[English font]]*/"),local("Inconsolata Light"),local("Inconsolata"),local("Segoe UI Light"),local("Segoe UI"),local("Helvetica Neue Light"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"微软雅黑";src:local("Microsoft YaHei");}
-@font-face{font-family:"微软雅黑";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"微软雅黑";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"微软雅黑";font-weight:Bold;src:local("Microsoft YaHei Bold"),local("Microsoft YaHei");}
-@font-face{font-family:"微软雅黑";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"微软雅黑";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"微软雅黑";font-weight:300;src:local("Microsoft YaHei Light"),local("Microsoft YaHei");}
-@font-face{font-family:"微软雅黑";font-weight:300;src:local("/*[[Chinese font]]*/ Light"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Light"),local("Microsoft YaHei"),local("Microsoft JhengHei Light"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"微软雅黑";font-weight:300;src:local("/*[[English font]]*/ Light"),local("/*[[English font]]*/"),local("Inconsolata Light"),local("Inconsolata"),local("Segoe UI Light"),local("Segoe UI"),local("Helvetica Neue Light"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"MingLiU";src:local("MingLiU");}
-@font-face{font-family:"MingLiU";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"MingLiU";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"MingLiU";font-weight:Bold;src:local("MingLiU");}
-@font-face{font-family:"MingLiU";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"MingLiU";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"STXihei";src:local("STXihei");}
-@font-face{font-family:"STXihei";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"STXihei";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-@font-face{font-family:"STXihei";font-weight:Bold;src:local("STXihei");}
-@font-face{font-family:"STXihei";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"STXihei";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-@font-face{font-family:"Meiryo";src:local("Meiryo");}
-@font-face{font-family:"Meiryo";src:local("/*[[Chinese font]]*/"),local("Microsoft YaHei"),local("Microsoft JhengHei"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Meiryo";src:local("/*[[English font]]*/"),local("Inconsolata"),local("Segoe UI"),local("Helvetica Neue"),local("Lucida Grande"),local("Tahoma"),local("Verdana");}
-/* SDF.Number:400 */@font-face {font-family: "Meiryo";unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/"),local("/*[[SDF.Number]]*/ Regular"),local("/*[[SDF.Number]]*/-Regular"),local("/*[[SDF.Number]]*/ Normal"),local("/*[[SDF.Number]]*/ Roman");}
-/* SDF.EnSymbol:400 */@font-face {font-family: "Meiryo";unicode-range : U+0000-002F,U+003A-0040,U+005B-0060,U+007B-FFFF;src: local("/*[[SDF.EnSymbol]]*/"),local("/*[[SDF.EnSymbol]]*/ Regular"),local("/*[[SDF.EnSymbol]]*/ Normal"),local("/*[[SDF.EnSymbol]]*/ Roman");}
-/* SDF.CnSymbol:400 */@font-face {font-family: "Meiryo";unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[SDF.CnSymbol]]*/"),local("/*[[SDF.CnSymbol]]*/ Regular"),local("/*[[SDF.CnSymbol]]*/-Regular"),local("/*[[SDF.CnSymbol]]*/ Normal"),local("/*[[SDF.CnSymbol]]*/ Roman");}
-/* SDF.JpFakeName:400 */@font-face {font-family: "Meiryo";unicode-range: U+3040-30FF,U+3190-319F,U+31F0-31FF,U+3220-325F,U+3280-33FF,U+FF66-FF9D;src: local("/*[[DiyMyJpFonts]]*/"),local("/*[[DiyMyJpFonts]]*/ Regular"),local("/*[[DiyMyJpFonts]]*/ Normal"),local("/*[[DiyMyJpFonts]]*/ Roman"),local("/*[[SDF.JpFakeName]]*/"),local("/*[[SDF.JpFakeName]]*/ Regular"),local("/*[[SDF.JpFakeName]]*/ Normal"),local("/*[[SDF.JpFakeName]]*/ Roman"),local("Noto Sans CJK SC Regular"),local("Noto Sans CJK TC Regular"),local("Noto Sans CJK SC"),local("Noto Sans CJK TC"),local("Source Han Sans SC Regular"),local("Source Han Sans TC Regular"),local("Source Han Sans SC"),local("Source Han Sans TC"),local("Hiragino Sans W4"),local("Hiragino Sans");}
-/* SDF.Hangul:400 */@font-face {font-family: "Meiryo";unicode-range : U+1100-11FF,U+312E-318E,U+3200-321F,U+3260-327F,U+AC00-D7FF,U+FFA1-FFDF;src: local("/*[[SDF.Hangul]]*/"),local("/*[[SDF.Hangul]]*/ Regular"),local("/*[[SDF.Hangul]]*/ Normal"),local("/*[[SDF.Hangul]]*/ Roman");}
-@font-face{font-family:"Meiryo";font-weight:Bold;src:local("Meiryo Bold"),local("Meiryo");}
-@font-face{font-family:"Meiryo";font-weight:Bold;src:local("/*[[Chinese font]]*/ Bold"),local("/*[[Chinese font]]*/"),local("Microsoft YaHei Bold"),local("Microsoft YaHei"),local("Microsoft JhengHei Bold"),local("Microsoft JhengHei"),local("Hiragino Sans GB W6"),local("Hiragino Sans GB"),local("WenQuanYi Micro Hei"),local("WenQuanYi Zen Hei");}
-@font-face{font-family:"Meiryo";font-weight:Bold;src:local("/*[[English font]]*/ Bold"),local("/*[[English font]]*/"),local("Inconsolata Bold"),local("Inconsolata"),local("Segoe UI Bold"),local("Segoe UI"),local("Helvetica Neue Bold"),local("Helvetica Neue"),local("Lucida Grande Bold"),local("Lucida Grande"),local("Tahoma Bold"),local("Tahoma"),local("Verdana Bold"),local("Verdana");}
-/* SDF.Number:700:Bold */@font-face {font-family: "Meiryo";font-weight: Bold;unicode-range: U+0030-0039;src: local("/*[[SDF.Number]]*/ Bold"),local("/*[[SDF.Number]]*/-Bold"),local("/*[[SDF.Number]]*/");}
-/* SDF.EnSymbol:700:Bold */@font-face {font-family: "Meiryo";font-weight: Bold;unicode-range : U+0000-002F,U+003A-0040,U+005B-0060,U+007B-FFFF;src: local("/*[[SDF.EnSymbol]]*/ Bold"),local("/*[[SDF.EnSymbol]]*/");}
-/* SDF.CnSymbol:700:Bold */@font-face {font-family: "Meiryo";font-weight: Bold;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[SDF.CnSymbol]]*/ Bold"),local("/*[[SDF.CnSymbol]]*/-Bold"),local("/*[[SDF.CnSymbol]]*/");}
-/* SDF.JpFakeName:700:Bold */@font-face {font-family: "Meiryo";font-weight: Bold;unicode-range: U+3040-30FF,U+3190-319F,U+31F0-31FF,U+3220-325F,U+3280-33FF,U+FF66-FF9D;src: local("/*[[DiyMyJpFonts]]*/ Bold"),local("/*[[DiyMyJpFonts]]*/"),local("/*[[SDF.JpFakeName]]*/ Bold"),local("/*[[SDF.JpFakeName]]*/"),local("Noto Sans CJK SC Bold"),local("Noto Sans CJK TC Bold"),local("Noto Sans CJK SC"),local("Noto Sans CJK TC"),local("Source Han Sans SC Bold"),local("Source Han Sans TC Bold"),local("Source Han Sans SC"),local("Source Han Sans TC"),local("Hiragino Sans W7"),local("Hiragino Sans");}
-/* SDF.Hangul:700:Bold */@font-face {font-family: "Meiryo";font-weight: Bold;unicode-range : U+1100-11FF,U+312E-318E,U+3200-321F,U+3260-327F,U+AC00-D7FF,U+FFA1-FFDF;src: local("/*[[SDF.Hangul]]*/ Bold"),local("/*[[SDF.Hangul]]*/");}
-}/* 范围 *//* 阿里类网站&ForceFont */
 
 /* 日文网站 *//* 域名规则 */
 /* 范围：*//*[[JpKanjiSwitch]]*/@-moz-document regexp("(^https?://(.*\\.jp(/)|ja\\.(\w*){0,7}|jp\\.(\w*){0,7}|(\w*\.){0,7}(a-q-f|cookpad|dietnavi|dtiblog|j-bleach|j-cast|labaq|logsoku|kabu|m3|mi-mollet|mnrate|news-postseven|netflix|nikkei|qiita|sanspo|smbc-card|sourcenext|teacup|tvbok|yodobashi)\.com|(\w*\.){0,7}(2ch|a8|fruitmail|sanseido|superdollfie|townwork|webcg|with2)\.net|j.people.com.cn|.*webry\.info|.*lineblog.me|.*2ch.sc|(\w*\.){0,7}(nosub|pandora)\.tv).*)"){/* 范围 */
