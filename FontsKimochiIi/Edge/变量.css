@@ -3,11 +3,11 @@
 /* 功能：自定义字体，英 Segoe UI，中 雅黑。修正乱码，网页错位 *//*[[SwitchAGENT_SHEET]]*/
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/Chrome/Edge 内核浏览器 *//* i really want this to be global */
-/* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
-/* 主页: https://github.com/catcat520/FontsLab
+/* 网址：https://userstyles.org/styles/100478/004-diymyfonts-chinese-firefoxchromeedge-catcat520 */
+/* 主页：https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.02.17 | 15:57)";}}
+/* 版本：*/" CNSG.B.(2017.02.17 | 23:42)";}}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"){
@@ -658,10 +658,10 @@
 }/* 范围 *//* Css Priority */
 
 /* Stylish Edit Box */
-/* 范围 *//*[[NetCore]]*/@-moz-document regexp(".*CodeMirror.*"){
-/* CodeMirror *//*[[NetCore]]*/BODY>div.CodeMirror>div.CodeMirror-scroll{font-family: "Source Code Pro","Anonymous Pro","Envy Code R","Inconsolata","mononoki","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB" !important;font-size:14px !important;line-height:15pt !important;}
-/* Orion *//*[[NetCore]]*/#clientDiv>DIV , #clientDiv>DIV>SPAN , .rulerLines.odd , .rulerLines.even{font-family: "Source Code Pro","Anonymous Pro","Envy Code R","Inconsolata","mononoki","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB" !important;font-size:14px !important;line-height:15pt !important;}
-/*[[NetCore]]*/}/*[[NetCore]]*//* 范围 *//* Stylish Edit Box */
+/* 范围 *//*[[netcore]]*/@-moz-document regexp(".*CodeMirror.*"){
+/* CodeMirror *//*[[netcore]]*/BODY>div.CodeMirror>div.CodeMirror-scroll{font-family: "Source Code Pro","Anonymous Pro","Envy Code R","Inconsolata","mononoki","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB" !important;font-size:14px !important;line-height:15pt !important;}
+/* Orion *//*[[netcore]]*/#clientDiv>DIV , #clientDiv>DIV>SPAN , .rulerLines.odd , .rulerLines.even{font-family: "Source Code Pro","Anonymous Pro","Envy Code R","Inconsolata","mononoki","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB" !important;font-size:14px !important;line-height:15pt !important;}
+/*[[netcore]]*//*[[netcore]]*/}/* 范围 *//* Stylish Edit Box */
 
 /* UserStyles */
 /* 范围 */@-moz-document url-prefix("https://userstyles.org/styles/100473/"),url-prefix("https://userstyles.org/styles/100478/"),url-prefix("https://userstyles.org/styles/126356/"),url-prefix("https://userstyles.org/styles/133855/"){
