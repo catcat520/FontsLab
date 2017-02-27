@@ -6,7 +6,7 @@
 /* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*//*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.A.(2016.11.23 | 16:16)";}
+/* 版本：*/" CNSG.A.(2017.02.28 | 03:48)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外网站 : 域名规则";}
@@ -50,6 +50,8 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* 2345.com *//* D */#content>#left>.kzjx h2 a{margin: 0px 7.5px !important;}
 /* 2345.com *//* L */.tool_ul > li:nth-child(n) > a:nth-child(n) > ins:nth-child(n){font-family: "2345" !important;}
 /* acgdb.com */#top #top-options>label , .mediaviewer-inset>.wrapper>.close:before , .mediaviewer>.wrapper>.body .panel .share , .mediaviewer-overlay>.wrapper>.body .nav a , .form-login>div p a[acgdb-tip="新浪微博"] , .form-login>div p a[acgdb-tip="腾讯微博"] , .slideshow2>.wrap>label span em , #quickfacts> .nav a span , #acgdb-picviewer>.top>.switches label{font-family: "acgdb" !important;}
+/* otx.alienvault.com/indicator/hostname/redirector.gvt1.com/ */#otxApp>div.full-height-wrap.ng-scope>div.layout.main.ng-scope>indicator>div>div.indicator-sidebar.hidden-xs.ng-scope>rtp>div>a>img , #DataTables_Table_2_wrapper>#DataTables_Table_2>tbody>tr:nth-child(n)>td:nth-child(3) , #DataTables_Table_2_wrapper>#DataTables_Table_2>tbody>tr:nth-child(n)>td:nth-child(4) , #DataTables_Table_2_wrapper>#DataTables_Table_2>tbody>tr:nth-child(n)>td:nth-child(6)>span>span{display: none;}
+/* otx.alienvault.com/indicator/hostname/redirector.gvt1.com/ */#DataTables_Table_2_wrapper>#DataTables_Table_2>tbody>tr:nth-child(n)>td:nth-child(2)>span>span{max-width: none;}
 /* baidu.com *//* Y */HTML>BODY>#_mask[style^="opacity"]{display: none !important;}
 /* bilibili.com *//* D */LI>DIV.main-content-list-message>SPAN.main-content-list-title{margin: auto !important;}
 /* bilibili.com *//* Y */DIV#content>DIV.box-id-content>DIV#main_content.box-inner{overflow: inherit !important;}
@@ -117,7 +119,6 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color: gray !important;}
 /* youku.com *//* L */.subscribe-square-pc__sidebar__channel-list>li>.subscribe-square-pc__sidebar__avatar--all-update{font-family: "youkuMobile" !important;}
 /* youku.com *//* DS */div#module_basic_player>div#player>object#movie_player{width: 100% !important;height: 95% !important;}
-/* youtube.com *//* Y */div.comment-renderer.channel-owner>div.comment-renderer-content>div.comment-renderer-header>a:after{background: white;color: red;content:" 📣 "}
 /* zybuluo.com *//* D */#preview-button-bar>#preview-button-row>.dropdown{margin-right: auto !important;}
 
 /* SpecFix */
@@ -148,11 +149,12 @@ div#content-wrapper>article#main-article>div#left-info:after
 }
 /* SitePosFix */
 body>#content-wrapper>#main-article{margin-left: 185px !important;}
-section#style-info>div#main-style-info>ul#style-settings{padding-left: 0.9em !important;}
 #style-settings>li>select[class*="option"]{max-width: 23.5em !important;}
-body>header#main-header>h1{font-family: "Times New Roman" !important;}
+body>header#main-header>h1{font-family: "Times New Roman@VrFonts" !important;}
+#style-settings>li>label,ul>li>label{padding:0px !important;display:inline !important;}
 UL#style-settings>LI>INPUT#setting-444243.style-setting-option , UL#style-settings>LI>INPUT#setting-444242.style-setting-option , UL#style-settings>LI>INPUT#setting-450961.style-setting-option , UL#style-settings>LI>INPUT#setting-450962.style-setting-option , UL#style-settings>LI>INPUT#setting-451083.style-setting-option , UL#style-settings>LI>INPUT#setting-451084.style-setting-option , UL#style-settings>LI>INPUT#setting-451200.style-setting-option , UL#style-settings>LI>INPUT#setting-451201.style-setting-option , UL#style-settings>LI>INPUT#setting-451425.style-setting-option , UL#style-settings>LI>INPUT#setting-451426.style-setting-option , UL#style-settings>LI>INPUT#setting-451428.style-setting-option , UL#style-settings>LI>INPUT#setting-451429.style-setting-option , UL#style-settings>LI>INPUT#setting-451563.style-setting-option , UL#style-settings>LI>INPUT#setting-451564.style-setting-option , UL#style-settings>LI>INPUT#setting-451565.style-setting-option , UL#style-settings>LI>INPUT#setting-451566.style-setting-option , UL#style-settings>LI>INPUT#setting-451568.style-setting-option , UL#style-settings>LI>INPUT#setting-451569.style-setting-option{width: 46% !important;}
-#style-info>#main-style-info>#style-settings *{font-family:"Consolas","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","Andale Mono","Menlo","PingFang SC","PingFang TC","PingFang HK","Hiragino Sans GB","Noto Sans CJK SC","Noto Sans CJK TC","Noto Sans CJK JP","Source Han Sans SC","Source Han Sans TC","Source Han Sans","WenQuanYi Micro Hei","WenQuanYi Zen Hei","SimSun" !important;vertical-align:16% !important;}
+section#style-info>div#main-style-info-area>ul#style-settings , section#style-info>div#main-style-info>ul#style-settings{padding-left: inherit !important;}
+#style-info>#main-style-info-area>#style-settings * , #style-info>#main-style-info>#style-settings *{font-family:"Consolas","SF Mono","Ubuntu Mono","DejaVu Sans Mono","Liberation Mono","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","Andale Mono","Menlo","PingFang SC","PingFang TC","PingFang HK","Hiragino Sans GB","Noto Sans CJK SC","Noto Sans CJK TC","Noto Sans CJK JP","Source Han Sans SC","Source Han Sans TC","Source Han Sans","WenQuanYi Micro Hei","WenQuanYi Zen Hei","SimSun" !important;vertical-align:16% !important;}
 }/* 范围 *//* UserStyles */
 
 /* 阿里类网站&ForceFont */
