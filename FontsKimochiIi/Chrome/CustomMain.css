@@ -1,0 +1,103 @@
+/* 名称：004.ForceMyFonts.Chinese.FireFoxChromeIE.catcat520 *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣ */
+/* 更新：2016.06.24 | 05:12 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
+/* 功能：自定义字体，英 Segoe UI，中 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
+/* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
+/* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
+/* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
+/* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
+/* 网络：*//* 网络字体 */
+/* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
+/* VerCtrl */{background: #CBDDE3;color: black;content: " CNSM.C.(2016.06.24 | 05:12)" !important;}
+
+/* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
+/* main(sysfont) */"NoForceAllFonts By Microsoft YaHei","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","此处填写英文字体","此处填写 font-family 的名称","Envy Code R","Inconsolata","Envy Code R","Open Sans","Roboto","Segoe UI","Helvetica Neue","Lucida Grande","Ubuntu","Tahoma","Verdana","Menlo","Monaco","","此处填写中文字体","SDF.FixScTcFonts","SDF.Hangul","Microsoft YaHei","Microsoft YaHei","Microsoft JhengHei","Microsoft YaHei UI","Microsoft JhengHei UI","fp-font",
+/* main(webfont) */"AccessibilityFoundicons","Accessibility Foundicons","anchorjs-icons","brandico","Brandico","brankic1979","Brankic1979","brankic 1979","Brankic 1979","broccolidry","Broccolidry","chagaan","CONDENSEicon","cuticons","Cuticons","dashicons","duotai","duotai-status","Dot Com","ecoico","Ecoico","EightiesShades","ElegantIcons","elusive","Elusive","Elusive-Icons","entypo","Entypo","Entypo Social","Entypo-Social","Erler Dingbats","et-line","Et-line","fontawesome","FontAwesome","fontelico","Fontelico","fontello","Fontello","Garqag","GeneralEnclosedFoundicons","General Enclosed Foundicons","GeneralFoundicons","General Foundicons","Gibson","Gibson Light","gibson_lightbold","Gibson_lightbold","gibson_lightitalic","Gibson_lightitalic","gibsonregular","Gibsonregular","Glyphicons Halflings","GLYPHICONS Halflings","Heydings Controls","Heydings Icons","icft_temai","icft_temai_index","iconminia","Iconminia",
+/* main(webfont) */"iconvault","Iconvault","icomoon","Icomoon","iconfont","iconic","Iconic","icons","Icons","ifanrx","Just Vector","JustVector","JustVectorRegular","linecons","Linecons","LondonMM","londonmmregular","Londonmmregular","mainicon","maki","Maki","Mainicon","Material Icons Extended","Material-Design-Icons","MENKSOF0","Menksoft2007","Menksoft2012","MenksoftQagan","meteocons","Meteocons","MeteoconsRegular","mfglabs","Mfglabs","MFG Labs Iconset","mfg_labs_iconsetregular","Mfg_labs_iconsetregular","modernpics","Modernpics","Modern Pictograms","o365Icons","Office365Icons","OpenWeb Icons","PulsarJS","RaphaelIcons","rondo","Rondo","sellerCenter","sdp-icons","silkcons","Silkcons","SocialFoundicons","Social Foundicons","Socialico","Socialico Plus","Social Networking Icons","Sosa","Symbol Signs","Symbol Signs Basis set","typicons","Typicons","VideoJS","weathercons","Weathercons","websymbols","Websymbols","Web Symbols","Web Symbols Liga","wpzoom","Wpzoom","youkuMobile","zocial","Zocial",
+/* main(sysfont) */"Noto Sans CJK SC","Noto Sans CJK TC","Noto Sans CJK JP","Source Han Sans SC","Source Han Sans TC","Source Han Sans","PingFang SC","PingFang TC","PingFang HK","SimSun","LowLevelEmoji","Segoe UI Symbol","Symbola","Meiryo","Malgun Gothic","NSimSun","MingLiU","MingLiU_HKSCS","SimSun-ExtB","MingLiU-ExtB","MingLiU_HKSCS-ExtB","Nimbus Roman No9 L","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Droid Sans Fallback","Hiragino Sans GB","Symbol","FZSongS","Simsun (Founder Extended)","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Uighur","Microsoft Yi Baiti","Mongolian Baiti","Arial Unicode MS","Unifont" !important;}
+/* 彩色Emoji低优先兼容 *//*/**/@supports (display: -moz-box){ @supports (ruby-position: inherit){ @font-face {font-family: "LowLevelEmoji";src: local('Firefox Emoji'),local("Segoe UI Emoji");;} } }/* ColorEmojiCtrl */
+/* 彩色Emoji高优先兼容 *//**//*/@supports (display: -moz-box){ @supports (ruby-position: inherit){ @font-face {font-family: "HighLevelEmoji";src: local('Firefox Emoji'),local("Segoe UI Emoji");;} } }/* ColorEmojiCtrl */
+
+/* sports.163.com/nba *//* CD */span.nba_matchnav_score , .pbody{font-family: "System","SimSun" !important;margin: 1px auto !important;}
+/* 2345.com *//* L */.these_col_1>.tool_ul>li>a>ins , DIV.module_t>span>a>ins , DIV.module_t>a>ins , .category_in>div.panel:nth-child(n)>p>ins>a , #rightToolBox>dd>ins>a , .cnxh_hd>#J_gul_cata>a>ins{font-family: "2345" !important;}
+/* 2345.com *//* D */#content>#left>.kzjx h2 a{margin: 0px 7.5px !important;}
+/* 2345.com *//* L */.tool_ul > li:nth-child(n) > a:nth-child(n) > ins:nth-child(n){font-family: "2345" !important;}
+/* acgdb.com */#top #top-options>label , .mediaviewer-inset>.wrapper>.close:before , .mediaviewer>.wrapper>.body .panel .share , .mediaviewer-overlay>.wrapper>.body .nav a , .form-login>div p a[acgdb-tip="新浪微博"] , .form-login>div p a[acgdb-tip="腾讯微博"] , .slideshow2>.wrap>label span em , #quickfacts> .nav a span , #acgdb-picviewer>.top>.switches label{font-family: "acgdb" !important;}
+/* baidu.com *//* Y */HTML>BODY>#_mask[style^="opacity"]{display: none !important;}
+/* bilibili.com *//* D */LI>DIV.main-content-list-message>SPAN.main-content-list-title{margin: auto !important;}
+/* bilibili.com *//* Y */DIV#content>DIV.box-id-content>DIV#main_content.box-inner{overflow: inherit !important;}
+/* bilibili.com *//* D */BODY>DIV.security_content>DIV.security-right{width: auto !important;}
+/* coursera.org *//* L */.vjs-watch-intro-big-play-button>DIV.c-coursePage-video-playbutton-icon>IE.cif.cif-play-circle{font-family: "coursera-iconfont" !important;}
+/* blog.csdn.net *//* D */DIV.pull-right.login-wrap.unlogin>UL.btns>LI.loginlink{width: auto !important;}
+/* deviantart.com *//* L */tr>#oh-menu-friends>#friendslink , tr>#oh-menu-collect>#collectlink{font-family: "feedfont" !important;}
+/* duckduckgo.com *//* L */DIV.set-side>DIV.cloudsave>SPAN.cloudsave__icn.ddgsi , .search-wrap--home>#search_form_homepage>#search_button_homepage , .header__content>#search_form>#search_form_input_clear , .search-wrap--home>#search_form_homepage>#search_form_input_clear , .region-indicator-wrap>.region-indicator>span.region-indicator__icn , .header__content>#search_form>#search_button , #header_wrapper>.header--aside>.header__button--menu , div.zci__metabar>span.zci__metabar__mode-wrap>a.zci__metabar__mode{font-family: "ddg-serp-icons","DDG_ProximaNova" !important;}
+/* dzh.mop.com *//* Y */.rightbar ~ .main{margin-right: auto !important;}
+/* dzh.mop.com *//* Y */DIV.rightbar.fr.mt20.mr20{display: none !important;}
+/* dzh.mop.com *//* Y */.main>.p20>.dzh-indexNotice.mb15{display: none !important;}
+/* dzh.mop.com *//* Y */div>.main .p20{padding: 0px 20px 0px 20px !important;}
+/* ele.me *//* L */.city-nav>.filter-input-wrapper>span.glyph-search , DIV.module-locate.map_search>.search-bar>a.glyph-search , #mod_fixed>A.btn-site-feedback>SPAN.glyph-feedback.glyph , DIV.rst-d-act.act_btns>A.rst-d-act-add.add_btn>span.rst-d-act-glyph{font-family: "eleme" !important;}
+/* entypo.com */div.content>#logo>#front , div.content>#logo>#back{font-family: "entypo-logo" !important;}
+/* etao.com */.s-btn-container>input{font-family: "globalheader" !important;}
+/* firefox.net.cn *//* S */.wrap>.main_wrap>.bread_crumb , .main_wrap>.forum_page>.bbs_info_box{padding: 62px 1px 10px 20px !important;}
+/* firefox.net.cn *//* S */body>.wrap>.search_type_wrap>.search_type{padding: 62px 0px 20px 170px !important;}
+/* godaddy.com */li>a>.caret:before , div>div>.close:before{font-family: "uxfont","whoisyourdaddy" !important;}
+/* google.com *//* Y */#cnt>div.mw>#flyr{display: none !important;}
+/* mooc.guokr.com *//* L */DIV.course-info>SPAN.course-info-star>b[class^="mooc-star-"] , LI#navbarNotice.navbar-notice>a>span.mooc-notice{font-family: "mooc" !important;}
+/* html5test.com */.pointsPanel h2>span , .pointsPanel h2>strong , #indexbutton , #loading>div{font-family: "League Gothic","html5test" !important;}
+/* ifeng.com *//* D */DIV#FNew.FNew.wrap.clearfix>DIV.fl.FNewL>DIV.FNewLBox{min-width: 196px !important;width: auto !important;}
+/* ifeng.com *//* D */DIV.fr.FNewRBox>DIV.clearfix>DIV.fl.FNewM{min-width: 372px !important;width: auto !important;}
+/* ifeng.com *//* D */DIV.clearfix>DIV.ColAM>DIV.ColAMCon{width: 105% !important;}
+/* dragonporn.ldblog.jp */span.omatome-icnfont-button>span>.omatome-icn-hatena , span.omatome-icnfont-button>span>span.omatome-icn-facebook , span.omatome-icnfont-button>span>span.omatome-icn-twitter{font-family: "omatome_ico" !important;}
+/* lengxiaohua.cn *//* D */#layMain>#contentTop>.articleTab{float: inherit !important;}
+/* lrshare.com *//* L */#top-nav>.home_h>.icon-home_h a::before{font-family: "ality" !important;}
+/* pexetothemes.com *//* L */#footer>.scroll-to-top>span:nth-child(n) , DIV.section-boxed>.testimonial-slider>DIV[class^="ts-arrow"] , .portfolio-carousel>.pc-wrapper>DIV[class^="pc-"] , DIV.content-slider-wrapper>DIV[class^="content-slider"]>DIV[class^="cs-arrows"]{font-family: "PexetoArrows" !important;}
+/* read.qidian.com *//* D */#qd_reader_header>.page_set>.gg_box{display: none !important;}
+/* sf-express.com */ul>li>span[class^=sfi] , div>li>span[class^=sfi] , div>span>span[class^=sfi] , h4>a>span[class^=sfi] , .bill-number>.go-waybill-by-phone-num>span[class^=sfi] , li>a>span[class^=sfi]{font-family: "sf-express-icon" !important;}
+/* skycitizen.net *//* L */div._chat>div>a.chat-btn{font-family: "Material-Design-Icons" !important;}
+/* sourceforge.net *//* L */DIV#copyright>DIV#dhi-icon>SPAN.logo-DHI-alt{font-family: "dice-logos" !important;}
+/* taoguba.com.cn *//* C */.tgb_nav02>ul:nth-child(1)>li:nth-child(6) , .tgb_nav03>ul:nth-child(1)>li:nth-child(6)>a:nth-child(1){font-family: Arial !important;}
+/* tudou.com *//* DS */.con_player>.player_container>#player{height: inherit !important;}
+/* tudou.com *//* L */div[class*=Slide]>.btn>b{font-family: "tuiicon" !important;}
+/* w3cplus.com */#go_top{font-family: "w3cplus" !important;}
+/* weibo.com *//* L */div>.W_swficon>em[class^=spac]{font-family: "WBswficon" !important;}
+/* weibo.com *//* C */.sendbox_mod_r>.sendbox_bar>.sendbox_menu{font-family: "Arial" !important;}
+/* wooyun.org *//* D */DIV.wybug_detail>FIELDSET.fieldset.fieldset-code>PRE>CODE , #bugDetail>.content>fieldset.fieldset>pre{white-space: pre-wrap !important;word-wrap: break-word !important;}
+/* wooyun.org *//* Y */div.rightItem>.remindInfo>a , .infoContent > ul>LI[id*=remind].read>a{color: green !important;}
+/* wooyun.org *//* Y */div.rightItem>.remindInfo>a>span , .infoContent>ul>LI[id*=remind]>a{color: red !important;}
+/* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color: gray !important;}
+/* youku.com *//* L */.subscribe-square-pc__sidebar__channel-list>li>.subscribe-square-pc__sidebar__avatar--all-update{font-family: "youkuMobile" !important;}
+/* zybuluo.com *//* D */#preview-button-bar>#preview-button-row>.dropdown{margin-right: auto !important;}
+
+/* 2345/hao123/sogou:split/space *//* C */li#nlhv_cp_li>DIV.memu>SPAN.l , DIV.g_clr.baritem>DIV.category>SPAN.split , #rightToolBox>dd>SPAN.split{font-family: "Helvetica Neue","Helvetica","Arial" !important;}
+/* Adobe Flash Player Set Fix */div.inner>div#center>div.mark-cover{display: none !important;}
+/* IOF Error Font Fix - uBlock Origin */.tooltipContainer>#switch>span , .tooltipContainer>.statName>#gotoPick , .tooltipContainer>.statName>A , .tooltipContainer>#extraTools>#no-popups , .tooltipContainer>#extraTools>#no-large-media , .tooltipContainer>#extraTools>#no-cosmetic-filtering , .tooltipContainer>#extraTools>#no-remote-fonts , #panes>.tooltipContainer>#refresh , .permatoolbar>div>.button{font-family: FontAwesome !important;}
+/* stylish edit box Orion */#clientDiv>DIV , #clientDiv>DIV>SPAN , .rulerLines.odd , .rulerLines.even{font-family: "Source Code Pro","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB" !important;font-size:14px !important;line-height:15pt !important;}
+/* stylish:userstyles.org *//* Y */UL#style-settings>LI>INPUT#setting-444243.style-setting-option , UL#style-settings>LI>INPUT#setting-444242.style-setting-option , UL#style-settings>LI>INPUT#setting-450961.style-setting-option , UL#style-settings>LI>INPUT#setting-450962.style-setting-option , UL#style-settings>LI>INPUT#setting-451083.style-setting-option , UL#style-settings>LI>INPUT#setting-451084.style-setting-option , UL#style-settings>LI>INPUT#setting-451200.style-setting-option , UL#style-settings>LI>INPUT#setting-451201.style-setting-option , UL#style-settings>LI>INPUT#setting-451425.style-setting-option , UL#style-settings>LI>INPUT#setting-451426.style-setting-option , UL#style-settings>LI>INPUT#setting-451428.style-setting-option , UL#style-settings>LI>INPUT#setting-451429.style-setting-option , UL#style-settings>LI>INPUT#setting-451563.style-setting-option , UL#style-settings>LI>INPUT#setting-451564.style-setting-option , UL#style-settings>LI>INPUT#setting-451565.style-setting-option , UL#style-settings>LI>INPUT#setting-451566.style-setting-option , UL#style-settings>LI>INPUT#setting-451568.style-setting-option , UL#style-settings>LI>INPUT#setting-451569.style-setting-option{width: 47% !important;}
+
+/* SpecCtrl*/
+/* DisplayLikeWebIcon */menupopup>menu>.menu-iconic-text , menupopup>menuitem>.menu-iconic-text , menu>menupopup>.menu-iconic.bookmark-item , toolbarbutton>menupopup>.menu-iconic.bookmark-item , menu>menupopup>.menuitem-iconic.bookmark-item.menuitem-with-favicon{font-family: "NoForceAllFonts By Microsoft YaHei","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","此处填写英文字体","此处填写 font-family 的名称","Envy Code R","Inconsolata","Envy Code R","Open Sans","Roboto","Segoe UI","Helvetica Neue","Lucida Grande","Ubuntu","Tahoma","Verdana","Menlo","Monaco","","此处填写中文字体","SDF.FixScTcFonts","SDF.Hangul","Microsoft YaHei","Microsoft YaHei","Microsoft JhengHei","Microsoft YaHei UI","Microsoft JhengHei UI","Noto Sans CJK SC","Noto Sans CJK TC","Noto Sans CJK JP","Source Han Sans SC","Source Han Sans TC","Source Han Sans","PingFang SC","PingFang TC","PingFang HK","SimSun","LowLevelEmoji","Segoe UI Symbol","Symbola","Meiryo","Malgun Gothic","NSimSun","MingLiU","MingLiU_HKSCS","SimSun-ExtB","MingLiU-ExtB","MingLiU_HKSCS-ExtB","Nimbus Roman No9 L","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Droid Sans Fallback","Hiragino Sans GB","Symbol","FZSongS","Simsun (Founder Extended)","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Uighur","Microsoft Yi Baiti","Mongolian Baiti","Arial Unicode MS","Unifont" !important;}
+
+/* 扩展 *//* 启用便携字体 */
+
+/* SDF */
+/* 中文标点符号 : CnSymbol */
+/* R *//* 100:Thin/Hairline */@font-face {font-family: "SDF.CnSymbol";font-weight: 100;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi Ultralight"),local("KaiTi Thin"),local("KaiTi ExtraLight"),local("KaiTi Light"),local("KaiTi");}
+/* R *//* 200:Extra Light/Ultra Light */@font-face {font-family: "SDF.CnSymbol";font-weight: 200;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi Extra Light"),local("KaiTi ExtraLight"),local("KaiTi Thin"),local("KaiTi Ultralight"),local("KaiTi Light"),local("KaiTi");}
+/* R *//* 300:Light */@font-face {font-family: "SDF.CnSymbol";font-weight: 300;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi Light"),local("KaiTi-Light"),local("KaiTi");}
+/* R *//* 400:Normal/Regular/Roman */@font-face {font-family: "SDF.CnSymbol";unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi"),local("KaiTi Regular"),local("KaiTi-Regular"),local("KaiTi Normal"),local("KaiTi Roman");}
+/* R *//* 500:Medium */@font-face {font-family: "SDF.CnSymbol";font-weight: 500;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi Medium"),local("KaiTi-Medium"),local("KaiTi");}
+/* R *//* 600:Semibold/Demibold */@font-face {font-family: "SDF.Asia";font-weight: 600;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi Semibold"),local("KaiTi Bold"),local("KaiTi");}
+/* R *//* 700:Bold */@font-face {font-family: "SDF.CnSymbol";font-weight: Bold;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi Bold"),local("KaiTi-Bold"),local("KaiTi");}
+/* R *//* 800:Extrabold/Ultrabold */@font-face {font-family: "SDF.CnSymbol";font-weight: 800;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi Extrabold"),local("KaiTi Bold"),local("KaiTi");}
+/* 中文标点符号 *//* 900:Heavy/Black */@font-face {font-family: "SDF.CnSymbol";font-weight: 900;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("KaiTi Black"),local("KaiTi Heavy"),local("KaiTi Bold"),local("KaiTi");}
+/* SDF */
+
+/* stylish edit box CodeMirror */.CodeMirror-scroll{font-family: "Source Code Pro","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB" !important;font-size:14px !important;line-height:15pt !important;}
+
+/* 自定义选中文字颜色 *//*/::selection{background: #3399FF  !important;color: #FFFFFF  !important;} ::-moz-selection{background: #3399FF  !important;color: #FFFFFF  !important;}/* 扩展 */
+/* 自定义文字阴影特效 *//**{text-shadow: 0.02em 0.02em 0.05em #999999  !important;}/* 扩展 */
+/* 未被访问链接的颜色 *//*a:link{color: #FF0000  !important;}/* 扩展 */
+/* 已被访问链接的颜色 *//*a:visited{color: #00FF00  !important;}/* 扩展 */
+/* 鼠标悬停链接的颜色 *//*a:hover{color: #0000FF  !important;}/* 扩展 */
+/* 正在点击链接的颜色 *//*a:active{color: #FFFF00  !important;}/* 扩展 */
+
+

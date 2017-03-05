@@ -1,0 +1,128 @@
+/* 名称：004.ForceMyFonts.Chinese.FireFoxChromeIE.catcat520 *//* 别名：004.自定义全局字体，修正乱码和网页错位㊣ */
+/* 更新：2016.06.18 | 04:50 *//* 感谢：该 CSS 最初版本来至 卡饭 lyttmonkey & defpt，字体阴影数值参考 卡饭 freelu */
+/* 功能：自定义全局字体，例：英文 Segoe UI，中文 雅黑。修正乱码，网页错位 *//* AGENT_SHEET */
+/* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
+/* 适用：Win/*nix 系统 和 FireFox/IE/Chrome 内核浏览器 *//* i really want this to be global */
+/* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
+/* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
+
+/* VerCtrl */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after
+/* VerCtrl */{background: #CBDDE3;color: black;content: " A.Now(2016.06.18 | 04:50)"  !important;}
+
+/* main(diyfont) */*:not([class*="ico"]):not(i){font-family: 
+/* main(sysfont) */"XYZ0123456789XYZ","HighLevelEmoji","Catcat520.Lite.Latin","在这填写","NOT.Inconsolata","Envy Code R","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei UI","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei","fp-font",
+/* main(webfont) */"AccessibilityFoundicons","Accessibility Foundicons","anchorjs-icons","brandico","Brandico","brankic1979","Brankic1979","brankic 1979","Brankic 1979","broccolidry","Broccolidry","CONDENSEicon","cuticons","Cuticons","dashicons","duotai","duotai-status","Dot Com","ecoico","Ecoico","EightiesShades","ElegantIcons","elusive","Elusive","Elusive-Icons","entypo","Entypo","Entypo Social","Entypo-Social","Erler Dingbats","et-line","Et-line","fontawesome","FontAwesome","fontelico","Fontelico","fontello","Fontello","GeneralEnclosedFoundicons","General Enclosed Foundicons","GeneralFoundicons","General Foundicons","Gibson","Gibson Light","gibson_lightbold","Gibson_lightbold","gibson_lightitalic","Gibson_lightitalic","gibsonregular","Gibsonregular","Glyphicons Halflings","GLYPHICONS Halflings","Heydings Controls","Heydings Icons","icft_temai","icft_temai_index","iconminia","Iconminia",
+/* main(webfont) */"iconvault","Iconvault","icomoon","Icomoon","iconfont","iconic","Iconic","icons","Icons","Just Vector","JustVector","JustVectorRegular","linecons","Linecons","LondonMM","londonmmregular","Londonmmregular","mainicon","maki","Maki","Mainicon","Material Icons Extended","Material-Design-Icons","meteocons","Meteocons","MeteoconsRegular","mfglabs","Mfglabs","MFG Labs Iconset","mfg_labs_iconsetregular","Mfg_labs_iconsetregular","modernpics","Modernpics","Modern Pictograms","o365Icons","Office365Icons","OpenWeb Icons","PulsarJS","RaphaelIcons","rondo","Rondo","sdp-icons","silkcons","Silkcons","SocialFoundicons","Social Foundicons","Socialico","Socialico Plus","Social Networking Icons","Sosa","Symbol Signs","Symbol Signs Basis set","typicons","Typicons","weathercons","Weathercons","websymbols","Websymbols","Web Symbols","Web Symbols Liga","wpzoom","Wpzoom","zocial","Zocial",
+/* main(sysfont) */"LowLevelEmoji","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","Segoe UI Symbol","Symbola","Meiryo","Malgun Gothic","NSimSun","Nimbus Roman No9 L","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB","Symbol","FZSongS","方正宋体S-超大字符集","Nyala","Ebrima","Microsoft Uighur","Estrangelo Edessa","MV Boli","Mangal","Vrinda","Raavi","Shruti","Sylfaen","Kalinga","Latha","Gautami","Tunga","Kartika","Iskoola Pota","Lao UI","Microsoft Himalaya","Plantagenet Cherokee","Euphemia","Khmer UI","Mongolian Baiti","Microsoft Tai Le","Microsoft New Tai Lue","Microsoft Yi Baiti","Microsoft PhagsPa","Arial Unicode MS","Unifont"  !important;}
+/* 彩色Emoji低优先兼容 *//*@supports (display: -moz-box){ @supports (ruby-position: inherit){ @font-face {font-family: "LowLevelEmoji";src: local('Firefox Emoji');} } }/* ColorEmojiCtrl */
+/* 彩色Emoji高优先兼容 *//*/@supports (display: -moz-box){ @supports (ruby-position: inherit){ @font-face {font-family: "HighLevelEmoji";src: local('Firefox Emoji');} } }/* ColorEmojiCtrl */
+
+/* sports.163.com/nba *//* CD */span.nba_matchnav_score , .pbody{font-family: "System","SimSun" !important;margin: 1px auto !important;}
+/* 2345.com *//* L */.these_col_1>.tool_ul>li>a>ins , DIV.module_t>span>a>ins , DIV.module_t>a>ins , .category_in>div.panel:nth-child(n)>p>ins>a , #rightToolBox>dd>ins>a , .cnxh_hd>#J_gul_cata>a>ins{font-family: "2345" !important;}
+/* 2345.com *//* D */#content>#left>.kzjx h2 a{margin: 0px 7.5px !important;}
+/* acgdb.com */#top #top-options>label , .mediaviewer-inset>.wrapper>.close:before , .mediaviewer>.wrapper>.body .panel .share , .mediaviewer-overlay>.wrapper>.body .nav a , .form-login>div p a[acgdb-tip="新浪微博"] , .form-login>div p a[acgdb-tip="腾讯微博"] , .slideshow2>.wrap>label span em , #quickfacts> .nav a span , #acgdb-picviewer>.top>.switches label{font-family: "acgdb" !important;}
+/* baidu.com *//* Y */HTML>BODY>#_mask[style^="opacity"]{display: none !important;}
+/* bilibili.com *//* D */LI>DIV.main-content-list-message>SPAN.main-content-list-title{margin: auto !important;}
+/* bilibili.com *//* Y */DIV#content>DIV.box-id-content>DIV#main_content.box-inner{overflow: inherit !important;}
+/* bilibili.com *//* D */BODY>DIV.security_content>DIV.security-right{width: auto !important;}
+/* coursera.org *//* L */.vjs-watch-intro-big-play-button>DIV.c-coursePage-video-playbutton-icon>IE.cif.cif-play-circle{font-family: "coursera-iconfont" !important;}
+/* blog.csdn.net *//* D */DIV.pull-right.login-wrap.unlogin>UL.btns>LI.loginlink{width: auto !important;}
+/* deviantart.com *//* L */tr>#oh-menu-friends>#friendslink , tr>#oh-menu-collect>#collectlink{font-family: "feedfont" !important;}
+/* duckduckgo.com *//* L */DIV.set-side>DIV.cloudsave>SPAN.cloudsave__icn.ddgsi , .search-wrap--home>#search_form_homepage>#search_button_homepage , .header__content>#search_form>#search_form_input_clear , .search-wrap--home>#search_form_homepage>#search_form_input_clear , .region-indicator-wrap>.region-indicator>span.region-indicator__icn , .header__content>#search_form>#search_button , #header_wrapper>.header--aside>.header__button--menu , div.zci__metabar>span.zci__metabar__mode-wrap>a.zci__metabar__mode{font-family: "ddg-serp-icons","DDG_ProximaNova" !important;}
+/* dzh.mop.com *//* Y */.rightbar ~ .main{margin-right: auto !important;}
+/* dzh.mop.com *//* Y */DIV.rightbar.fr.mt20.mr20{display: none !important;}
+/* dzh.mop.com *//* Y */.main>.p20>.dzh-indexNotice.mb15{display: none !important;}
+/* dzh.mop.com *//* Y */div>.main .p20{padding: 0px 20px 0px 20px !important;}
+/* ele.me *//* L */.city-nav>.filter-input-wrapper>span.glyph-search , DIV.module-locate.map_search>.search-bar>a.glyph-search , #mod_fixed>A.btn-site-feedback>SPAN.glyph-feedback.glyph , DIV.rst-d-act.act_btns>A.rst-d-act-add.add_btn>span.rst-d-act-glyph{font-family: "eleme" !important;}
+/* entypo.com */div.content>#logo>#front , div.content>#logo>#back{font-family: "entypo-logo" !important;}
+/* etao.com */.s-btn-container>input{font-family: "globalheader" !important;}
+/* firefox.net.cn *//* S */.wrap>.main_wrap>.bread_crumb , .main_wrap>.forum_page>.bbs_info_box{padding: 62px 1px 10px 20px !important;}
+/* firefox.net.cn *//* S */body>.wrap>.search_type_wrap>.search_type{padding: 62px 0px 20px 170px !important;}
+/* godaddy.com */li>a>.caret:before , div>div>.close:before{font-family: "uxfont","whoisyourdaddy" !important;}
+/* google.com *//* Y */#cnt>div.mw>#flyr{display: none !important;}
+/* mooc.guokr.com *//* L */DIV.course-info>SPAN.course-info-star>b[class^="mooc-star-"] , LI#navbarNotice.navbar-notice>a>span.mooc-notice{font-family: "mooc" !important;}
+/* html5test.com */.pointsPanel h2>span , .pointsPanel h2>strong , #indexbutton , #loading>div{font-family: "League Gothic","html5test" !important;}
+/* ifeng.com *//* D */DIV#FNew.FNew.wrap.clearfix>DIV.fl.FNewL>DIV.FNewLBox{min-width: 196px !important;width: auto !important;}
+/* ifeng.com *//* D */DIV.fr.FNewRBox>DIV.clearfix>DIV.fl.FNewM{min-width: 372px !important;width: auto !important;}
+/* ifeng.com *//* D */DIV.clearfix>DIV.ColAM>DIV.ColAMCon{width: 105% !important;}
+/* dragonporn.ldblog.jp */span.omatome-icnfont-button>span>.omatome-icn-hatena , span.omatome-icnfont-button>span>span.omatome-icn-facebook , span.omatome-icnfont-button>span>span.omatome-icn-twitter{font-family: "omatome_ico" !important;}
+/* lengxiaohua.cn *//* D */#layMain>#contentTop>.articleTab{float: inherit !important;}
+/* lrshare.com *//* L */#top-nav>.home_h>.icon-home_h a::before{font-family: "ality" !important;}
+/* pexetothemes.com *//* L */#footer>.scroll-to-top>span:nth-child(n) , DIV.section-boxed>.testimonial-slider>DIV[class^="ts-arrow"] , .portfolio-carousel>.pc-wrapper>DIV[class^="pc-"] , DIV.content-slider-wrapper>DIV[class^="content-slider"]>DIV[class^="cs-arrows"]{font-family: "PexetoArrows" !important;}
+/* read.qidian.com *//* D */#qd_reader_header>.page_set>.gg_box{display: none !important;}
+/* sf-express.com */ul>li>span[class^=sfi] , div>li>span[class^=sfi] , div>span>span[class^=sfi] , h4>a>span[class^=sfi] , .bill-number>.go-waybill-by-phone-num>span[class^=sfi] , li>a>span[class^=sfi]{font-family: "sf-express-icon" !important;}
+/* skycitizen.net *//* L */div._chat>div>a.chat-btn{font-family: "Material-Design-Icons" !important;}
+/* sourceforge.net *//* L */DIV#copyright>DIV#dhi-icon>SPAN.logo-DHI-alt{font-family: "dice-logos" !important;}
+/* taoguba.com.cn *//* C */.tgb_nav02>ul:nth-child(1)>li:nth-child(6) , .tgb_nav03>ul:nth-child(1)>li:nth-child(6)>a:nth-child(1){font-family: Arial !important;}
+/* tudou.com *//* DS */.con_player>.player_container>#player{height: inherit !important;}
+/* tudou.com *//* L */div[class*=Slide]>.btn>b{font-family: "tuiicon" !important;}
+/* w3cplus.com */#go_top{font-family: "w3cplus" !important;}
+/* weibo.com *//* L */div>.W_swficon>em[class^=spac]{font-family: "WBswficon" !important;}
+/* weibo.com *//* C */.sendbox_mod_r>.sendbox_bar>.sendbox_menu{font-family: "Arial" !important;}
+/* wooyun.org *//* D */DIV.wybug_detail>FIELDSET.fieldset.fieldset-code>PRE>CODE , #bugDetail>.content>fieldset.fieldset>pre{white-space: pre-wrap !important;word-wrap: break-word !important;}
+/* wooyun.org *//* Y */div.rightItem>.remindInfo>a , .infoContent > ul>LI[id*=remind].read>a{color: green !important;}
+/* wooyun.org *//* Y */div.rightItem>.remindInfo>a>span , .infoContent>ul>LI[id*=remind]>a{color: red !important;}
+/* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color: gray !important;}
+/* zybuluo.com *//* D */#preview-button-bar>#preview-button-row>.dropdown{margin-right: auto !important;}
+
+/* 2345/hao123/sogou:split/space *//* C */li#nlhv_cp_li>DIV.memu>SPAN.l , DIV.g_clr.baritem>DIV.category>SPAN.split , #rightToolBox>dd>SPAN.split{font-family: "Helvetica Neue","Helvetica","Arial" !important;}
+/* Adobe Flash Player Set Fix */div.inner>div#center>div.mark-cover{display: none !important;}
+/* IOF Error Font Fix - uBlock Origin */.tooltipContainer>#switch>span , .tooltipContainer>.statName>#gotoPick , .tooltipContainer>.statName>A , .tooltipContainer>#extraTools>#no-popups , .tooltipContainer>#extraTools>#no-large-media , .tooltipContainer>#extraTools>#no-cosmetic-filtering , .tooltipContainer>#extraTools>#no-remote-fonts , #panes>.tooltipContainer>#refresh , .permatoolbar>div>.button{font-family: FontAwesome !important;}
+/* stylish edit box Orion */#clientDiv>DIV , #clientDiv>DIV>SPAN , .rulerLines.odd , .rulerLines.even{font-family: "Source Code Pro","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB" !important;font-size:14px !important;line-height:15pt !important;}
+/* stylish:userstyles.org *//* Y */UL#style-settings>LI>INPUT#setting-444243.style-setting-option , UL#style-settings>LI>INPUT#setting-444242.style-setting-option , UL#style-settings>LI>INPUT#setting-450961.style-setting-option , UL#style-settings>LI>INPUT#setting-450962.style-setting-option , UL#style-settings>LI>INPUT#setting-451083.style-setting-option , UL#style-settings>LI>INPUT#setting-451084.style-setting-option , UL#style-settings>LI>INPUT#setting-451200.style-setting-option , UL#style-settings>LI>INPUT#setting-451201.style-setting-option , UL#style-settings>LI>INPUT#setting-451425.style-setting-option , UL#style-settings>LI>INPUT#setting-451426.style-setting-option , UL#style-settings>LI>INPUT#setting-451428.style-setting-option , UL#style-settings>LI>INPUT#setting-451429.style-setting-option{width: 47% !important;}
+
+/* SpecCtrl*/
+/* DisplayLikeWebIcon */menupopup>menu>.menu-iconic-text , menupopup>menuitem>.menu-iconic-text , menu>menupopup>.menu-iconic.bookmark-item , toolbarbutton>menupopup>.menu-iconic.bookmark-item , menu>menupopup>.menuitem-iconic.bookmark-item.menuitem-with-favicon{font-family: "XYZ0123456789XYZ","Catcat520.Lite.Latin","在这填写","Inconsolata","Inconsolata","Envy Code R","Segoe UI","Tahoma","Menlo","Monaco","在这填写","Microsoft YaHei","Microsoft YaHei UI","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","SimSun","Segoe UI Symbol","Symbola","Meiryo","Malgun Gothic","NSimSun","Nimbus Roman No9 L","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB","Symbol","FZSongS","方正宋体S-超大字符集","Nyala","Ebrima","Microsoft Uighur","Estrangelo Edessa","MV Boli","Mangal","Vrinda","Raavi","Shruti","Sylfaen","Kalinga","Latha","Gautami","Tunga","Kartika","Iskoola Pota","Lao UI","Microsoft Himalaya","Plantagenet Cherokee","Euphemia","Khmer UI","Mongolian Baiti","Microsoft Tai Le","Microsoft New Tai Lue","Microsoft Yi Baiti","Microsoft PhagsPa","Arial Unicode MS","Unifont"  !important;}
+
+
+/* 扩展 *//* 启用便携字体 */
+
+
+/* MarkDown兼容 */
+/* MarkDownCtrl */@supports (display: -moz-box){/* 非火狐浏览器，使用时要删除这行代码 */
+/* MarkDownGood *//* maxiang.info/stackedit.io/tool.oschina.net/hackmd.io/ctrlshift.net/wri.pe/markdownlivepreview.com/joncom.be/stackedit-beta.herokuapp.com/backpager.amasan.co.uk */
+/* MarkDownBad *//* dillinger.io/zybuluo.com/mahua.jser.me/github.com/markable.in/laverna.cc/fiddle.md/www.imooc.com/markdown.xiaoshujiang.com/app.gistboxapp.com */
+/* MarkDown */@-moz-document regexp("https?://(github.com|dillinger.io|www.zybuluo.com|mahua.jser.me|markable.in|laverna.cc|fiddle.md|www.imooc.com|markdown.xiaoshujiang.com|app.gistboxapp.com).*"){
+/* Fonts4MarkDown(monospace) */*:not([class*="ico"]):not(i){font-family: "Inconsolata","Source Code Pro","Menlo","Monaco","Ubuntu Mono","Liberation Mono","Consolas","Courier New","Microsoft YaHei UI","Microsoft YaHei","Microsoft JhengHei UI","Microsoft JhengHei","文泉驿等宽微米黑","文泉驿等宽正黑","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei Mono","冬青黑体简体中文","Hiragino Sans GB","Hiragino Sans GB W3","Hiragino Sans GB W6","SimHei","KaiTi","SimSun",monospace,/* MarkDownCtrl */
+/* Fonts4MarkDown(webfont) */"AccessibilityFoundicons","Accessibility Foundicons","brandico","Brandico","brankic1979","Brankic1979","brankic 1979","Brankic 1979","broccolidry","Broccolidry","CONDENSEicon","cuticons","Cuticons","dashicons","Dot Com","ecoico","Ecoico","EightiesShades","ElegantIcons","elusive","Elusive","Elusive-Icons","entypo","Entypo","Entypo Social","Entypo-Social","Erler Dingbats","et-line","Et-line","fontawesome","FontAwesome","fontelico","Fontelico","fontello","Fontello","GeneralEnclosedFoundicons","General Enclosed Foundicons","GeneralFoundicons","General Foundicons","Gibson","Gibson Light","gibson_lightbold","Gibson_lightbold","gibson_lightitalic","Gibson_lightitalic","gibsonregular","Gibsonregular","Glyphicons Halflings","GLYPHICONS Halflings","Heydings Controls","Heydings Icons","iconminia","Iconminia",/* MarkDownCtrl */
+/* Fonts4MarkDown(webfont) */"iconvault","Iconvault","icomoon","Icomoon","iconic","Iconic","icons","Icons","Just Vector","JustVector","JustVectorRegular","linecons","Linecons","LondonMM","londonmmregular","Londonmmregular","mainicon","maki","Maki","Mainicon","Material-Design-Icons","meteocons","Meteocons","MeteoconsRegular","mfglabs","Mfglabs","MFG Labs Iconset","mfg_labs_iconsetregular","Mfg_labs_iconsetregular","modernpics","Modernpics","Modern Pictograms","OpenWeb Icons","PulsarJS","RaphaelIcons","rondo","Rondo","silkcons","Silkcons","SocialFoundicons","Social Foundicons","Socialico","Socialico Plus","Social Networking Icons","Sosa","Symbol Signs","Symbol Signs Basis set","typicons","Typicons","weathercons","Weathercons","websymbols","Websymbols","Web Symbols","Web Symbols Liga","wpzoom","Wpzoom","zocial","Zocial"  !important;}/* MarkDownCtrl */
+/* @font-face {font-family: "Arial";src: local("Inconsolata"),local("Microsoft YaHei UI"),local("Microsoft YaHei"),local("Microsoft JhengHei UI"),local("Microsoft JhengHei"),local("冬青黑体简体中文"),local("Hiragino Sans GB"),local("Hiragino Sans GB W3"),local("Hiragino Sans GB W6"),local("WenQuanYi Micro Hei"),local("文泉驿微米黑"),local("WenQuanYi Micro Hei Mono"),local("文泉驿等宽微米黑"),local("WenQuanYi Zen Hei"),local("文泉驿正黑"),local("WenQuanYi Zen Hei Mono"),local("文泉驿等宽正黑");}/* MarkDownCtrl-UserIsGod */
+}
+}/* 非火狐浏览器，使用时要删除这行代码 */
+/* github.com *//* L */span.diffstat-bar , span.diff-added , SPAN.text-diff-added , SPAN.text-diff-deleted{font-family: "octicons"  !important;}
+/* github.com *//* D */DIV>DIV.columns>DIV.column{float: left  !important;padding-right: inherit  !important;padding-left: inherit  !important;}
+/* github.com *//* D */div>.site-search input[type="text"]{padding: 0px  !important;}
+/* dillinger.io *//* S */DIV.page>DIV.g.mnone>DIV.g-b.g-b--t1of2.split.split-editor{width: 49%  !important;}
+
+/* stylish edit box CodeMirror */.CodeMirror-scroll{font-family: "Source Code Pro","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei Mono","Hiragino Sans GB"  !important;font-size:14px  !important;line-height:15pt  !important;}
+/* 自定义选中文字颜色 *//*/::selection{background: #3399FF  !important;color: #FFFFFF  !important;} ::-moz-selection{background: #3399FF  !important;color: #FFFFFF  !important;}/* 扩展 */
+/* 自定义文字阴影特效 *//**{text-shadow: 0.02em 0.02em 0.05em #999999  !important;}/* 扩展 */
+/* 未被访问链接的颜色 *//*a:link{color: #FF0000  !important;}/* 扩展 */
+/* 已被访问链接的颜色 *//*a:visited{color: #00FF00  !important;}/* 扩展 */
+/* 鼠标悬停链接的颜色 *//*a:hover{color: #0000FF  !important;}/* 扩展 */
+/* 正在点击链接的颜色 *//*a:active{color: #FFFF00  !important;}/* 扩展 */
+
+/* 以下为说明，无需复制 */
+/* 0123456789 *//* abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ *//* `~!@#$%^&*()-=_+[]\{}|;':",./<>? */
+/*
+01.常见字体集
+有衬：serif
+无衬：sans-serif
+等宽：monospace
+简体：Microsoft YaHei/SimSun/NSimSun/FZSongS/方正宋体S-超大字符集/宋体-方正超大字符集/Hiragino Sans GB/WenQuanYi Zen Hei/WenQuanYi Zen Hei Mono/WenQuanYi Micro Hei/WenQuanYi Micro Hei Mono/仿宋_GB2312/楷体_GB2312/SimHei/FangSong/KaiTi/Droid Sans Fallback/浪漫雅圆/XHei-5th
+繁体：Microsoft JhengHei/XinGothic/XinGothic CiticPress/XinGothic-Pleco W7/XinGothic-Pleco W4/XinGothic-ZhangYue W6/XinGothic-ZhangYue W4/XinGothic-TC W5/MingLiU/PMingLiU/DFKai-SB
+日文：Meiryo/MS Gothic/MS PGothic/MS Mincho/MS PMincho
+韩文：Malgun Gothic/Batang/BatangChe/Dotum/DotumChe/Gulim/GulimChe/Gungsuh/GungsuhChe
+英文：Arial/Bitstream Vera Sans/Bitstream Vera Serif/Calibri/Cambria/Candara/Comic Sans MS/Consolas/Constantia/Corbel/Courier New/DejaVu Sans/DejaVu Serif/Dosis/Droid Sans/Droid Sans Mono/Droid Serif/Franklin Gothic/Gabriola/Georgia/Helvetica/Helvetica CY/Helvetica Neue/Helvetica Neue LT Std/Impact/Liberation Sans/Liberation Serif/Lucida Console/Lucida Sans Typewriter/Lucida Sans Typewriter Std/Lucida Sans Unicode/Microsoft Sans Serif/Myriad Pro/Nimbus Mono L/Nimbus Sans L/Nimbus Roman No9 L/Palatino Linotype/Segoe Print/Segoe Script/Segoe UI/Sitka Banner/Sitka Display/Sitka Heading/Sitka Small/Sitka Subheading/Sitka Text/Source Sans Pro/Tahoma/Times New Roman/Trebuchet MS/Ubuntu/Verdana
+符号：Arial Unicode MS/Ebrima/Euphemia/Estrangelo Edessa/Gautami/Iskoola Pota/Kalinga/Kartika/Khmer UI/Latha/Lao UI/Mangal/Microsoft Himalaya/Microsoft Uighur/Microsoft New Tai Lue/Microsoft PhagsPa/Microsoft Tai Le/Microsoft Yi Baiti/Mongolian Baiti/MV Boli/Plantagenet Cherokee/Raavi/Nyala/Segoe UI Symbol/Shruti/Sylfaen/Symbol/Symbola/Tunga/Vrinda/Unifont
+编程：Andale Mono/Anonymous Pro/Bitstream Vera Sans Mono/Consolas/DejaVu Sans Mono/Envy Code R/Fixedsys Excelsior 3.01/FixedsysTTF Monospaced/Inconsolata/Liberation Mono/Menlo/Monaco/Monofur/PragmataPro/ProFontWindows/Source Code Pro/Terminus (TTF)/Ubuntu Mono
+网络：AccessibilityFoundicons/Accessibility Foundicons/brandico/Brandico/brankic1979/Brankic1979/brankic 1979/Brankic 1979/broccolidry/Broccolidry/CONDENSEicon/cuticons/Cuticons/Dot Com/ecoico/Ecoico/EightiesShades/ElegantIcons/elusive/Elusive/Elusive-Icons/entypo/Entypo/Entypo Social/Entypo-Social/Erler Dingbats/et-line/Et-line/fontawesome/FontAwesome/fontelico/Fontelico/fontello/Fontello/GeneralEnclosedFoundicons/General Enclosed Foundicons/GeneralFoundicons/General Foundicons/Gibson/Gibson Light/gibson_lightbold/Gibson_lightbold/gibson_lightitalic/Gibson_lightitalic/gibsonregular/Gibsonregular/Glyphicons Halflings/GLYPHICONS Halflings/Heydings Controls/Heydings Icons/iconminia/Iconminia
+网络：iconvault/Iconvault/icomoon/Icomoon/iconic/Iconic/icons/Icons/Just Vector/JustVector/JustVectorRegular/linecons/Linecons/LondonMM/londonmmregular/Londonmmregular/mainicon/maki/Maki/Mainicon/meteocons/Meteocons/MeteoconsRegular/mfglabs/Mfglabs/MFG Labs Iconset/mfg_labs_iconsetregular/Mfg_labs_iconsetregular/modernpics/Modernpics/Modern Pictograms/OpenWeb Icons/PulsarJS/RaphaelIcons/rondo/Rondo/silkcons/Silkcons/SocialFoundicons/Social Foundicons/Socialico/Socialico Plus/Social Networking Icons/Sosa/Symbol Signs/Symbol Signs Basis set/typicons/Typicons/weathercons/Weathercons/websymbols/Websymbols/Web Symbols/Web Symbols Liga/wpzoom/Wpzoom/zocial/Zocial
+02.绕过 about:config -> gfx.direct2d.disabled;true 替换火狐设置中不显示的字体
+@font-face {
+    font-family: "Source Sans Pro";
+    src: local("Source Sans Pro Semibold");
+           }
+*/
+
+

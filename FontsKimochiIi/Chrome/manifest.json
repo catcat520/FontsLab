@@ -1,0 +1,28 @@
+{
+   "content_scripts": 
+   [
+     {//大部分域名
+	  "all_frames": true,//强制渲染 iframe 内所有的网页
+      "matches": ["http://*/*","https://*/*","ftp://*/*","file:///*/*"],
+      "exclude_matches": ["*://dillinger.io/*","*://www.zybuluo.com/*","*://mahua.jser.me/*","*://markable.in/*","*://laverna.cc/*","*://fiddle.md/*","*://www.imooc.com/*","*://markdown.xiaoshujiang.com/*","*://app.gistboxapp.com/*","*://gist.github.com/*","*://github.com/*","*://wenku.baidu.com\/view/*","*://wenku.baidu.com\/link*","*://www.youziku.com/*","*://*.typekit.com/*","*://*.fontdeck.com/*","*://*.designgala.com/*","*://127.0.0.1/*","*://iamchucky.github.io/*","*://www.google.com\/fonts\/*","*://fonts.google.com\/*","*://*.justfont.com\/font*","*://*.ifontcloud.com/*","*://*.hanyi.com.cn\/products\/*","*://www.arphic.com.cn\/*\/font\/*","*://www.arphic.com.tw\/*\/font\/*","*://*.tmall.com/*","*://*.taobao.com/*","*://*.alipay.com/*","*://*.alimama.com/*","*://*.tanx.com/*","*://*.95095.com/*","*://*.tmall.hk/*"],
+      "css": ["CustomMain.css"]},
+     {// /* 阿里类网站 */
+	  "all_frames": true,//强制渲染 iframe 内所有的网页
+      "matches": ["*://*.tmall.com/*","*://*.taobao.com/*","*://*.alipay.com/*","*://*.alimama.com/*","*://*.tanx.com/*","*://*.95095.com/*","*://*.tmall.hk/*"],
+      "css": ["Ali.Sub.css"]},
+     {// /* 字体演示 */
+	  "all_frames": true,//强制渲染 iframe 内所有的网页
+      "matches": ["https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520/*","https://userstyles.org/styles/126356/004-forcemyfonts-taiwan-hongkong-firefoxchromeie/*","https://userstyles.org/styles/100478/004-diymyfonts-chinese-firefoxchromeie-catcat520/*"],
+      "css": ["FontsDemo.Sub.css"]}
+   ],
+      "description": "反馈 : http://bbs.kafan.cn/thread-1681393-1-1.html , 需附上网址 url , 截图 , 浏览器名称。最初的 manifest.json 模版来至 一方通行 blog",
+      "name": "字体很舒服(FontsKimochiIi)",
+      "homepage_url": "http://bbs.kafan.cn/thread-1681393-1-1.html",
+      "icons": {
+      //"32": "FontKMC32.png",
+	  //"48": "FontKMC48.png",
+	  "128": "FontKMC128.png"
+   },
+      "version": "2016.6.24.50",
+      "manifest_version": 2
+}
