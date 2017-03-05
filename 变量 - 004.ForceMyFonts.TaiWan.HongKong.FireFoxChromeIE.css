@@ -6,7 +6,7 @@
 /* 網址：https://userstyles.org/styles/126356/004-forcemyfonts-taiwan-hongkong-firefoxchromeie */
 /* 幫助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 回報問題需附上網址 url，對比截圖，瀏覽器名稱，字型名稱 */
 /* 網路：*//*[[WebFonts]]*//* 網路字型 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" TWHK.A.(2017.03.01 | 14:13)";}
+/* 版本：*/" TWHK.A.(2017.03.06 | 03:15)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外網站 : 域名規則";}
@@ -165,7 +165,7 @@ section#style-info>div#main-style-info-area>ul#style-settings , section#style-in
 
 
 /* 阿里類網站&ForceFont */
-/* 範圍 */@-moz-document regexp("(^https?://(.*\.tmall\.com|.*\.taobao\.com|.*\.alipay\.com|.*\.alimama\.com|.*\.tanx\.com|.*\.95095\.com|.*\.tmall\.hk)).*"){
+/* 範圍 */@-moz-document regexp("(^https?://(.*\.95095\.com|.*\.alimama\.com|.*\.alipay\.com|.*\.liangxinyao\.com|.*\.tanx\.com|.*\.taobao\.com|.*\.tmall\.com|.*\.tmall\.hk)).*"){
 /* main(diyfont) *//*[[NetCore]]*/*:not([class*="ico"]):not(i){font-family: 
 /* main(sysfont) *//*[[NetCore]]*/"/*[[ForceALL]]*/Plus.Func.Fonts.CN","/*[[ForceALL]]*//*[[Chinese font]]*/","/*[[ForceALL]]*/Plus.Func.Fonts.CN.FallBack","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","SDF.CnSymbol","SDF.EnSymbol","SDF.Number","/*[[DiyMyEnFonts]]*/","/*[[WebFontFamilyName]]*/","SDF-FixEnglishFonts","/*[[English font]]*/","Inconsolata","Envy Code R","Open Sans","Roboto","Segoe UI","Helvetica Neue","Lucida Grande","Ubuntu","Tahoma","Verdana","Menlo","Monaco","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyMyCnFonts]]*/","SDF.FixScTcFonts","SDF.Hangul","Plus.Func.Fonts.CN","/*[[Chinese font]]*/","Plus.Func.Fonts.CN.FallBack","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","fp-font",
 /* main(fixfont) *//*[[NetCore]]*/"sellerCenter","tm-detail-font",
