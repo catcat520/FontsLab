@@ -6,7 +6,7 @@
 /* 網址：https://userstyles.org/styles/126356/004-forcemyfonts-taiwan-hongkong-firefoxchromeie */
 /* 幫助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 回報問題需附上網址 url，對比截圖，瀏覽器名稱，字型名稱 */
 /* 網路：*//*[[WebFonts]]*//* 網路字型 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" TWHK.A.(2017.03.06 | 03:15)";}
+/* 版本：*/" TWHK.A.(2017.03.09 | 16:20)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外網站 : 域名規則";}
@@ -118,7 +118,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* wooyun.org *//* Y */div.rightItem>.remindInfo>a>span , .infoContent>ul>LI[id*=remind]>a{color: red !important;}
 /* wooyun.org *//* Y */.infoContent>ul>LI[id*=remind].read , .infoContent>ul>LI[id*=remind].read>span{color: gray !important;}
 /* youku.com *//* L */.subscribe-square-pc__sidebar__channel-list>li>.subscribe-square-pc__sidebar__avatar--all-update{font-family: "youkuMobile" !important;}
-/* youku.com *//* DS */div#module_basic_player>div#player>object#movie_player{width: 100% !important;height: 95% !important;}
+/* youku.com *//* DS *//*div#module_basic_player>div#player>object#movie_player{width: 100% !important;height: 95% !important;}*/
 /* zybuluo.com *//* D */#preview-button-bar>#preview-button-row>.dropdown{margin-right: auto !important;}
 
 /* SpecFix */
@@ -525,10 +525,11 @@ section#style-info>div#main-style-info-area>ul#style-settings , section#style-in
 
 /* 啟用便攜字型 *//*[[NetCore]]*//*[[Catcat520LiteLatin]]*//* 擴展 */
 /* 自訂選中文字顏色 *//*[[Force-moz-selection]]*/::selection{background: /*[[Diy-moz-selection-A]]*/ !important;color: /*[[Diy-moz-selection-B]]*/ !important;} ::-moz-selection{background: /*[[Diy-moz-selection-A]]*/ !important;color: /*[[Diy-moz-selection-B]]*/ !important;}/* 擴展 */
-/* 自訂文字陰影特效 *//*[[Force-Text-Shadow]]*/*/*[[PlayershadowSwitch]]*/{text-shadow: /*[[DiyText-H-Shadow]]*/em /*[[DiyText-V-Shadow]]*/em /*[[DiyTextShadowBlur]]*/em /*[[DiyTextShadowColor]]*/ !important;}/* 擴展 */
+/* 自訂文字陰影渲染 *//*[[Force-Text-Shadow]]*/*/*[[PlayershadowSwitch]]*/{text-shadow: /*[[DiyText-H-Shadow]]*/em /*[[DiyText-V-Shadow]]*/em /*[[DiyTextShadowBlur]]*/em /*[[DiyTextShadowColor]]*/ !important;}/* 擴展 */
 /* 未被訪問鏈接顏色 *//*[[linkColor]]*/a:link{color: /*[[DiylinkColor]]*/ !important;}/* 擴展 */
 /* 已被訪問鏈接顏色 *//*[[visitedColor]]*/a:visited{color: /*[[DiyvisitedColor]]*/ !important;}/* 擴展 */
 /* 遊標懸停鏈接顏色 *//*[[hoverColor]]*/a:hover{color: /*[[DiyhoverColor]]*/ !important;}/* 擴展 */
 /* 正在點擊鏈接顏色 *//*[[activeColor]]*/a:active{color: /*[[DiyactiveColor]]*/ !important;}/* 擴展 */
 
 
+/* END */
