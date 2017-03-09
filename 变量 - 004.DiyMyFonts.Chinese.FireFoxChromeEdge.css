@@ -7,7 +7,7 @@
 /* 主页：https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.03.09 | 23:38)";}}
+/* 版本：*/" CNSG.B.(2017.03.10 | 00:08)";}}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
@@ -17,6 +17,7 @@
 /* main(textarea) */a:not([class*="ico"]):not(i),input:not([class*="ico"]):not(i),select:not([class*="ico"]):not(i),textarea:not([class*="ico"]):not(i){font-family:"/*[[ForceALL]]*//*[[CnF]]*/","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","CnS","EnS","EnN","/*[[DiyEnF]]*/","/*[[WebFontFamilyName]]*/","EnF_VrF","/*[[EnFontsFallBack]]*/2Mono_VrF357","/*[[EnFontsFallBack]]*/2Mono_VrF7","/*[[EnFontsFallBack]]*/2Mono_VrF","/*[[EnFontsFallBack]]*/_VrF",
 "Microsoft YaHei UI_VrF","Microsoft YaHei_VrF","Microsoft JhengHei UI_VrF","Microsoft JhengHei_VrF","PingFang SC_VrF","PingFang TC_VrF","PingFang HK_VrF","Noto Sans CJK SC_VrF","Noto Sans CJK TC_VrF","Noto Sans CJK JP_VrF","Noto Sans CJK K_VrF","Source Han Sans SC_VrF","Source Han Sans TC_VrF","Source Han Sans_VrF","Source Han Sans K_VrF","SimSun_VrF","Hiragino Sans GB_VrF","WenQuanYi Micro Hei_VrF","WenQuanYi Zen Hei_VrF","LowLevelEmoji","Segoe UI Symbol","Segoe UI Historic","Symbola","Quivira","Meiryo_VrF","Malgun Gothic_VrF","MingLiU_VrF","MingLiU_HKSCS_VrF","SimSun-ExtB","MingLiU-ExtB","MingLiU_HKSCS-ExtB","Nimbus Roman No9 L","Droid Sans Fallback","Symbol","FZSongS","Simsun (Founder Extended)","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Uighur","Microsoft Yi Baiti","Mongolian Baiti","Estrangelo Edessa","Ebrima","Euphemia","Nyala","Plantagenet Cherokee","sylfaen","Arial Unicode MS","Code2000","HanaMinA","HanaMinB","Unifont" !important;}
 
+/* 日文字体 */
 /*//*[[NetCore]]*//*/JpFontsModule{content:"LiteRule : 日文网站 : 日语规则";}
 /*#//*[[NetCore]]*/html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,html head[lang^="jp"]+body *{font-family: 
 "/*[[ForceALL]]*/Plus.Func.Fonts.CN","/*[[ForceALL]]*/Plus.Func.Fonts.CN.FallBack","/*[[ForceALL]]*//*[[CnF]]*/","HighLevelEmoji","Catcat520.Lite.Latin","SDF.TypeSetCtrlFonts","CnS","EnS","EnN","/*[[DiyEnF]]*/","/*[[WebFontFamilyName]]*/","SDF-FixEnglishFonts","EnF_VrF","Segoe UI_VrF","Helvetica Neue_VrF","Lucida Grande_VrF","Ubuntu_VrF","Arial_VrF","SDF-CnFakeName","/*[[DiyMyJpFonts]]*/","SDF.FixJpFonts","/*[[JapaneseFonts]]*/","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyMyKanjiFonts]]*/","/*[[SDF.JpKanjiFallBack]]*/","/*[[DiyCnF]]*/","SDF.FixScTcFonts","SDF.Hangul","Plus.Func.Fonts.CN","/*[[CnF]]*/","Plus.Func.Fonts.CN.FallBack","Microsoft JhengHei UI_VrF","Microsoft JhengHei_VrF","Microsoft YaHei UI_VrF","Microsoft YaHei_VrF","fp-font",
