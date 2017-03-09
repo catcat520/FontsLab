@@ -7,7 +7,7 @@
 /* 主页：https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.03.05 | 08:43)";}}
+/* 版本：*/" CNSG.B.(2017.03.09 | 15:25)";}}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
@@ -1814,7 +1814,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* weibo.com *//* L */div>.W_swficon>em[class^=spac]{font-family: "WBswficon" !important;}
 /* weibo.com *//* C */.sendbox_mod_r>.sendbox_bar>.sendbox_menu{font-family: "Arial" !important;}
 /* youku.com *//* L */.subscribe-square-pc__sidebar__channel-list>li>.subscribe-square-pc__sidebar__avatar--all-update{font-family: "youkuMobile" !important;}
-/* youku.com *//* DS */div#module_basic_player>div#player>object#movie_player{width: 100% !important;height: 95% !important;}
+/* youku.com *//* DS *//*div#module_basic_player>div#player>object#movie_player{width: 100% !important;height: 95% !important;}*/
 /* zybuluo.com *//* D */#preview-button-bar>#preview-button-row>.dropdown{margin-right: auto !important;}
 
 /* SpecFix */
@@ -1939,7 +1939,7 @@ ProportionalModule{content:"填充比例英文字体 : Proportional:ALL:T";}
 
 /* 文字链接颜色阴影特效 */
 /* 自定义选中文字颜色 *//*[[Force-moz-selection]]*/::selection{background: /*[[Diy-moz-selection-A]]*/ !important;color: /*[[Diy-moz-selection-B]]*/ !important;} ::-moz-selection{background: /*[[Diy-moz-selection-A]]*/ !important;color: /*[[Diy-moz-selection-B]]*/ !important;}/* 扩展 */
-/* 自定义文字阴影特效 *//*[[Force-Text-Shadow]]*/*/*[[PlayershadowSwitch]]*/{text-shadow: /*[[DiyText-H-Shadow]]*/em /*[[DiyText-V-Shadow]]*/em /*[[DiyTextShadowBlur]]*/em /*[[DiyTextShadowColor]]*/ !important;}/* 扩展 */
+/* 自定义文字阴影渲染 *//*[[Force-Text-Shadow]]*/*/*[[PlayershadowSwitch]]*/{text-shadow: /*[[DiyText-H-Shadow]]*/em /*[[DiyText-V-Shadow]]*/em /*[[DiyTextShadowBlur]]*/em /*[[DiyTextShadowColor]]*/ !important;}/* 扩展 */
 /* 未被访问链接的颜色 *//*[[linkColor]]*/a:link{color: /*[[DiylinkColor]]*/ !important;}/* 扩展 */
 /* 已被访问链接的颜色 *//*[[visitedColor]]*/a:visited{color: /*[[DiyvisitedColor]]*/ !important;}/* 扩展 */
 /* 鼠标悬停链接的颜色 *//*[[hoverColor]]*/a:hover{color: /*[[DiyhoverColor]]*/ !important;}/* 扩展 */
@@ -1989,3 +1989,4 @@ section#style-info>div#main-style-info-area>ul#style-settings , section#style-in
 }/* 范围 *//* MarkDown兼容 */
 
 
+/* END */
