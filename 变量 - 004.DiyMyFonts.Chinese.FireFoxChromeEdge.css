@@ -7,7 +7,7 @@
 /* 主页：https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.03.15 | 08:42)";}}
+/* 版本：*/" CNSG.B.(2017.03.21 | 05:23)";}}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
@@ -1810,7 +1810,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* skycitizen.net *//* L */div._chat>div>a.chat-btn{font-family: "Material-Design-Icons" !important;}
 /* sourceforge.net *//* L */DIV#copyright>DIV#dhi-icon>SPAN.logo-DHI-alt{font-family: "dice-logos" !important;}
 /* taoguba.com.cn *//* C */.tgb_nav02>ul:nth-child(1)>li:nth-child(6) , .tgb_nav03>ul:nth-child(1)>li:nth-child(6)>a:nth-child(1){font-family: Arial !important;}
-/* tudou.com *//* DS */.con_player>.player_container>#player{height: inherit !important;}
+/* tudou.com *//* DS *//*.con_player>.player_container>#player{height: inherit !important;}*/
 /* tudou.com *//* L */div[class*=Slide]>.btn>b{font-family: "tuiicon" !important;}
 /* w3cplus.com */#go_top{font-family: "w3cplus" !important;}
 /* webcompat.com *//* L */#js-ReportBug>span.wc-Hero-link-icon>.wc-Icon--arrow-down:before , #js-ReportBug>span.wc-Hero-link-icon>.wc-Icon--arrow-right:before{font-family: "webcompat" !important;}
