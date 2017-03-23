@@ -6,7 +6,7 @@
 /* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*//*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.A.(2017.03.20 | 19:25)";}
+/* 版本：*/" CNSG.A.(2017.03.23 | 19:21)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外网站 : 域名规则";}
@@ -102,6 +102,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* ptt.cc:menu:listcontent *//* Y */#main-container>.r-list-container.bbs-screen>div.r-ent{margin:auto !important;height:23.5px;}
 /* ptt.cc:menu:topbar *//* Y */div#topbar-container>div#topbar.bbs-content>a#logo{padding:0 16px !important;}
 /* read.qidian.com *//* D */#qd_reader_header>.page_set>.gg_box{display: none !important;}
+/* www.qidian.com */#classify-list>dl>dd:nth-child(n)>a>cite>span>i{font-family:"/*[[ForceALL]]*/Plus.Func.Fonts.CN","/*[[ForceALL]]*//*[[Chinese font]]*/","/*[[DiyMyCnFonts]]*/","Plus.Func.Fonts.CN","/*[[Chinese font]]*/","Microsoft YaHei","KaiTi","Microsoft JhengHei","DFKai-SB"}
 /* rememberthemilk.com *//* L */.Ej-Fj-ei.Fm-Ds-ei.Fm-Ds-Zs>div.Ej-Fj-Gj-pk>div.Ej-Fj-Gj-Hj,div.b-Oj>div.b-U-Rj>div.Fm-sp-tp.Sj-U-i{font-family: "Material Icons" !important;}
 /* sf-express.com */ul>li>span[class^=sfi] , div>li>span[class^=sfi] , div>span>span[class^=sfi] , h4>a>span[class^=sfi] , .bill-number>.go-waybill-by-phone-num>span[class^=sfi] , li>a>span[class^=sfi]{font-family: "sf-express-icon" !important;}
 /* skycitizen.net *//* L */div._chat>div>a.chat-btn{font-family: "Material-Design-Icons" !important;}
