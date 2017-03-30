@@ -7,7 +7,7 @@
 /* 主页：https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.03.28 | 21:12)";}}
+/* 版本：*/" CNSG.B.(2017.03.30 | 20:31)";}}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
@@ -1753,8 +1753,8 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* 2345.com *//* D */#content>#left>.kzjx h2 a{margin: 0px 7.5px !important;}
 /* 2345.com *//* L */.tool_ul > li:nth-child(n) > a:nth-child(n) > ins:nth-child(n){font-family: "2345" !important;}
 /* acgdb.com */#top #top-options>label , .mediaviewer-inset>.wrapper>.close:before , .mediaviewer>.wrapper>.body .panel .share , .mediaviewer-overlay>.wrapper>.body .nav a , .form-login>div p a[acgdb-tip="新浪微博"] , .form-login>div p a[acgdb-tip="腾讯微博"] , .slideshow2>.wrap>label span em , #quickfacts> .nav a span , #acgdb-picviewer>.top>.switches label{font-family: "acgdb" !important;}
-/* otx.alienvault.com/indicator/hostname/redirector.gvt1.com/ */#otxApp > div.full-height-wrap.ng-scope > div.layout.main.ng-scope > indicator > div > div.indicator-sidebar.hidden-xs.ng-scope > rtp > div > a > img,#DataTables_Table_2_wrapper>#DataTables_Table_2 > tbody > tr:nth-child(n) > td:nth-child(3),#DataTables_Table_2_wrapper>#DataTables_Table_2 > tbody > tr:nth-child(n) > td:nth-child(4),#DataTables_Table_2_wrapper>#DataTables_Table_2 > tbody > tr:nth-child(n) > td:nth-child(6) > span > span{display:none}
-/* otx.alienvault.com/indicator/hostname/redirector.gvt1.com/ */#DataTables_Table_2_wrapper>#DataTables_Table_2 > tbody > tr:nth-child(n) > td:nth-child(2) > span > span{max-width: none;}
+/* otx.alienvault.com/indicator/hostname/redirector.gvt1.com/ */#otxApp>div.full-height-wrap.ng-scope>div.layout.main.ng-scope>indicator>div>div.indicator-sidebar.hidden-xs.ng-scope>rtp>div>a>img , #DataTables_Table_2_wrapper>#DataTables_Table_2>tbody>tr:nth-child(n)>td:nth-child(3) , #DataTables_Table_2_wrapper>#DataTables_Table_2>tbody>tr:nth-child(n)>td:nth-child(4) , #DataTables_Table_2_wrapper>#DataTables_Table_2>tbody>tr:nth-child(n)>td:nth-child(6)>span>span{display: none;}
+/* otx.alienvault.com/indicator/hostname/redirector.gvt1.com/ */#DataTables_Table_2_wrapper>#DataTables_Table_2>tbody>tr:nth-child(n)>td:nth-child(2)>span>span{max-width: none;}
 /* baidu.com *//* Y */HTML>BODY>#_mask[style^="opacity"]{display: none !important;}
 /* bilibili.com *//* D */LI>DIV.main-content-list-message>SPAN.main-content-list-title{margin: auto !important;}
 /* bilibili.com *//* Y */DIV#content>DIV.box-id-content>DIV#main_content.box-inner{overflow: inherit !important;}
@@ -1805,6 +1805,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* ptt.cc:menu:listcontent *//* Y */#main-container>.r-list-container.bbs-screen>div.r-ent{margin:auto !important;height:23.5px;}
 /* ptt.cc:menu:topbar *//* Y */div#topbar-container>div#topbar.bbs-content>a#logo{padding:0 16px !important;}
 /* read.qidian.com *//* D */#qd_reader_header>.page_set>.gg_box{display: none !important;}
+/* www.qidian.com */#classify-list>dl>dd:nth-child(n)>a>cite>span>i , ul.edit-rec-list:nth-child(n)>li:nth-child(n)>em:nth-child(n)>i:nth-child(n){font-family:"/*[[ForceALL]]*/Plus.Func.Fonts.CN","/*[[ForceALL]]*//*[[CnF]]*/","/*[[DiyCnF]]*/","Plus.Func.Fonts.CN","/*[[CnF]]*/","Microsoft YaHei","KaiTi","Microsoft JhengHei","DFKai-SB" !important;}
 /* rememberthemilk.com *//* L */.Ej-Fj-ei.Fm-Ds-ei.Fm-Ds-Zs>div.Ej-Fj-Gj-pk>div.Ej-Fj-Gj-Hj,div.b-Oj>div.b-U-Rj>div.Fm-sp-tp.Sj-U-i{font-family: "Material Icons" !important;}
 /* sf-express.com */ul>li>span[class^=sfi] , div>li>span[class^=sfi] , div>span>span[class^=sfi] , h4>a>span[class^=sfi] , .bill-number>.go-waybill-by-phone-num>span[class^=sfi] , li>a>span[class^=sfi]{font-family: "sf-express-icon" !important;}
 /* skycitizen.net *//* L */div._chat>div>a.chat-btn{font-family: "Material-Design-Icons" !important;}
@@ -1984,11 +1985,11 @@ section#style-info>div#main-style-info-area>ul#style-settings , section#style-in
 
 /* MarkDown兼容 */
 /* MarkDownGood *//* backpager.amasan.co.uk/ctrlshift.net/hackmd.io/stackedit-beta.herokuapp.com/joncom.be/markdownlivepreview.com/maxiang.info/tool.oschina.net/stackedit.io/wri.pe */
-/* MarkDownBad *//* dillinger.io/fiddle.md/app.gistboxapp.com/github.com/www.imooc.com/mahua.jser.me/laverna.cc/markable.in/markdown.xiaoshujiang.com/zybuluo.com */
-/* 范围 */@-moz-document domain(amasan.co.uk),domain(ctrlshift.net),domain(dillinger.io),domain(fiddle.md),domain(gistboxapp.com),domain(github.com),domain(hackmd.io),domain(herokuapp.com),domain(imooc.com),domain(joncom.be),domain(jser.me),domain(laverna.cc),domain(markable.in),domain(markdownlivepreview.com),domain(maxiang.io),domain(tool.oschina.net),domain(stackedit.io),domain(wri.pe),domain(xiaoshujiang.com),domain(zybuluo.com){
+/* MarkDownBad *//* dillinger.io/fiddle.md/app.gistboxapp.com/github.com/www.imooc.com/mahua.jser.me/laverna.cc/markable.in/markdown.xiaoshujiang.com/zybuluo.com/wikipedia.org */
+/* 范围 */@-moz-document domain(amasan.co.uk),domain(ctrlshift.net),domain(dillinger.io),domain(fiddle.md),domain(gistboxapp.com),domain(github.com),domain(hackmd.io),domain(herokuapp.com),domain(imooc.com),domain(joncom.be),domain(jser.me),domain(laverna.cc),domain(markable.in),domain(markdownlivepreview.com),domain(maxiang.io),domain(tool.oschina.net),domain(stackedit.io),domain(wri.pe),domain(xiaoshujiang.com),domain(zybuluo.com),domain(wikipedia.org){
 /*[[MarkDownCtrl]]*/*:not([class*="ico"]):not(i){font-family:
 "/*[[EnFontsFallBack]]*/2Mono_VrF357","/*[[EnFontsFallBack]]*/2Mono_VrF7","/*[[EnFontsFallBack]]*/2Mono_VrF","/*[[EnFontsFallBack]]*/_VrF",
-"Microsoft YaHei UI_VrF","Microsoft YaHei_VrF","Microsoft JhengHei UI_VrF","Microsoft JhengHei_VrF","PingFang SC_VrF","PingFang TC_VrF","PingFang HK_VrF","Noto Sans CJK SC_VrF","Noto Sans CJK TC_VrF","Noto Sans CJK JP_VrF","Noto Sans CJK K_VrF","Source Han Sans SC_VrF","Source Han Sans TC_VrF","Source Han Sans_VrF","Source Han Sans K_VrF","SimSun_VrF","Hiragino Sans GB_VrF","WenQuanYi Micro Hei_VrF","WenQuanYi Zen Hei_VrF","LowLevelEmoji","Segoe UI Symbol","Segoe UI Historic","Symbola","Quivira","Meiryo_VrF","Malgun Gothic_VrF","MingLiU_VrF","MingLiU_HKSCS_VrF","SimSun-ExtB","MingLiU-ExtB","MingLiU_HKSCS-ExtB","Nimbus Roman No9 L","Droid Sans Fallback","Symbol","FZSongS","\0053\0069\006d\0073\0075\006e\0020\0028\0046\006f\0075\006e\0064\0065\0072\0020\0045\0078\0074\0065\006e\0064\0065\0064\0029","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Uighur","Microsoft Yi Baiti","Mongolian Baiti","Estrangelo Edessa","Ebrima","Euphemia","Nyala","Plantagenet Cherokee","sylfaen","Arial Unicode MS","Code2000","HanaMinA","HanaMinB","Unifont" !important;}
+"Microsoft YaHei UI_VrF","Microsoft YaHei_VrF","Microsoft JhengHei UI_VrF","Microsoft JhengHei_VrF","PingFang SC_VrF","PingFang TC_VrF","PingFang HK_VrF","Noto Sans CJK SC_VrF","Noto Sans CJK TC_VrF","Noto Sans CJK JP_VrF","Noto Sans CJK K_VrF","Source Han Sans SC_VrF","Source Han Sans TC_VrF","Source Han Sans_VrF","Source Han Sans K_VrF","SimSun_VrF","Hiragino Sans GB_VrF","WenQuanYi Micro Hei_VrF","WenQuanYi Zen Hei_VrF","LowLevelEmoji","Segoe UI Symbol","Segoe UI Historic","Symbola","Quivira","Meiryo_VrF","Malgun Gothic_VrF","MingLiU_VrF","MingLiU_HKSCS_VrF","SimSun-ExtB","MingLiU-ExtB","MingLiU_HKSCS-ExtB","Nimbus Roman No9 L","Droid Sans Fallback","Symbol","FZSongS","\0053\0069\006d\0073\0075\006e\0020\0028\0046\006f\0075\006e\0064\0065\0072\0020\0045\0078\0074\0065\006e\0064\0065\0064\0029","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Uighur","Microsoft Yi Baiti","Mongolian Baiti","Estrangelo Edessa","Ebrima","Euphemia","Nyala","Plantagenet Cherokee","sylfaen","Arial Unicode MS","Code2000","HanaMinA","HanaMinB","Unifont",monospace !important;}/* MarkDownCtrl */
 }/* 范围 *//* MarkDown兼容 */
 
 
