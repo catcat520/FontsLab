@@ -6,7 +6,7 @@
 /* 網址：https://userstyles.org/styles/126356/004-forcemyfonts-taiwan-hongkong-firefoxchromeie */
 /* 幫助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 回報問題需附上網址 url，對比截圖，瀏覽器名稱，字型名稱 */
 /* 網路：*//*[[WebFonts]]*//* 網路字型 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" TWHK.A.(2017.03.30 | 00:58)";}
+/* 版本：*/" TWHK.A.(2017.04.03 | 01:55)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外網站 : 域名規則";}
@@ -142,11 +142,11 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* FontsDemo */
 @supports(-webkit-animation: none){
 div#content-wrapper>article#main-article>div#left-info:after
-{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "字型演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真實引擎 : Chrome\D\A 英文字型 : /*[[English font]]*/\D\A 中文字型 : /*[[Chinese font]]*/\D\A 中文修正 : SDF.FixScTcFonts\D\A 數字字型 : /*[[SDF.Number]]*/\D\A 英文標點 : /*[[SDF.EnSymbol]]*/\D\A 中文標點 : /*[[SDF.CnSymbol]]*/\D\A 日文字型 : /*[[JapaneseFonts]]*/\D\A 日文修正 : SDF.FixJpFonts\D\A 漢字補缺 : /*[[SDF.JpKanjiFallBack]]*/\D\A 韓語諺文 : /*[[SDF.Hangul]]*/\D\A 自訂英文 : /*[[DiyMyEnFonts]]*/\D\A 自訂中文 : /*[[DiyMyCnFonts]]*/\D\A 自訂日文 : /*[[DiyMyJpFonts]]*/\D\A 自訂補缺 : /*[[DiyMyKanjiFonts]]*/\D\A 网络字型 : /*[[WebFontFamilyName]]*/" !important;white-space: pre-wrap;}
+{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "字型演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真實引擎 : Chrome\D\A 英文字型 : /*[[English font]]*/\D\A 中文字型 : /*[[Chinese font]]*/\D\A 中文修正 : SDF.FixScTcFonts\D\A 數字字型 :/*[[English font]]*/\D\A 英文標點 :/*[[English font]]*/\D\A 中文標點 :/*[[Chinese font]]*/\D\A 日文字型 : /*[[JapaneseFonts]]*/\D\A 日文修正 : SDF.FixJpFonts\D\A 漢字補缺 : /*[[SDF.JpKanjiFallBack]]*/\D\A 韓語諺文 :/*[[Chinese font]]*/\D\A 自訂英文 : /*[[DiyMyEnFonts]]*/\D\A 自訂中文 : /*[[DiyMyCnFonts]]*/\D\A 自訂日文 : /*[[DiyMyJpFonts]]*/\D\A 自訂補缺 : /*[[DiyMyKanjiFonts]]*/\D\A 网络字型 : /*[[WebFontFamilyName]]*/" !important;white-space: pre-wrap;}
 }
 @supports(-moz-animation: none){
 div#content-wrapper>article#main-article>div#left-info:after
-{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "字型演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真實引擎 : FireFox\D\A 英文字型 : /*[[English font]]*/\D\A 中文字型 : /*[[Chinese font]]*/\D\A 中文修正 : SDF.FixScTcFonts\D\A 數字字型 : /*[[SDF.Number]]*/\D\A 英文標點 : /*[[SDF.EnSymbol]]*/\D\A 中文標點 : /*[[SDF.CnSymbol]]*/\D\A 日文字型 : /*[[JapaneseFonts]]*/\D\A 日文修正 : SDF.FixJpFonts\D\A 漢字補缺 : /*[[SDF.JpKanjiFallBack]]*/\D\A 韓語諺文 : /*[[SDF.Hangul]]*/\D\A 自訂英文 : /*[[DiyMyEnFonts]]*/\D\A 自訂中文 : /*[[DiyMyCnFonts]]*/\D\A 自訂日文 : /*[[DiyMyJpFonts]]*/\D\A 自訂補缺 : /*[[DiyMyKanjiFonts]]*/\D\A 网络字型 : /*[[WebFontFamilyName]]*/" !important;white-space: pre-wrap;}
+{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "字型演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真實引擎 : FireFox\D\A 英文字型 : /*[[English font]]*/\D\A 中文字型 : /*[[Chinese font]]*/\D\A 中文修正 : SDF.FixScTcFonts\D\A 數字字型 :/*[[English font]]*/\D\A 英文標點 :/*[[English font]]*/\D\A 中文標點 :/*[[Chinese font]]*/\D\A 日文字型 : /*[[JapaneseFonts]]*/\D\A 日文修正 : SDF.FixJpFonts\D\A 漢字補缺 : /*[[SDF.JpKanjiFallBack]]*/\D\A 韓語諺文 :/*[[Chinese font]]*/\D\A 自訂英文 : /*[[DiyMyEnFonts]]*/\D\A 自訂中文 : /*[[DiyMyCnFonts]]*/\D\A 自訂日文 : /*[[DiyMyJpFonts]]*/\D\A 自訂補缺 : /*[[DiyMyKanjiFonts]]*/\D\A 网络字型 : /*[[WebFontFamilyName]]*/" !important;white-space: pre-wrap;}
 }
 /* SitePosFix */
 body>#content-wrapper>#main-article{margin-left: 185px !important;}
