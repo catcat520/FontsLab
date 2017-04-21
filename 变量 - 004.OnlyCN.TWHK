@@ -57,15 +57,15 @@ MainFontsModule{content:"中外網站 : 域名規則";}
 @font-face{font-family:"Source Han Sans TW";src:local("Source Han Sans TW Regular"),local("Source Han Sans TW");}
 @font-face{font-family:"思源黑體";src:local("Source Han Sans TC Regular"),local("Source Han Sans TC"),local("Source Han Sans TW Regular"),local("Source Han Sans TW");}
 @font-face{font-family:"WenQuanYi Micro Hei";src:local("WenQuanYi Micro Hei");}
-@font-face{font-family:"文泉驿微米黑";src:local("WenQuanYi Zen Hei");}
-@font-face{font-family:"文泉驛微米黑";src:local("WenQuanYi Zen Hei");}
-@font-face{font-family:"WenQuanYi Micro Hei";src:local("WenQuanYi Micro Hei");}
+@font-face{font-family:"文泉驿微米黑";src:local("WenQuanYi Micro Hei");}
+@font-face{font-family:"文泉驛微米黑";src:local("WenQuanYi Micro Hei");}
+@font-face{font-family:"WenQuanYi Zen Hei";src:local("WenQuanYi Zen Hei");}
 @font-face{font-family:"文泉驿正黑";src:local("WenQuanYi Zen Hei");}
 @font-face{font-family:"文泉驛正黑";src:local("WenQuanYi Zen Hei");}
 /* CN:700:T */
 @font-face{font-family:"DengXian";font-weight:Bold;src:local("DengXian Bold"),local("DengXian");}
 @font-face{font-family:"等线";font-weight:Bold;src:local("DengXian Bold"),local("DengXian");}
-@font-face{font-family:"绛夌嚎";font-weight:Bold;src:local("DengXian");}
+@font-face{font-family:"绛夌嚎";font-weight:Bold;src:local("DengXian Bold"),local("DengXian");}
 @font-face{font-family:"FangSong";font-weight:Bold;src:local("FangSong");}
 @font-face{font-family:"仿宋";font-weight:Bold;src:local("FangSong");}
 @font-face{font-family:"浠垮畫";font-weight:Bold;src:local("FangSong");}
@@ -201,7 +201,7 @@ MainFontsModule{content:"中外網站 : 域名規則";}
 @font-face{font-family:"Noto Sans JP";font-weight:Bold;src:local("Noto Sans JP Bold"),local("Noto Sans JP");}
 @font-face{font-family:"Source Han Sans";font-weight:Bold;src:local("Source Han Sans Bold"),local("Source Han Sans");}
 @font-face{font-family:"Source Han Sans JP";font-weight:Bold;src:local("Source Han Sans JP Bold"),local("Source Han Sans JP");}
-@font-face{font-family:"源ノ角ゴシック";font-weight:Bold;src:local("Source Han Sans Bold"),local("Source Han Sans"),local("Source Han Sans Bold"),local("Source Han Sans");}
+@font-face{font-family:"源ノ角ゴシック";font-weight:Bold;src:local("Source Han Sans Bold"),local("Source Han Sans"),local("Source Han Sans JP Bold"),local("Source Han Sans JP");}
 /* JP:300:T */
 @font-face{font-family:"Yu Gothic";font-weight:300;src:local("Yu Gothic Light"),local("Yu Gothic");}
 @font-face{font-family:"游ゴシック";font-weight:300;src:local("Yu Gothic Light"),local("Yu Gothic");}
@@ -243,20 +243,20 @@ MainFontsModule{content:"中外網站 : 域名規則";}
 /* KR:700:T */
 @font-face{font-family:"Batang";font-weight:Bold;src:local("Batang");}
 @font-face{font-family:"바탕";font-weight:Bold;src:local("Batang");}
-@font-face{font-family:"BatangChe";font-weight:Bold;src:local("BatangChe Bold"),local("BatangChe");}
-@font-face{font-family:"바탕체";font-weight:Bold;src:local("BatangChe Bold"),local("BatangChe");}
+@font-face{font-family:"BatangChe";font-weight:Bold;src:local("BatangChe");}
+@font-face{font-family:"바탕체";font-weight:Bold;src:local("BatangChe");}
 @font-face{font-family:"Dotum";font-weight:Bold;src:local("Dotum");}
 @font-face{font-family:"돋움";font-weight:Bold;src:local("Dotum");}
-@font-face{font-family:"DotumChe";font-weight:Bold;src:local("DotumChe Bold"),local("DotumChe");}
-@font-face{font-family:"돋움체";font-weight:Bold;src:local("DotumChe Bold"),local("DotumChe");}
+@font-face{font-family:"DotumChe";font-weight:Bold;src:local("DotumChe");}
+@font-face{font-family:"돋움체";font-weight:Bold;src:local("DotumChe");}
 @font-face{font-family:"Gulim";font-weight:Bold;src:local("Gulim");}
 @font-face{font-family:"굴림";font-weight:Bold;src:local("Gulim");}
-@font-face{font-family:"GulimChe";font-weight:Bold;src:local("GulimChe Bold"),local("GulimChe");}
-@font-face{font-family:"굴림체";font-weight:Bold;src:local("GulimChe Bold"),local("GulimChe");}
+@font-face{font-family:"GulimChe";font-weight:Bold;src:local("GulimChe");}
+@font-face{font-family:"굴림체";font-weight:Bold;src:local("GulimChe");}
 @font-face{font-family:"Gungsuh";font-weight:Bold;src:local("Gungsuh");}
 @font-face{font-family:"궁서";font-weight:Bold;src:local("Gungsuh");}
-@font-face{font-family:"GungsuhChe";font-weight:Bold;src:local("GungsuhChe Bold"),local("GungsuhChe");}
-@font-face{font-family:"궁서체";font-weight:Bold;src:local("GungsuhChe Bold"),local("GungsuhChe");}
+@font-face{font-family:"GungsuhChe";font-weight:Bold;src:local("GungsuhChe");}
+@font-face{font-family:"궁서체";font-weight:Bold;src:local("GungsuhChe");}
 @font-face{font-family:"Malgun Gothic";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
 @font-face{font-family:"맑은 고딕";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
 @font-face{font-family:"NanumGothic";font-weight:Bold;src:local("NanumGothic Bold"),local("NanumGothic");}
