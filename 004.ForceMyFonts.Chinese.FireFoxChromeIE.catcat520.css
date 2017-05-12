@@ -6,7 +6,7 @@
 /* 网址：https://userstyles.org/styles/100473/004-forcemyfonts-chinese-firefoxchromeie-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.A.(2017.04.25 | 10:58)";}
+/* 版本：*/" CNSG.A.(2017.05.12 | 22:53)";}
 
 @-moz-document regexp("(^https?://.*CodeMirror.*|(?!telnet://|ssh://|(.CodeMirror)|^https?://(((w*.){0,15}(amasan.co.uk|ctrlshift.net|dillinger.io|fiddle.md|gistboxapp.com|github.com|hackmd.io|herokuapp.com|imooc.com|joncom.be|jser.me|laverna.cc|markable.in|markdownlivepreview.com|maxiang.io|tool.oschina.net|stackedit.io|wikipedia.org\/.*php?.*edit|wri.pe|xiaoshujiang.com|zybuluo.com))|wenku.baidu.com\/(view|link)|www.youziku.com|.*typekit.com|fontdeck.com|designgala.com|127.0.0.1|iamchucky.github.io|www.google.com\/font|fonts.google.com|.*justfont.com\/font|.*ifontcloud.com|.*hanyi.com.cn\/(fontSearch.php|productList.php|productdetail.php)|www.arphic.com..*\/.*\/font\/|.*.foundertype.com\/index.php\/(FindFont|FontInfo|Account)/|www.myfonts.com\/fonts\/.*\/.*\/webfont_preview.html|.*\.95095\.com|.*\.alimama\.com|.*\.alipay\.com|.*\.liangxinyao\.com|.*\.tanx\.com|.*\.taobao\.com|.*\.tmall\.com|.*\.tmall\.hk|bbs.kafan.cn/thread-1700312-1-1.html|bbs.kafan.cn/forum.php\\?mod=viewthread&tid=1700312)).)*"){
 MainFontsModule{content:"中外网站 : 域名规则";}
@@ -188,36 +188,169 @@ VarFixJpFonts{content:"VarFixJpFonts";}
 /* Orion */#clientDiv>DIV , #clientDiv>DIV>SPAN , .rulerLines.odd , .rulerLines.even{font-family: "Source Code Pro","Anonymous Pro","Envy Code R","Inconsolata","mononoki","Consolas","Menlo","Monaco","DejaVu Sans Mono","Liberation Mono","Nimbus Roman No9 L","Times New Roman","Courier New","Microsoft YaHei UI","Microsoft JhengHei UI","Microsoft YaHei","Microsoft JhengHei","SimHei","SimSun","KaiTi","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Hiragino Sans GB" !important;font-size:14px !important;line-height:15pt !important;}
 }/* 范围 *//* Stylish Edit Box */
 
+/* UserStylesBeautify */
+/* VER : UTC+8 : 2017.05.11 | 20:21 */
+/* 范围 */@-moz-document url-prefix("https://userstyles.org/styles/"){
+/* 顶部尺寸/header top size */
+div#root>div>div#header{height: auto !important;z-index: 9999 !important;}
+#account > a > span{padding: 10px !important;margin-left: inherit !important;}
+#top_logo > a > img{width: 70px !important;}
+#create_new_style{min-height: 0px  !important;}
+div#root>div>#header>div#search_input{height: auto !important;}
+/* 预览图设置/preview set */
+/* 预览图位置/preview position */div#view>div#style_info>div#preview_image_div{margin-left: 3% !important;max-width: 350px !important;max-height: 196px !important;margin-top: -1% !important;}
+/* 左侧导航设置/left side navigation set */
+div#nav-view>div#navigation > div:nth-child(3),div#nav-view>div#navigation > div:nth-child(2){display: none !important;}
+div#container>div#nav-view>div#navigation{padding: 0 !important;margin-top: 16% !important;width: 12px !important;}
+div#container>div#nav-view>div#navigation{position: absolute !important;left: 0px !important;top: 24.5% !important;}
+#view{background-color: #f5f7fa !important;z-index: 1001 !important;}
+/* 左侧导航宽度/left side navigation width */div#nav-view>div#navigation > div:nth-child(n){width: 58% !important;overflow: hidden !important;}
+/* 左侧导航字体/left side navigation font*/div#container>div#nav-view>div#navigation *{font-family: "Segoe UI","Arial","Microsoft YaHei" !important;}
+/* 样式介绍设置/css Description set */
+/* 样式介绍位置/css Description position */div#view>div#style_info > div.text_style_page{position: absolute !important;left: 52% !important;top: 5% !important;}
+/* 样式介绍字体/css Description font */div#view>div#style_info > div.text_style_page,div#view>div#style_info > div.text_style_page>*,div#view>div#style_info > div.text_style_page *,.text_style_page>*{font-size: 90% !important;font-family: "Consolas","Microsoft YaHei" !important;}
+#style_info > div.text_style_page{white-space: pre-wrap !important;}
+#style_info > div.text_style_page{max-height: 100% !important;overflow: scroll !important;}
+/**/
+#applies_link{display: none !important;}
+/* 设置选项设置/style settings set */
+/* 设置选项位置/style settings position */div#view>div#style_info>#style-settings{position: absolute !important;left: 52% !important;top: 111% !important;}
+div#view>div#style_info>div#style-settings *{font-family: "Consolas","Microsoft YaHei" !important;}
+/* 标题设置/title set */
+/* 标题位置/title position */div#view>div#style_info>h1#stylish-description{margin-left: 2% !important;position: absolute !important;top: -16.5% !important;}
+/* 标题字体/title font */div#view>div#style_info>h1#stylish-description{font-family: "Times New Roman","Microsoft YaHei" !important;}
+/* 作者名字的位置 */
+#style_author{margin-left: 2% !important;position: absolute !important;top: 103% !important;}
+/* 安装信息设置/information set */
+div#view>div#style_info>div#information_div{margin-left: 2% !important;position: absolute !important;top: 123% !important;}
+div#style_info>div#information_div>div#center_information{position: absolute;top: 119% !important;}
+div#style_info>div#information_div>div#right_information{margin-left: 2% !important;min-width: 50% !important;position: absolute !important;left: 59% !important;top: 119% !important;}
+/* 证书宽度设置/License width */#left_information > div:nth-child(2) > div:nth-child(2){width: 26% !important;overflow: hidden !important;white-space: pre !important;}
+/* 安装升级样式按钮设置 */
+#ownedButtons > a:nth-child(1) > div{position: fixed !important;left: 3px !important;top: 31.5% !important;z-index: 999 !important;}
+#ownedButtons > a:nth-child(2) > div{position: fixed !important;left: 3px !important;top: 39% !important;z-index: 999 !important;}
+#style_installed_button,#install_style_button,#update_style_button{margin-left: inherit !important;position: fixed !important;left: 3px !important;top: 11% !important;z-index: 999 !important;}
+/* 隐藏高级设置按钮 */div#style_info>#button_middle>div.advanced_button{display: none !important;}
+
+
+
+/* 隐藏按钮文字 */div#buttons>div#install_style_button>div:nth-child(2),div#buttons>div#update_style_button>div:nth-child(2),div#buttons>div#style_installed_button>div:nth-child(2){display: none !important;}
+/* 安装样式按钮 */div#buttons>div#install_style_button{height: 18px !important;}
+/* 安装样式按钮 */div#buttons>div#install_style_button>div>#install_style_icon{height: 18px !important;margin-left: -3px !important;margin-right: 2px !important;}
+/* 安装样式按钮 */div#buttons>div#install_style_button>div>#install_style_icon{display: table-cell !important;}
+/* 安装样式按钮 */div#buttons>#install_style_button:after{content: "Install" !important;}
+/* 升级样式按钮 */div#buttons>div#update_style_button{height: 18px !important;}
+/* 升级样式按钮 */div#buttons>div#update_style_button>div>.update-icon{height: 18px !important;margin-left: -3px !important;margin-right: 2px !important;}
+/* 升级样式按钮 */div#buttons>div#update_style_button>div>.update-icon{display: table-cell !important;}
+/* 升级样式按钮 */div#buttons>#update_style_button:after{content: "Update" !important;}
+
+
+/* 安装完成按钮 */div#buttons>div#style_installed_button{height: 18px !important;}
+/* 安装完成按钮 */div#buttons>div#style_installed_button>div>.installed-icon{height: 18px !important;margin-left: -3px !important;margin-right: 2px !important;}
+/* 安装完成按钮 */div#buttons>div#style_installed_button>div>.installed-icon{display: table-cell !important;}
+/* 安装完成按钮 */div#buttons>#style_installed_button:after{content: "Finshed" !important;}
+
+#install_style_button,#style_installed_button,#update_style_button,#ownedButtons > a:nth-child(n) > div{width: auto !important;height: auto !important;padding: 3px !important;}
+/* 用户脚本设置/userscript set */
+div#view>div#style_info>#as_userscript>a{background-size:contain;background-image:url("https://addons.cdn.mozilla.net/user-media/addon_icons/0/748-64.png") !important;}
+div#view>div#style_info>#as_userscript>a{color:rgba(0,0,0,0) !important;text-shadow: transparent 0px 0px 0px !important;}
+div#view>div#style_info>div#as_userscript{position: fixed !important;left: 3px !important;top: 12% !important;z-index: 999 !important;}
+div#view>div#style_info>#as_userscript{overflow:hidden !important;white-space: pre !important;width: 6ch !important;padding: 3px !important;border-radius: 4px !important;background-color: yellow !important;font-weight: bold !important;}
+/* 显示代码设置/css code set */
+#button_middle{position: fixed !important;left: 3px !important;top: 19% !important;}
+#button_middle > div.css_button{width: auto !important;height: auto !important;padding: 3px !important;}
+#css_text_area_div{position: fixed !important;z-index: 999 !important;left: 15% !important;}
+div#style_info>div#css_text_area_div>#stylish-code{position: fixed !important;min-height: 70vh !important;max-width: 80vw !important;z-index: 999 !important;}
+/* 显示代码字体/css code font */div#style_info>div#css_text_area_div>#stylish-code{font-size: 2.1vh;font-family: "Consolas","Microsoft YaHei" !important;}
+#button_middle > div.css_button > div.no-select,#button_middle > div.css_button > div.css_close,#button_middle > div.css_button > div.css_open{display: none !important;}
+#button_middle > div.css_button:after{content: "Css Code" !important;}
+/* 分享按钮设置/share button set */
+/* 分享按钮位置/share button position */#actions_div{position: absolute !important;left: 0px !important;top: 300% !important;}
+/* 捐款设置/Donation set */
+#paypal_form{position: absolute !important;left: 0px !important;top: 300% !important;}
+#donation_button > div:nth-child(2){display: none !important;}
+#donation_button:after{content: "Donation" !important;}
+#donation_button{width: auto !important;height: auto !important;padding: 3px !important;}
+/* 反馈设置 */
+#style_info > a{position: absolute !important;left: 0px !important;top: 330% !important;}
+#send_feedback_button > div:nth-child(2){display: none !important;}
+#send_feedback_button:after{content: "Feedback" !important;}
+#send_feedback_button{width: auto !important;height: auto !important;padding: 3px !important;}
+/* 注意事项设置/notes set*/
+div#view>div#style_info>div#notes_textarea{margin-left: 2% !important;position: absolute !important;top: 345% !important;}
+/* 帮助论坛的位置 */
+div#view>div#style_info>#discussions-area{margin-left: 2% !important;position: absolute !important;top: 468% !important;}
+/* 页脚的位置 */
+div#root>div>div#footer{position: absolute !important;top: 741% !important;}
+/* 隐藏无用的删除按钮 */
+div#view>div#style_info>a[href*="delete"]{display: none !important;}
+/* 隐藏无用的信息 */
+#headline{display: none !important;}
+#navigation > div:nth-child(n) > a:nth-child(n) > div > img{display: none !important;}
+/* 列表控制 */
+
+#advancedsettings_area > div:nth-child(n+1) > div.title_setting,#advancedsettings_area > div:nth-child(n+1) > div:nth-child(n+1),#advancedsettings_area{display: inline-block !important;}
+
+/* 第一列表与第二列表间隔 */#advancedsettings_area>div:nth-child(n)>div.title_setting{padding-right: 5px !important;}
+/* 颜色拾取器排除颜色选择 */div#style-settings>div#advancedsettings_area>div:nth-child(n)>div:nth-child(n)>div>div:not([class=sketch-picker]){border-radius: 0px !important;height: 15px !important;}
+/* 颜色拾取器排除图像选择 */div#style-settings>div#advancedsettings_area>div>div:nth-child(n)>div:not([class=image_options]){padding: 1px !important;display: inline-flex !important;}
+/* 颜色拾取器颜色选择背景 */#advancedsettings_area>div>div:nth-child(n)>div:nth-child(n)>div.sketch-picker{height: auto !important;}
+/* 颜色拾取器url输入框 */div.setting_div>div>div>.option-user-url{height: auto !important;}
+#advancedsettings_area > div:nth-child(n) > div:nth-child(n) > div:nth-child(n) > div.sketch-picker{margin-left: -60vh !important;position: fixed !important;top: 20vh !important;}
+/* 列表行距间隔 */.setting_div{min-height: 0px !important;}
+
+.text_setting_input{height: auto !important;border-radius: inherit !important;margin-bottom: inherit !important;}
+@supports(-ms-ime-align:auto)
+{
+/* Edge浏览器控制 */
+div#view>div#style_info>div.text_style_page{z-index: 1002 !important;}
+div#buttons>div>div#install_button{display: none !important;}
+div#view>div#style_info>div#css_text_area_div{z-index: 1003 !important;}
+}
+
+#style-info>#main-style-info-area>#style-settings * , #style-info>#main-style-info>#style-settings * , section#style-info>div#main-style-info-area>div#long-description , section#style-info>div#main-style-info-area>div#long-description *
+{font-family:"Consolas_VrF","Consolas","Ubuntu Mono","DejaVu Sans Mono","Liberation Mono","SF Mono","Menlo_VrF","Menlo","Monaco_VrF","Monaco","Roboto Mono","Droid Sans Mono","Andale Mono","PT Mono","Bitstream Vera Sans Mono","Noto Mono","FreeMono","Segoe Mono","Courier New","Microsoft YaHei UI","Microsoft JhengHei UI","Microsoft YaHei","Microsoft JhengHei","PingFang SC","PingFang TC","PingFang HK","Noto Sans CJK SC","Noto Sans CJK TC","Noto Sans CJK JP","Noto Sans CJK KR","Source Han Sans SC","Source Han Sans TC","Source Han Sans","Source Han Sans K","Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei","WenQuanYi Zen Hei","SimSun" !important;}/* Monospced Right */
+}
+
+@-moz-document url-prefix("https://userstyles.org/styles/100473/"), url-prefix("https://userstyles.org/styles/100478/"), url-prefix("https://userstyles.org/styles/126356/"), url-prefix("https://userstyles.org/styles/101852/"), url-prefix("https://userstyles.org/styles/104175/") {
+/* SPEC like catcat520 */
+/* 注意事项设置/notes set*/
+div#view>div#style_info>div#notes_textarea{margin-left: 2% !important;position: absolute !important;top: 678% !important;}
+/* 帮助论坛的位置 */
+div#view>div#style_info>#discussions-area{margin-left: 2% !important;position: absolute !important;top: 831% !important;}
+/* 页脚的位置 */
+div#root>div>div#footer{position: absolute !important;top: 1111% !important;}
+}
+
+@-moz-document url-prefix("https://userstyles.org/styles/96820/"), url-prefix("https://userstyles.org/styles/124770/") {
+/* SPEC like others */
+/* 注意事项设置/notes set*/
+div#view>div#style_info>div#notes_textarea{margin-left: 2% !important;position: absolute !important;top: 1122% !important;}
+/* 帮助论坛的位置 */
+div#view>div#style_info>#discussions-area{margin-left: 2% !important;position: absolute !important;top: 1256% !important;}
+/* 页脚的位置 */
+div#root>div>div#footer{position: absolute !important;top: 1551% !important;}
+}/* 范围 *//* UserStylesBeautify */
+
 /* UserStyles */
 /* 范围 */@-moz-document regexp("(https://userstyles.org/styles/100473/|https://userstyles.org/styles/100478/|https://userstyles.org/styles/126356/|https://userstyles.org/styles/133855/).*"){
 /* FontsDemo */
 @supports(-webkit-animation: none){
-div#content-wrapper>article#main-article>div#left-info:after
-{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "字体演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真实内核 : Chrome\D\A 英文字体 : mononoki\D\A 中文字体 : Microsoft YaHei\D\A 中文扩充 : 不启用\D\A 数字字体 : mononoki \D\A 英文标点 : mononoki \D\A 中文标点 : DFKai-SB\D\A 日文字体 : Meiryo\D\A 日文扩充 : 不启用\D\A 汉字补缺 : Microsoft YaHei\D\A 韩语谚文 : NanumMyeongjo\D\A 自定英文 : 此处填写英文字体\D\A 自定中文 : 此处填写中文字体\D\A 自定日文 : 此处填写日文字体\D\A 自定补缺 : 此处填写补缺字体\D\A 网络字体 : 此处填写font-family的名称" !important;white-space: pre-wrap;}
-div#content-wrapper>article#main-article>div#left-info:after
-{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "字体演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真实内核 : Chrome\D\A 英文字体 : mononoki\D\A 中文字体 : Microsoft YaHei\D\A 中文扩充 : "var(--VarFixScTcFonts)"\D\A 数字字体 : mononoki \D\A 英文标点 : mononoki \D\A 中文标点 : DFKai-SB\D\A 日文字体 : Meiryo\D\A 日文扩充 : "var(--VarFixJpFonts)"\D\A 汉字补缺 : Microsoft YaHei\D\A 韩语谚文 : NanumMyeongjo\D\A 自定英文 : 此处填写英文字体\D\A 自定中文 : 此处填写中文字体\D\A 自定日文 : 此处填写日文字体\D\A 自定补缺 : 此处填写补缺字体\D\A 网络字体 : 此处填写font-family的名称" !important;white-space: pre-wrap;}
+div#view>div#style_info>div#style_author:after
+{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "\D\A字体演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真实内核 : Chrome\D\A 英文字体 : mononoki\D\A 中文字体 : Microsoft YaHei\D\A 中文扩充 : 不启用\D\A 数字字体 : mononoki \D\A 英文标点 : mononoki \D\A 中文标点 : DFKai-SB\D\A 日文字体 : Meiryo\D\A 日文扩充 : 不启用\D\A 汉字补缺 : Microsoft YaHei\D\A 韩语谚文 : NanumMyeongjo\D\A 自定英文 : 此处填写英文字体\D\A 自定中文 : 此处填写中文字体\D\A 自定日文 : 此处填写日文字体\D\A 自定补缺 : 此处填写补缺字体\D\A 网络字体 : 此处填写font-family的名称" !important;white-space: pre-wrap;}
+div#view>div#style_info>div#style_author:after
+{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "\D\A字体演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真实内核 : Chrome\D\A 英文字体 : mononoki\D\A 中文字体 : Microsoft YaHei\D\A 中文扩充 : "var(--VarFixScTcFonts)"\D\A 数字字体 : mononoki \D\A 英文标点 : mononoki \D\A 中文标点 : DFKai-SB\D\A 日文字体 : Meiryo\D\A 日文扩充 : "var(--VarFixJpFonts)"\D\A 汉字补缺 : Microsoft YaHei\D\A 韩语谚文 : NanumMyeongjo\D\A 自定英文 : 此处填写英文字体\D\A 自定中文 : 此处填写中文字体\D\A 自定日文 : 此处填写日文字体\D\A 自定补缺 : 此处填写补缺字体\D\A 网络字体 : 此处填写font-family的名称" !important;white-space: pre-wrap;}
 }
 @supports(-moz-animation: none){
-div#content-wrapper>article#main-article>div#left-info:after
-{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "字体演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真实内核 : FireFox\D\A 英文字体 : mononoki\D\A 中文字体 : Microsoft YaHei\D\A 中文扩充 : 不启用\D\A 数字字体 : mononoki \D\A 英文标点 : mononoki \D\A 中文标点 : DFKai-SB\D\A 日文字体 : Meiryo\D\A 日文扩充 : 不启用\D\A 汉字补缺 : Microsoft YaHei\D\A 韩语谚文 : NanumMyeongjo\D\A 自定英文 : 此处填写英文字体\D\A 自定中文 : 此处填写中文字体\D\A 自定日文 : 此处填写日文字体\D\A 自定补缺 : 此处填写补缺字体\D\A 网络字体 : 此处填写font-family的名称" !important;white-space: pre-wrap;}
-div#content-wrapper>article#main-article>div#left-info:after
-{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "字体演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真实内核 : FireFox\D\A 英文字体 : mononoki\D\A 中文字体 : Microsoft YaHei\D\A 中文扩充 : "var(--VarFixScTcFonts)"\D\A 数字字体 : mononoki \D\A 英文标点 : mononoki \D\A 中文标点 : DFKai-SB\D\A 日文字体 : Meiryo\D\A 日文扩充 : "var(--VarFixJpFonts)"\D\A 汉字补缺 : Microsoft YaHei\D\A 韩语谚文 : NanumMyeongjo\D\A 自定英文 : 此处填写英文字体\D\A 自定中文 : 此处填写中文字体\D\A 自定日文 : 此处填写日文字体\D\A 自定补缺 : 此处填写补缺字体\D\A 网络字体 : 此处填写font-family的名称" !important;white-space: pre-wrap;}
+div#view>div#style_info>div#style_author:after
+{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "\D\A字体演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真实内核 : FireFox\D\A 英文字体 : mononoki\D\A 中文字体 : Microsoft YaHei\D\A 中文扩充 : 不启用\D\A 数字字体 : mononoki \D\A 英文标点 : mononoki \D\A 中文标点 : DFKai-SB\D\A 日文字体 : Meiryo\D\A 日文扩充 : 不启用\D\A 汉字补缺 : Microsoft YaHei\D\A 韩语谚文 : NanumMyeongjo\D\A 自定英文 : 此处填写英文字体\D\A 自定中文 : 此处填写中文字体\D\A 自定日文 : 此处填写日文字体\D\A 自定补缺 : 此处填写补缺字体\D\A 网络字体 : 此处填写font-family的名称" !important;white-space: pre-wrap;}
+div#view>div#style_info>div#style_author:after
+{line-height: 151%;font-size: 18px;background: #CBDDE3;color: black;content: "\D\A字体演示 : \D\A abcdefghijklmnopqrstuvwxyz\D\A ABCDEFGHIJKLMNOPQRSTUVWXYZ\D\A 0123456789　０１２３４５６７８９\D\A `~!@#$%^&*()-=_+[]{}\\|;':\",./<>?\D\A 天長地久有時盡，此恨綿綿無絕期“白居易”\D\A おひさしぶりです､ロマンチック マスター｡\D\A 말을많이한다는것과잘한다는것은별개이다\D\A\D\A 目前使用 : \D\A 真实内核 : FireFox\D\A 英文字体 : mononoki\D\A 中文字体 : Microsoft YaHei\D\A 中文扩充 : "var(--VarFixScTcFonts)"\D\A 数字字体 : mononoki \D\A 英文标点 : mononoki \D\A 中文标点 : DFKai-SB\D\A 日文字体 : Meiryo\D\A 日文扩充 : "var(--VarFixJpFonts)"\D\A 汉字补缺 : Microsoft YaHei\D\A 韩语谚文 : NanumMyeongjo\D\A 自定英文 : 此处填写英文字体\D\A 自定中文 : 此处填写中文字体\D\A 自定日文 : 此处填写日文字体\D\A 自定补缺 : 此处填写补缺字体\D\A 网络字体 : 此处填写font-family的名称" !important;white-space: pre-wrap;}
 }
 /* SitePosFix */
-body>#content-wrapper>#main-article{margin-left: 185px !important;}
-#style-settings>li>select[class*="option"]{max-width: 23.5em !important;}
-body>header#main-header>h1{font-family: "Times New Roman_VrF","Times New Roman" !important;}
-UL#style-settings>LI>INPUT#setting-444243.style-setting-option , UL#style-settings>LI>INPUT#setting-444242.style-setting-option , UL#style-settings>LI>INPUT#setting-450961.style-setting-option , UL#style-settings>LI>INPUT#setting-450962.style-setting-option , UL#style-settings>LI>INPUT#setting-451083.style-setting-option , UL#style-settings>LI>INPUT#setting-451084.style-setting-option , UL#style-settings>LI>INPUT#setting-451200.style-setting-option , UL#style-settings>LI>INPUT#setting-451201.style-setting-option , UL#style-settings>LI>INPUT#setting-451425.style-setting-option , UL#style-settings>LI>INPUT#setting-451426.style-setting-option , UL#style-settings>LI>INPUT#setting-451428.style-setting-option , UL#style-settings>LI>INPUT#setting-451429.style-setting-option , UL#style-settings>LI>INPUT#setting-451563.style-setting-option , UL#style-settings>LI>INPUT#setting-451564.style-setting-option , UL#style-settings>LI>INPUT#setting-451565.style-setting-option , UL#style-settings>LI>INPUT#setting-451566.style-setting-option , UL#style-settings>LI>INPUT#setting-451568.style-setting-option , UL#style-settings>LI>INPUT#setting-451569.style-setting-option{width: 46% !important;}
+/* 安装信息设置/information set */
+div#view>div#style_info>div#information_div{margin-left: 2%;position: absolute;top: 500% !important;}
 }/* 范围 *//* UserStyles */
-
-/* UserStylesBeautify */
-/* 范围 */@-moz-document url-prefix("https://userstyles.org/styles/"){
-#style-settings>li>label , ul>li>label
-{padding:0px !important;display:inline !important;}/* Condensed Right */
-section#style-info>div#main-style-info-area>ul#style-settings , section#style-info>div#main-style-info>ul#style-settings{padding-left:inherit !important;}
-#style-info>#main-style-info-area>#style-settings * , #style-info>#main-style-info>#style-settings * , section#style-info>div#main-style-info-area>div#long-description , section#style-info>div#main-style-info-area>div#long-description *
-{font-family:"Consolas_VrF","Consolas","Ubuntu Mono","DejaVu Sans Mono","Liberation Mono","SF Mono","Menlo_VrF","Menlo","Monaco_VrF","Monaco","Roboto Mono","Droid Sans Mono","Andale Mono","PT Mono","Bitstream Vera Sans Mono","Noto Mono","FreeMono","Segoe Mono","Courier New","Microsoft YaHei UI","Microsoft JhengHei UI","Microsoft YaHei","Microsoft JhengHei","PingFang SC","PingFang TC","PingFang HK","Noto Sans CJK SC","Noto Sans CJK TC","Noto Sans CJK JP","Noto Sans CJK KR","Source Han Sans SC","Source Han Sans TC","Source Han Sans","Source Han Sans K","Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei","WenQuanYi Zen Hei","SimSun" !important;}/* Monospced Right */
-}/* 范围 *//* UserStylesBeautify */
 
 /* 阿里类网站&ForceFont */
 /* 范围 */@-moz-document regexp("(^https?://(.*\.95095\.com|.*\.alimama\.com|.*\.alipay\.com|.*\.liangxinyao\.com|.*\.tanx\.com|.*\.taobao\.com|.*\.tmall\.com|.*\.tmall\.hk)).*"){
@@ -574,20 +707,7 @@ EndFontsModule{content:"StylishFix";}
 /* 英文 : 扩充字体 */
 
 /* 中文 : 扩充字体 */
-/* 明體(王漢宗) */
-/* 100 */@font-face{font-family:"SDF.FixScTcFonts";font-weight:100;src:local("HanWangMingLight");}
-/* 200 */@font-face{font-family:"SDF.FixScTcFonts";font-weight:200;src:local("HanWangMingLight");}
-/* 300 */@font-face{font-family:"SDF.FixScTcFonts";font-weight:300;src:local("HanWangMingLight");}
-/* 400 */@font-face{font-family:"SDF.FixScTcFonts";src:local("HanWangMingMedium");}
-/* 500 */@font-face{font-family:"SDF.FixScTcFonts";font-weight:500;src:local("HanWangMingMedium");}
-/* 600 */@font-face{font-family:"SDF.FixScTcFonts";font-weight:600;src:local("HanWangMingBold");}
-/* 700 */@font-face{font-family:"SDF.FixScTcFonts";font-weight:Bold;src:local("HanWangMingBold");}
-/* 800 */@font-face{font-family:"SDF.FixScTcFonts";font-weight:800;src:local("HanWangMingHeavy");}
-/* 900 */@font-face{font-family:"SDF.FixScTcFonts";font-weight:900;src:local("HanWangMingBlack");}
-VarFixScTcFonts{content:"VarFixScTcFonts";}
-:root {
-	\--VarFixScTcFonts:"明體(王漢宗)";
-}
+
 @font-face{font-family: "DiyCnFEx";src: local("此处填写中文字体");}
 /* 中文 : 扩充字体 */
 
@@ -605,5 +725,6 @@ VarFixScTcFonts{content:"VarFixScTcFonts";}
 /* 鼠标悬停链接的颜色 *//*a:hover{color: #0000FF !important;}/* 扩展 */
 /* 正在点击链接的颜色 *//*a:active{color: #FFFF00 !important;}/* 扩展 */
 
+/* 样式介绍字体/css Description font */div#view>div#style_info > div.text_style_page,div#view>div#style_info > div.text_style_page>*,div#view>div#style_info > div.text_style_page *,.text_style_page,div.text_style_page> a{font-size: 90% !important;font-family: "Consolas","Microsoft YaHei" !important;}
 
 /* END */
