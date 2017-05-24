@@ -1,5 +1,5 @@
 /* 名称：007.BuTiScrollBar.Chinese.catcat520 *//* 别名：007.滚动条外观设置㊣ */
-/* 更新：2017.05.25 | 01:37 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
+/* 更新：2017.05.25 | 02:05 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
 /* 功能：滚动条外观设置 *//*[[SwitchAGENT_SHEET]]*/
 /* 适用：Win/*nix 系统 和 FireFox 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100474/007-butiscrollbar-chinese-catcat520 */
@@ -19,12 +19,11 @@
 ::-webkit-scrollbar:horizontal:active{background-color: #00FFFFFF;}
 ::-webkit-scrollbar:vertical:window-inactive{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar:horizontal:window-inactive{height: 9px;background-color: #00FFFFFF;}
-
+/* 滚动条拖动按钮 */
 ::-webkit-scrollbar-button:vertical:start:decrement{height: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:horizontal:start:decrement{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:vertical:end:increment{height: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:horizontal:end:increment{width: 9px;background-color: #00FFFFFF;}
-
 ::-webkit-scrollbar-button:vertical:start:decrement:hover{height: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:horizontal:start:decrement:hover{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:vertical:end:increment:hover{height: 9px;background-color: #00FFFFFF;}
@@ -37,7 +36,7 @@
 ::-webkit-scrollbar-button:horizontal:start:decrement:window-inactive{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:vertical:end:increment:window-inactive{height: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:horizontal:end:increment:window-inactive{width: 9px;background-color: #00FFFFFF;}
-
+/* 滚动条拖动按钮 */
 ::-webkit-scrollbar-thumb:vertical{height: 0px;background-color: #999999;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:horizontal{width: 0px;background-color: #CCCCCC;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:vertical:hover{height: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
@@ -55,7 +54,7 @@
 ::-webkit-scrollbar-track-piece:horizontal:start:decrement{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:vertical:end:increment{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:horizontal:end:increment{background-color: #00FFFFFF;}
-
+/* 滚动条右下角落 */
 ::-webkit-scrollbar-corner{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-corner:window-inactive{background-color: #00FFFFFF;}
 
