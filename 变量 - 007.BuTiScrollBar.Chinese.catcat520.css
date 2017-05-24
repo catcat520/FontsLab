@@ -19,7 +19,7 @@
 ::-webkit-scrollbar:horizontal:active{background-color: #00FFFFFF;}
 ::-webkit-scrollbar:vertical:window-inactive{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar:horizontal:window-inactive{height: 9px;background-color: #00FFFFFF;}
-/* 滚动条拖动按钮 */
+/* 滚动条方向移动按钮 */
 ::-webkit-scrollbar-button:vertical:start:decrement{height: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:horizontal:start:decrement{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:vertical:end:increment{height: 9px;background-color: #00FFFFFF;}
@@ -36,7 +36,7 @@
 ::-webkit-scrollbar-button:horizontal:start:decrement:window-inactive{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:vertical:end:increment:window-inactive{height: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar-button:horizontal:end:increment:window-inactive{width: 9px;background-color: #00FFFFFF;}
-/* 滚动条拖动按钮 */
+/* 滚动条拖动滑块 */
 ::-webkit-scrollbar-thumb:vertical{height: 0px;background-color: #999999;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:horizontal{width: 0px;background-color: #CCCCCC;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:vertical:hover{height: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
@@ -45,7 +45,7 @@
 ::-webkit-scrollbar-thumb:horizontal:active{width: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:vertical:window-inactive{height: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:horizontal:window-inactive{width: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
-
+/* 滚动条轨道 */
 ::-webkit-scrollbar-track-piece:vertical:start:decrement{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:horizontal:start:decrement{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:vertical:end:increment{background-color: #00FFFFFF;}
