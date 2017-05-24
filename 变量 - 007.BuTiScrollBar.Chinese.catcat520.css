@@ -13,9 +13,9 @@
 /* 滚动条轨道 */
 ::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}
 ::-webkit-scrollbar:horizontal{height: /*[[ScrollBarTrackHeight]]*/;background-color: /*[[ScrollBarTrackXColor]]*/;}
-::-webkit-scrollbar:vertical:hover{width: 9px;background-color:#00FFFFFF}
+::-webkit-scrollbar:vertical:hover{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar:horizontal:hover{height: 9px;background-color: #00FFFFFF;}
-::-webkit-scrollbar:vertical:active{background-color:  #00FFFFFF;}
+::-webkit-scrollbar:vertical:active{background-color: #00FFFFFF;}
 ::-webkit-scrollbar:horizontal:active{background-color: #00FFFFFF;}
 ::-webkit-scrollbar:vertical:window-inactive{width: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar:horizontal:window-inactive{height: 9px;background-color: #00FFFFFF;}
