@@ -54,7 +54,7 @@
 ::-webkit-scrollbar-track-piece:horizontal:start:decrement{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:vertical:end:increment{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:horizontal:end:increment{background-color: #00FFFFFF;}
-/* 滚动条右下角落 */
+/* 滚动条右下边角 */
 ::-webkit-scrollbar-corner{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-corner:window-inactive{background-color: #00FFFFFF;}
 
