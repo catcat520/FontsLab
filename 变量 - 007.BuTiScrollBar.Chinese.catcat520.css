@@ -1,5 +1,5 @@
 /* 名称：007.BuTiScrollBar.Chinese.catcat520 *//* 别名：007.滚动条外观设置㊣ */
-/* 更新：2017.05.25 | 02:05 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
+/* 更新：2017.05.25 | 08:12 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
 /* 功能：滚动条外观设置 *//*[[SwitchAGENT_SHEET]]*/
 /* 适用：Win/*nix 系统 和 FireFox 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100474/007-butiscrollbar-chinese-catcat520 */
@@ -10,7 +10,7 @@
 ::-webkit-scrollbar{width: 9px;height: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar:hover{width: 9px;height: 9px;}
 /* 用户设置 */
-/* 滚动条轨道 */
+/* 滚动条内轨道 */
 ::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}
 ::-webkit-scrollbar:horizontal{height: /*[[ScrollBarTrackHeight]]*/;background-color: /*[[ScrollBarTrackXColor]]*/;}
 ::-webkit-scrollbar:vertical:hover{width: 9px;background-color: #00FFFFFF;}
@@ -45,7 +45,7 @@
 ::-webkit-scrollbar-thumb:horizontal:active{width: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:vertical:window-inactive{height: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:horizontal:window-inactive{width: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
-/* 滚动条轨道 */
+/* 滚动条外轨道 */
 ::-webkit-scrollbar-track-piece:vertical:start:decrement{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:horizontal:start:decrement{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:vertical:end:increment{background-color: #00FFFFFF;}
@@ -114,80 +114,4 @@
 
         {background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAnSURBVHjaYmQofPWfgQjwv0+UkYGBgYGJgUQwqmGkaAAAAAD//wMA+/4EFULQY9sAAAAASUVORK5CYII=") ! important;
 
-        border-radius: 4px !important;
-        border: 0px !important;
-        }
-
-        /***************************************************************************/
-
-
-
-        /*////////////////////////////////////////////////////////////////////////////*/
-
-
-        /* THIS WHOLE CODE SECTION AUTOHIDES ONLY THE HORIZONTAL SCROLLBARS OF WEBPAGES */
-        /*can increase min-height 5px and max-height 5px to have more grab space for horizontal scrollbar (min-height and max-height must be exact same px)*/
-
-        scrollbar[orient="horizontal"]{
-        background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAMCAYAAABIvGxUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAmSURBVHjaYvz//z8DAwMDAxMDFGAyGP39/f8zMDAwMBKhGA8DMAB8qAf8L6w8LwAAAABJRU5ErkJggg==") ! important;
-
-        -moz-appearance: none !important;
-        background-color: transparent !important;
-        opacity: .75 !important;
-        min-height: 9px !important;
-        max-height: 9px !important;
-        }
-
-
-        /*CAN MAKE HORIZONTAL SCROLLBARS LESS HEIGHT when hovered BELOW:MUST HAVE min-height and max-height exact same px */
-        /* Default horizontal height is 17px */
-        scrollbar[orient="horizontal"]:hover
-        {
-        opacity: 1 !important;
-        -moz-appearance: none !important;
-        background-color: transparent !important;
-        min-height: 9px !important;
-        max-height: 9px !important;
-        }
-
-
-        /*////////////////////// bar /////////////////////////////////////////*/
-
-        /* button you drag down the strip */
-
-          scrollbar thumb[orient="horizontal"]
-        {
-        background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAmSURBVHjaYmQofPWfgQTAxEAiGNUwODQw/v//n7Y2AAAAAP//AwCb0AVuQc6u0wAAAABJRU5ErkJggg==") ! important;
-
-
-        -moz-appearance: none !important;
-        border-radius: 4px !important;
-        min-height: 8px !important;
-        max-height: 8px !important;
-        border: 1px !important;
-        margin-left: 0px !important;
-        }
-
-        /* HOVER:button you drag down the strip */
-
-          scrollbar thumb[orient="horizontal"]:hover
-
-        {background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAmSURBVHjaYmQofPWfgQTAxEAiGNUwODQw/v//n7Y2AAAAAP//AwCb0AVuQc6u0wAAAABJRU5ErkJggg==") ! important;
-
-        border-radius: 4px !important;
-        border: 0px !important;
-        }
-
-
-        /*///////////////////////////////////////////////////////////////////*/
-
-
-        /* REMOVES THE SCROLLBAR CORNERS THAT CAN BE SEEN ON DARK COLORED WEBPAGES */
-
-        scrollcorner{opacity: 0 !important;}
-
-        scrollbar scrollcorner:hover {background:transparent !important;}
-
-        }
-
-
+        
