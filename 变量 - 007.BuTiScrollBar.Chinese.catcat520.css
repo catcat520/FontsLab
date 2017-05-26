@@ -1,5 +1,5 @@
 /* 名称：007.BuTiScrollBar.Chinese.catcat520 *//* 别名：007.滚动条外观设置㊣ */
-/* 更新：2017.05.25 | 08:12 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
+/* 更新：2017.05.26 | 21:00 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
 /* 功能：滚动条外观设置 *//*[[SwitchAGENT_SHEET]]*/
 /* 适用：Win/*nix 系统 和 FireFox 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100474/007-butiscrollbar-chinese-catcat520 */
@@ -10,7 +10,7 @@
 ::-webkit-scrollbar{width: 9px;height: 9px;background-color: #00FFFFFF;}
 ::-webkit-scrollbar:hover{width: 9px;height: 9px;}
 /* 用户设置 */
-/* 滚动条内层轨道 */
+/* 滚动条整体轨道 */
 ::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}
 ::-webkit-scrollbar:horizontal{height: /*[[ScrollBarTrackHeight]]*/;background-color: /*[[ScrollBarTrackXColor]]*/;}
 ::-webkit-scrollbar:vertical:hover{width: 9px;background-color: #00FFFFFF;}
@@ -45,7 +45,7 @@
 ::-webkit-scrollbar-thumb:horizontal:active{width: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:vertical:window-inactive{height: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:horizontal:window-inactive{width: 0px;background-color: #00FFFFFF;-webkit-border-radius: 0px;}
-/* 滚动条外层轨道 */
+/* 滚动条内层轨道 */
 ::-webkit-scrollbar-track-piece:vertical:start:decrement{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:horizontal:start:decrement{background-color: #00FFFFFF;}
 ::-webkit-scrollbar-track-piece:vertical:end:increment{background-color: #00FFFFFF;}
