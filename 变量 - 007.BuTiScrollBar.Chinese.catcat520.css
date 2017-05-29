@@ -7,8 +7,8 @@
 
 /* Chrome */
 /* 初始值 */
-::-webkit-scrollbar{width: 9px;height: 9px;background-color: #00FFFFFF;}
-::-webkit-scrollbar:hover{width: 9px;height: 9px;background-color: #00FFFFFF;}
+::-webkit-scrollbar{width: 9px;height: 9px;background-color: transparent;}
+::-webkit-scrollbar:hover{width: 9px;height: 9px;background-color: transparent;}
 /* 用户设置 */
 /* 滚动条整体轨道 */
 ::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}
