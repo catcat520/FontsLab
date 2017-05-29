@@ -1,5 +1,5 @@
 /* 名称：007.BuTiScrollBar.Chinese.catcat520 *//* 别名：007.滚动条外观设置㊣ */
-/* 更新：2017.05.26 | 21:00 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
+/* 更新：2017.05.29 | 14:13 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
 /* 功能：滚动条外观设置 *//*[[SwitchAGENT_SHEET]]*/
 /* 适用：Win/*nix 系统 和 FireFox 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100474/007-butiscrollbar-chinese-catcat520 */
@@ -8,7 +8,7 @@
 /* Chrome */
 /* 初始值 */
 ::-webkit-scrollbar{width: 9px;height: 9px;background-color: #00FFFFFF;}
-::-webkit-scrollbar:hover{width: 9px;height: 9px;}
+::-webkit-scrollbar:hover{width: 9px;height: 9px;background-color: #00FFFFFF;}
 /* 用户设置 */
 /* 滚动条整体轨道 */
 ::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}
