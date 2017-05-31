@@ -7,7 +7,7 @@
 /* 主页：https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.05.31 | 09:00)";}}
+/* 版本：*/" CNSG.B.(2017.05.31 | 17:05)";}}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
@@ -2097,11 +2097,11 @@ html[lang^="ja"] body * , html[lang^="jp"] body * , html head[lang^="ja"]+body *
 
 /* 彩色 Emoji 兼容 */
 /* 低优先 *//*/*[[ColorEmojiCtrl]]*/@font-face{font-family:"LowLevelEmoji";src:local("Firefox Emoji");}
-/* 低优先 *//*/*[[ColorEmojiCtrl]]*/@font-face{font-family:"LowLevelEmoji";src:local("Segoe UI Emoji");}
 /* 低优先 *//*/*[[ColorEmojiCtrl]]*/@font-face{font-family:"LowLevelEmoji";src:local("EmojiOne Mozilla");}
+/* 低优先 *//*/*[[ColorEmojiCtrl]]*/@font-face{font-family:"LowLevelEmoji";src:local("Segoe UI Emoji");}
 /* 高优先 *//*[[ColorEmojiCtrl]]*//*/@font-face{font-family:"HighLevelEmoji";src:local("Firefox Emoji");}
-/* 高优先 *//*[[ColorEmojiCtrl]]*//*/@font-face{font-family:"HighLevelEmoji";src:local("Segoe UI Emoji");}
 /* 高优先 *//*[[ColorEmojiCtrl]]*//*/@font-face{font-family:"HighLevelEmoji";src:local("EmojiOne Mozilla");}
+/* 高优先 *//*[[ColorEmojiCtrl]]*//*/@font-face{font-family:"HighLevelEmoji";src:local("Segoe UI Emoji");}
 /* 彩色 Emoji 兼容 */
 }/* 范围 *//* 注册虚拟字体_VrF *//* 文字链接颜色阴影渲染 *//* 中日假名 */
 
