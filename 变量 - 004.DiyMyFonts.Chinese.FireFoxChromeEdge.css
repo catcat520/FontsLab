@@ -7,7 +7,7 @@
 /* 主页：https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.05.31 | 08:00)";}}
+/* 版本：*/" CNSG.B.(2017.05.31 | 09:00)";}}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
@@ -2061,7 +2061,7 @@ html[lang^="ja"] body * , html[lang^="jp"] body * , html head[lang^="ja"]+body *
 @font-face{font-family:"Malgun Gothic_VrF";font-weight:Bold;src:local("Malgun Gothic Bold"),local("Malgun Gothic");}
 
 /* monospace:ALL:T */
-@font-face{font-family:"SysMono_VrF";src:local("mononoki"),local("Inconsolata"),local("Envy Code R"),local("Source Code Pro"),local("Anonymous Pro"),local("Consolas"),local("SF Mono"),local("Menlo"),local("Monaco"),local("Andale Mono"),local("PT Mono"),local("Ubuntu Mono"),local("DejaVu Sans Mono),local("Liberation Mono"),local("Roboto Mono"),local("Bitstream Vera Sans Mono"),local("Noto Mono"),local("Droid Sans Mono"),local("FreeMono"),local("Segoe Mono"),local("Segoe Mono Boot"),local("Segoe UI Mono"),local("Lucida Console"),local("Courier New");}
+@font-face{font-family:"SysMono_VrF";src:local("mononoki"),local("Inconsolata"),local("Envy Code R"),local("Source Code Pro"),local("Anonymous Pro"),local("Consolas"),local("SF Mono"),local("Menlo"),local("Monaco"),local("Andale Mono"),local("PT Mono"),local("Ubuntu Mono"),local("DejaVu Sans Mono"),local("Liberation Mono"),local("Roboto Mono"),local("Bitstream Vera Sans Mono"),local("Noto Mono"),local("Droid Sans Mono"),local("FreeMono"),local("Segoe Mono"),local("Segoe Mono Boot"),local("Segoe UI Mono"),local("Lucida Console"),local("Courier New");}
 
 /* 日文假名 : kana/hiragana *//*[[JpFNS]]*/
 @font-face{font-family:"JpFN";font-weight:100;unicode-range:U+3040-30FF,U+3190-319F,U+31F0-31FF,U+3220-325F,U+3280-33FF,U+FF66-FF9D;src:localocal("/*[[DiyJpF]]*/ Ultralight"),local("/*[[DiyJpF]]*/ Thin"),local("/*[[DiyJpF]]*/ ExtraLight"),local("/*[[DiyJpF]]*/ Light"),local("/*[[DiyJpF]]*/"),local("/*[[LJpF]]*/ Ultralight"),local("/*[[LJpF]]*/ Thin"),local("/*[[LJpF]]*/ ExtraLight"),local("/*[[LJpF]]*/ Light"),local("/*[[LJpF]]*/");}
