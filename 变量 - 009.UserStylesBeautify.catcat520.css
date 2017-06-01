@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://userstyles.org/styles/") {
-/* VER : UTC+8 : 2017.06.01 | 19:55 *//* i really want this to be global */
+/* VER : UTC+8 : 2017.06.01 | 20:00 *//* i really want this to be global */
 /* UserStylesBeautify */
 /* 顶部尺寸/header top size */
 div#root>div>div#header{height: 18pt !important;z-index: 9999;}
@@ -20,7 +20,7 @@ div#container>div#nav-view>div#navigation{position: absolute;left: 0px;}
 /* 样式介绍设置/css Description set */
 /* 位置/position */div#view>div#style_info>div.text_style_page{position: absolute;left: 52%;/*[[DescriptionPosition]]*/}
 /* 360 */OffThisCssCodediv#nav-view>div#view>div#style_info>div.text_style_page{left: 52%;top: 2%;min-width: 47vw !important;}
-/* 字体/font */div#view>div#style_info>div.text_style_page,div#view>div#style_info>div.text_style_page>*,div#view>div#style_info>div.text_style_page *{font-size: 93%;font-family: "Consolas_VrF","Microsoft YaHei_VrF"}
+/* 字体/font */div#view>div#style_info>div.text_style_page,div#view>div#style_info>div.text_style_page>*,div#view>div#style_info>div.text_style_page *{font-size: 93%;font-family: "Consolas_VrF","Microsoft YaHei_VrF","Consolas","Microsoft YaHei"}
 #style_info>div.text_style_page{white-space: pre-wrap;}
 #style_info>div.text_style_page{max-height: 35vh !important;overflow: scroll !important;}
 /* 应用对象连接 */
@@ -28,7 +28,7 @@ div#container>div#nav-view>div#navigation{position: absolute;left: 0px;}
 /* 设置选项设置/style settings set */
 /* 设置选项位置/style settings position */div#view>div#style_info>#style-settings{position: relative;left: 55%;margin-top: -100%;max-width: 50vw;}
 /* 360 */OffThisCssCodediv#nav-view>div#view>div#style_info>#style-settings{position: relative;left: 55%;margin-top: -103% !important;max-width: 50vw;}
-div#view>div#style_info>div#style-settings *{font-family: "Consolas_VrF","Microsoft YaHei_VrF";}
+div#view>div#style_info>div#style-settings *{font-family: "Consolas_VrF","Microsoft YaHei_VrF","Consolas","Microsoft YaHei";}
 /* 标题设置/title set */
 /* 标题位置/title position */div#view>div#style_info>h1#stylish-description{margin-left: 3%;position: relative;margin-top: -6.5%;margin-bottom: 1.5%;}
 /* 标题字体/title font */div#view>div#style_info>h1#stylish-description{font-family: "Times New Roman","Microsoft YaHei";}
