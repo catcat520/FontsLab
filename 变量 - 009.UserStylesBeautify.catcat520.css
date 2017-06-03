@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://userstyles.org/styles/") {
-/* VER : UTC+8 : 2017.06.01 | 20:00 *//* i really want this to be global */
+/* VER : UTC+8 : 2017.06.03 | 16:50 *//* i really want this to be global */
 /* UserStylesBeautify */
 /* 顶部尺寸/header top size */
 div#root>div>div#header{height: 18pt !important;z-index: 9999;}
@@ -31,7 +31,7 @@ div#container>div#nav-view>div#navigation{position: absolute;left: 0px;}
 div#view>div#style_info>div#style-settings *{font-family: "Consolas_VrF","Microsoft YaHei_VrF","Consolas","Microsoft YaHei";}
 /* 标题设置/title set */
 /* 标题位置/title position */div#view>div#style_info>h1#stylish-description{margin-left: 3%;position: relative;margin-top: -6.5%;margin-bottom: 1.5%;}
-/* 标题字体/title font */div#view>div#style_info>h1#stylish-description{font-family: "Times New Roman","Microsoft YaHei";}
+/* 标题字体/title font */div#view>div#style_info>h1#stylish-description{font-family: "Times New Roman_VrF","Microsoft YaHei_VrF","Times New Roman","Microsoft YaHei",;}
 /* 作者名字的位置 */
 div#view>div#style_info>div#style_author{margin-left: 3%;}
 /* 安装信息设置/information set */
