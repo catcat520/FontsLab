@@ -6,7 +6,7 @@
 /* 網址：https://userstyles.org/styles/126356/004-forcemyfonts-taiwan-hongkong-firefoxchromeie */
 /* 幫助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 回報問題需附上網址 url，對比截圖，瀏覽器名稱，字型名稱 */
 /* 網路：*//*[[WebFonts]]*//* 網路字型 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" TWHK.A.(2017.11.08 | 06:50)";}
+/* 版本：*/" TWHK.A.(2017.11.13 | 23:55)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外網站 : 域名規則";}
@@ -108,6 +108,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* ptt.cc:menu:topbar *//* Y */div#topbar-container>div#topbar.bbs-content>a#logo{padding:0 16px !important;}
 /* read.qidian.com *//* D */#qd_reader_header>.page_set>.gg_box{display: none !important;}
 /* www.qidian.com */#classify-list>dl>dd:nth-child(n)>a>cite>span>i , ul.edit-rec-list:nth-child(n)>li:nth-child(n)>em:nth-child(n)>i:nth-child(n){font-family:"/*[[ForceALL]]*/Plus.Func.Fonts.CN","/*[[ForceALL]]*//*[[DiyCnF]]*/","/*[[ForceALL]]*/DiyCnFEx","/*[[ForceALL]]*//*[[LCnF]]*/","/*[[DiyCnF]]*/","DiyCnFEx","Plus.Func.Fonts.CN","/*[[LCnF]]*/","Microsoft JhengHei","DFKai-SB","Microsoft YaHei","KaiTi" !important;}
+/* www.qidian.com */div>div[class*="list"]>div.book-list>ul>li i{font-family: "/*[[ForceALL]]*/Plus.Func.Fonts.CN","/*[[ForceALL]]*//*[[DiyCnF]]*/","/*[[ForceALL]]*/DiyCnFEx","/*[[ForceALL]]*//*[[LCnF]]*/","Catcat520.Lite.Latin","SDF-FixFontPos","SDF-FixFontPos-Space","LCnS/*[[SDF-CnOrEnSymbol]]*/","LEnS","LEnN","/*[[DiyEnF]]*/","/*[[WebFontFamilyName]]*/","SDF-FixEnglishFonts","/*[[LEnF]]*/","Inconsolata","Envy Code R","Open Sans","Roboto","Segoe UI","Helvetica Neue","Lucida Grande","Ubuntu","Tahoma","Verdana","Menlo","Monaco","HighLevelEmoji","LCnS","/*[[SDF.JpFakeNameSwitch]]*/","/*[[DiyCnF]]*/","DiyCnFEx","SDF.FixScTcFonts","SDF.Hangul","Plus.Func.Fonts.CN","/*[[LCnF]]*/","Microsoft JhengHei UI","Microsoft JhengHei","Microsoft YaHei UI","Microsoft YaHei","PingFang TC","PingFang HK","PingFang SC","Noto Sans CJK TC","Noto Sans CJK SC","Noto Sans CJK JP","Source Han Sans TC","Source Han Sans SC","Source Han Sans","SimSun","LowLevelEmoji","Segoe UI Symbol","Segoe UI Historic","Symbola","Meiryo","Malgun Gothic","NSimSun","MingLiU","MingLiU_HKSCS","SimSun-ExtB","MingLiU-ExtB","MingLiU_HKSCS-ExtB","Nimbus Roman No9 L","WenQuanYi Micro Hei","WenQuanYi Zen Hei","Droid Sans Fallback","Hiragino Sans GB","Symbol","FZSongS","\0053\0069\006d\0073\0075\006e\0020\0028\0046\006f\0075\006e\0064\0065\0072\0020\0045\0078\0074\0065\006e\0064\0065\0064\0029","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Uighur","Microsoft Yi Baiti","Mongolian Baiti","Arial Unicode MS","Code2000","HanaMinA","HanaMinB","Unifont" !important;}
 /* rememberthemilk.com *//* L */.Ej-Fj-ei.Fm-Ds-ei.Fm-Ds-Zs>div.Ej-Fj-Gj-pk>div.Ej-Fj-Gj-Hj,div.b-Oj>div.b-U-Rj>div.Fm-sp-tp.Sj-U-i{font-family: "Material Icons" !important;}
 /* sf-express.com */ul>li>span[class^=sfi] , div>li>span[class^=sfi] , div>span>span[class^=sfi] , h4>a>span[class^=sfi] , .bill-number>.go-waybill-by-phone-num>span[class^=sfi] , li>a>span[class^=sfi]{font-family: "sf-express-icon" !important;}
 /* skycitizen.net *//* L */div._chat>div>a.chat-btn{font-family: "Material-Design-Icons" !important;}
