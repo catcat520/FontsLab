@@ -4,10 +4,10 @@
 /* 注释：L：字体乱码，K：跨域乱码，C：字体错位，D：代码错位，S：缩放错位，Y：代码优化 */
 /* 适用：Win/*nix 系统 和 FireFox/Chrome/Edge 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100478/004-diymyfonts-chinese-firefoxchromeedge-catcat520 */
-/* 主页：https://github.com/catcat520/FontsLab
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
-/* 网络：*/@-moz-document url("http://bbs.kafan.cn/forum-215-1.html"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.06.03 | 16:55)";}}
+/* 主页：https://github.com/catcat520/FontsLab */
+/* 网络：*//*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
+/* 版本：*/" CNSG.B.(2017.12.15 | 00:59)";}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
@@ -2101,12 +2101,60 @@ html[lang^="ja"] body * , html[lang^="jp"] body * , html head[lang^="ja"]+body *
 /* 正在点击链接的颜色 *//*[[activeColor]]*/a:active{color: /*[[DiyactiveColor]]*/ !important;}/* 扩展 */
 
 /* 彩色 Emoji 兼容 */
-/* 低优先 *//*/*[[ColorEmojiCtrl]]*/@font-face{font-family:"LowLevelEmoji";src:local("Firefox Emoji");}
-/* 低优先 *//*/*[[ColorEmojiCtrl]]*/@font-face{font-family:"LowLevelEmoji";src:local("EmojiOne Mozilla");}
-/* 低优先 *//*/*[[ColorEmojiCtrl]]*/@font-face{font-family:"LowLevelEmoji";src:local("Segoe UI Emoji");}
-/* 高优先 *//*[[ColorEmojiCtrl]]*//*/@font-face{font-family:"HighLevelEmoji";src:local("Firefox Emoji");}
-/* 高优先 *//*[[ColorEmojiCtrl]]*//*/@font-face{font-family:"HighLevelEmoji";src:local("EmojiOne Mozilla");}
-/* 高优先 *//*[[ColorEmojiCtrl]]*//*/@font-face{font-family:"HighLevelEmoji";src:local("Segoe UI Emoji");}
+/* 低优先 *//*/*[[ColorEmojiCtrl]]*/@font-face{font-family:"LowLevelEmoji";font-weight:100;src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:200;src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:300;src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:500;src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:600;src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:Bold;src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:800;src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:900;src:local("Firefox Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:100;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";font-weight:200;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";font-weight:300;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";font-weight:500;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";font-weight:600;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";font-weight:Bold;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";font-weight:800;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";font-weight:900;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"LowLevelEmoji";font-weight:100;src:local("Segoe UI Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:200;src:local("Segoe UI Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:300;src:local("Segoe UI Emoji");}
+@font-face{font-family:"LowLevelEmoji";src:local("Segoe UI Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:500;src:local("Segoe UI Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:600;src:local("Segoe UI Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:Bold;src:local("Segoe UI Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:800;src:local("Segoe UI Emoji");}
+@font-face{font-family:"LowLevelEmoji";font-weight:900;src:local("Segoe UI Emoji");}
+/* 高优先 *//*[[ColorEmojiCtrl]]*//*/@font-face{font-family:"HighLevelEmoji";font-weight:100;src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:200;src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:300;src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:500;src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:600;src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:Bold;src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:800;src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:900;src:local("Firefox Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:100;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";font-weight:200;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";font-weight:300;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";font-weight:500;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";font-weight:600;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";font-weight:Bold;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";font-weight:800;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";font-weight:900;src:local("EmojiOne Mozilla");}
+@font-face{font-family:"HighLevelEmoji";font-weight:100;src:local("Segoe UI Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:200;src:local("Segoe UI Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:300;src:local("Segoe UI Emoji");}
+@font-face{font-family:"HighLevelEmoji";src:local("Segoe UI Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:500;src:local("Segoe UI Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:600;src:local("Segoe UI Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:Bold;src:local("Segoe UI Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:800;src:local("Segoe UI Emoji");}
+@font-face{font-family:"HighLevelEmoji";font-weight:900;src:local("Segoe UI Emoji");}
 /* 彩色 Emoji 兼容 */
 }/* 范围 *//* 注册虚拟字体_VrF *//* 文字链接颜色阴影渲染 *//* 中日假名 */
 
