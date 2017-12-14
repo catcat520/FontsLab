@@ -6,8 +6,8 @@
 /* 网址：https://userstyles.org/styles/100478/004-diymyfonts-chinese-firefoxchromeedge-catcat520 */
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 主页：https://github.com/catcat520/FontsLab */
-/* 网络：*//*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.B.(2017.12.15 | 00:59)";}
+/* 网络：*/@-moz-document domain("bbs.kafan.cn"){/*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
+/* 版本：*/" CNSG.B.(2017.12.15 | 01:37)";}}
 
 /*//*[[NetCore]]*//*//*[[CoveRage]]*/
 /*#//*[[NetCore]]*/@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("ftp://"),url-prefix("file://"),url-prefix("chrome://"),url-prefix("about:"),url-prefix("chrome://ublock0/"),url-prefix("chrome://umatrix/"){
