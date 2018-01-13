@@ -79,7 +79,7 @@ html[lang^="ja"] body *,html[lang^="jp"] body *,html head[lang^="ja"]+body *,htm
 /* dragonporn.ldblog.jp */span.omatome-icnfont-button>span>.omatome-icn-hatena , span.omatome-icnfont-button>span>span.omatome-icn-facebook , span.omatome-icnfont-button>span>span.omatome-icn-twitter{font-family: "omatome_ico" !important;}
 /* lengxiaohua.cn *//* D */#layMain>#contentTop>.articleTab{float: inherit !important;}
 /* lrshare.com *//* L */#top-nav>.home_h>.icon-home_h a::before{font-family: "ality" !important;}
-/* maoyan.com *//* L */tbody>tr>td>span[class*="sell-price"]>span[class*="stonefont"]{font-family: "stonefont" !important;}
+/* maoyan.com *//* L */tbody>tr>td>span[class*="sell-price"]>span[class*="stonefont"],span[class*="num"]>span[class*="stonefont"],p[class*="rank"]>span[class*="stonefont"],div[class*="movie"]>span[class*="stonefont"]{font-family: "stonefont" !important;}
 /* fenxiao.moonbasa.com *//* S */body>div>div.size_main>div.size_right>.right_same.right_form>table>tbody>tr:nth-child(n)>td:nth-child(n){white-space: nowrap !important;}
 /* fenxiao.moonbasa.com *//* S */body>div>div.size_main>div.size_right>.right_same.right_form>table>tbody>tr:nth-child(n)>td:nth-child(n){font-size: 85% !important;}
 /* dzh.mop.com *//* Y */.rightbar ~ .main{margin-right: auto !important;}
