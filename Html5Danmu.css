@@ -4,7 +4,7 @@
 04 acfun : :not([class*="danmu-item"])
 05 爱奇艺 : :not([class*="danmaku-item"]):not([style*="display"]):not(span)
 06 虎牙 : :not([class*="danmu-item"])
-*07 龙珠 : :not([class*="danmaku-base"])
+*07 龙珠 : :not([class*="ya-danmaku"])
 *08 熊猫 :
 09
 10 
