@@ -3,4 +3,8 @@
 03 斗鱼 : :not([class*="danmuItem"])
 04 acfun : :not([class*="danmu-item"])
 05 爱奇艺 : :not([class*="danmaku-item"]):not([style*="display"]):not(span)
-06
+06 虎牙 : :not([class*="danmu-item"])
+07 龙珠 : 
+08
+09
+10 
