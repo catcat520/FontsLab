@@ -1,0 +1,6 @@
+01 youtube : :not([style*="background: rgba"])
+02 bilibili : :not([class*="bilibili-danmaku"])
+03 斗鱼 : :not([class*="danmuItem"])
+04 acfun : :not([class*="danmu-item"])
+05 爱奇艺 : :not([class*="danmaku-item"]):not([style*="display"]):not(span)
+06
