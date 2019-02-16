@@ -7,7 +7,7 @@
 /* 帮助：http://bbs.kafan.cn/thread-1681393-1-1.html *//* 反馈问题需附上网址 url，对比截图，浏览器名称，字体名称 */
 /* 主页：https://github.com/catcat520/FontsLab */
 /* 网络：*//*[[WebFonts]]*//* 网络字体 */.comeing_twosublist>li>a[href*=thread-1681393-1-1]:after{background: #CBDDE3;color: black;content:
-/* 版本：*/" CNSG.A.(2019.02.12 | 11:28)";}
+/* 版本：*/" CNSG.A.(2019.02.17 | 04:30)";}
 
 /*[[WhichFontChange]]*//*[[CoveRage]]*/
 MainFontsModule{content:"中外网站 : 域名规则";}
@@ -84,6 +84,7 @@ span.user-rights__pre.hex-hover-color-1-6,span.user-rights__next.hex-hover-color
 /* lengxiaohua.cn *//* D */#layMain>#contentTop>.articleTab{float: inherit !important;}
 /* lrshare.com *//* L */#top-nav>.home_h>.icon-home_h a::before{font-family: "ality" !important;}
 /* maoyan.com *//* L */tbody>tr>td>span[class*="sell-price"]>span[class*="stonefont"],span[class*="num"]>span[class*="stonefont"],p[class*="rank"]>span[class*="stonefont"],div[class*="movie"]>span[class*="stonefont"]{font-family: "stonefont" !important;}
+/* docs.microsoft.com *//* L */span.icon>span:before{font-family: "docons" !important;}
 /* fenxiao.moonbasa.com *//* S */body>div>div.size_main>div.size_right>.right_same.right_form>table>tbody>tr:nth-child(n)>td:nth-child(n){white-space: nowrap !important;}
 /* fenxiao.moonbasa.com *//* S */body>div>div.size_main>div.size_right>.right_same.right_form>table>tbody>tr:nth-child(n)>td:nth-child(n){font-size: 85% !important;}
 /* dzh.mop.com *//* Y */.rightbar ~ .main{margin-right: auto !important;}
@@ -571,58 +572,58 @@ div#nav-view{position: absolute !important;left: 16vw !important;top: 1vh !impor
 /* 替换标点符号 */
 /* EN */
 /* 400 */
-@font-face{font-family:"Arial";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Courier New";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Georgia";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Helvetica";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Impact";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Open Sans";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Tahoma";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Times New Roman";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Verdana";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Arial";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Courier New";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Georgia";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Helvetica";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Impact";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Open Sans";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Tahoma";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Times New Roman";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Verdana";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
 /* 700 */
-@font-face{font-family:"Arial";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Courier New";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Georgia";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Helvetica";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Impact";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Open Sans";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Tahoma";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Times New Roman";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Verdana";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Arial";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Courier New";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Georgia";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Helvetica";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Impact";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Open Sans";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Tahoma";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Times New Roman";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Verdana";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
 /* 300 */
-@font-face{font-family:"Open Sans";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Open Sans";font-weight:300;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
 /* CN */
 /* 400 */
-@font-face{font-family:"SimHei";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"黑体";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"SimSun";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"宋体";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Microsoft YaHei";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"微软雅黑";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"MingLiU";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"細明體";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Hiragino Sans GB";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"PingFang SC";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"STXihei";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"华文细黑";unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"SimHei";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"黑体";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"SimSun";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"宋体";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Microsoft YaHei";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"微软雅黑";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"MingLiU";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"細明體";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Hiragino Sans GB";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"PingFang SC";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"STXihei";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"华文细黑";unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/");}
 /* 700 */
-@font-face{font-family:"SimHei";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"黑体";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"SimSun";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"宋体";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Microsoft YaHei";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"微软雅黑";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"MingLiU";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"細明體";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"Hiragino Sans GB";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"PingFang SC";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"STXihei";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"华文细黑";font-weight:Bold;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"SimHei";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"黑体";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"SimSun";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"宋体";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Microsoft YaHei";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"微软雅黑";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"MingLiU";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"細明體";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Hiragino Sans GB";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"PingFang SC";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"STXihei";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"华文细黑";font-weight:Bold;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
 /* 300 */
-@font-face{font-family:"Microsoft YaHei";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"微软雅黑";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
-@font-face{font-family:"PingFang SC";font-weight:300;unicode-range:U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"Microsoft YaHei";font-weight:300;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"微软雅黑";font-weight:300;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
+@font-face{font-family:"PingFang SC";font-weight:300;unicode-range:U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src:local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
 }/* 范围 *//* 阿里类网站&ForceFont */
 
 /* MarkDown兼容 */
@@ -716,15 +717,15 @@ EndFontsModule{content:"StylishFix";}
 /* 英文标点符号 */
 
 /* 中文标点符号 : CnSymbol */
-@font-face {font-family: "LCnS";font-weight: 100;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Ultralight"),local("/*[[LCnS]]*/ Thin"),local("/*[[LCnS]]*/ ExtraLight"),local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
-@font-face {font-family: "LCnS";font-weight: 200;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Extra Light"),local("/*[[LCnS]]*/ ExtraLight"),local("/*[[LCnS]]*/ Thin"),local("/*[[LCnS]]*/ Ultralight"),local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
-@font-face {font-family: "LCnS";font-weight: 300;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/-Light"),local("/*[[LCnS]]*/");}
-@font-face {font-family: "LCnS";unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/"),local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/-Regular"),local("/*[[LCnS]]*/ Normal"),local("/*[[LCnS]]*/ Roman");}
-@font-face {font-family: "LCnS";font-weight: 500;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Medium"),local("/*[[LCnS]]*/-Medium"),local("/*[[LCnS]]*/");}
-@font-face {font-family: "LCnS";font-weight: 600;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Semibold"),local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face {font-family: "LCnS";font-weight: Bold;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/-Bold"),local("/*[[LCnS]]*/");}
-@font-face {font-family: "LCnS";font-weight: 800;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Extrabold"),local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
-@font-face {font-family: "LCnS";font-weight: 900;unicode-range : U+2000-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Black"),local("/*[[LCnS]]*/ Heavy"),local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face {font-family: "LCnS";font-weight: 100;unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Ultralight"),local("/*[[LCnS]]*/ Thin"),local("/*[[LCnS]]*/ ExtraLight"),local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
+@font-face {font-family: "LCnS";font-weight: 200;unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Extra Light"),local("/*[[LCnS]]*/ ExtraLight"),local("/*[[LCnS]]*/ Thin"),local("/*[[LCnS]]*/ Ultralight"),local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/");}
+@font-face {font-family: "LCnS";font-weight: 300;unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Light"),local("/*[[LCnS]]*/-Light"),local("/*[[LCnS]]*/");}
+@font-face {font-family: "LCnS";unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/"),local("/*[[LCnS]]*/ Regular"),local("/*[[LCnS]]*/-Regular"),local("/*[[LCnS]]*/ Normal"),local("/*[[LCnS]]*/ Roman");}
+@font-face {font-family: "LCnS";font-weight: 500;unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Medium"),local("/*[[LCnS]]*/-Medium"),local("/*[[LCnS]]*/");}
+@font-face {font-family: "LCnS";font-weight: 600;unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Semibold"),local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face {font-family: "LCnS";font-weight: Bold;unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/-Bold"),local("/*[[LCnS]]*/");}
+@font-face {font-family: "LCnS";font-weight: 800;unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Extrabold"),local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
+@font-face {font-family: "LCnS";font-weight: 900;unicode-range : U+2010-205F,U+3000-303F,U+FE00-FE7F,U+FF00-FF0F,U+FF1A-FF20,U+FF3B-FF40,U+FF5B-FF65,U+FF9E-FFA0;src: local("/*[[LCnS]]*/ Black"),local("/*[[LCnS]]*/ Heavy"),local("/*[[LCnS]]*/ Bold"),local("/*[[LCnS]]*/");}
 /* 中文标点符号 */
 
 /* 日文假名 : kana/hiragana *//*[[SDF.JpFakeNameSwitch]]*/
